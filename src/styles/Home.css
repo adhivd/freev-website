@@ -46,6 +46,10 @@
         max-width: 60em;
     }
 
+    .overview .mini-header {
+        text-align:center;
+    }
+
     .overview .icon {
         background-color: #D9C4F0;
         width: 60px;

@@ -12,7 +12,7 @@ function Header() {
             <h1>Free Ventures</h1>
             <div className="nav">
                 <ul>
-                    <li><NavLink to="/" activeClassName="activeLinkStyle" >home</NavLink></li>
+                    <li><NavLink exact to="/" activeClassName="activeLinkStyle" >home</NavLink></li>
                     <li><NavLink to="/program" activeClassName="activeLinkStyle" >program</NavLink></li>
                     <li><NavLink to="/team" activeClassName="activeLinkStyle" >team</NavLink></li>
                     <li><NavLink to="/portfolio" activeClassName="activeLinkStyle" >portfolio</NavLink></li>

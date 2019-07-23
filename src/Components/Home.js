@@ -21,8 +21,17 @@ function Home() {
         </div>
         <div className="overview">
             <div className="container">
-                <div className="icon"></div>
-                <h2>The Free Ventures Accelerator</h2>
+                <div className="mini-header">
+                    <span className="icon"></span>
+                    <h2>The Free Ventures Accelerator</h2>
+                </div>
+                <div className="numbers">
+                    <p>53 teams</p>
+                    <p>$40m raised</p>
+                    <p>11 batches</p>
+                </div>
+
+                <p>Here is a really great description about the FreeV Accelerator. If I was a great copy writer, I would write all of this in a night</p>
 
             </div>
         </div>

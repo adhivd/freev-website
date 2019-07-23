@@ -2,6 +2,7 @@
     margin: 0 auto;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 80px;
 }
 
     .splash h1 {
@@ -17,19 +18,49 @@
         margin: 0;
     }
 
-    .apply {
-        background-color: #67379A;
-        padding: 15px 25px;
-        border-radius: 3px;
-        color: white;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 20px;
-        position: relative;
-        top: 40px;
-        transition: 0.3s all ease-out;
+        .apply {
+            background-color: #67379A;
+            padding: 15px 25px;
+            border-radius: 3px;
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+            position: relative;
+            top: 40px;
+            transition: 0.3s all ease-out;
+            display: inline-block;
+        }
+
+        .apply:hover {
+            background-color: #533178;
+        }
+
+.overview {
+    background-color: #f6f9fc;
+    display: block;
+    padding: 50px;
+}
+
+    .overview .container {
+        max-width: 60em;
     }
 
-    .apply:hover {
-        background-color: #533178;
+    .overview .icon {
+        background-color: #D9C4F0;
+        width: 60px;
+        height: 60px;
+        border-radius: 70px;
+        display: inline-block;
+        background-image: url('./../assets/rocket.png');
+        background-position:50% 50%;
+        background-repeat:no-repeat;
+        background-size: 30px;
+    }
+
+    .overview h2 {
+        display: inline-block;
+        position: relative;
+        bottom: 25px;
+        left: 20px;
     }

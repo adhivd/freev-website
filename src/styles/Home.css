@@ -1,0 +1,18 @@
+.splash {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+    .splash h1 {
+        font-size: 45px;
+        margin: 20px 0;
+        letter-spacing: 0.5px;
+    }
+
+    .splash h2 {
+        font-size: 22px;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+        margin: 0;
+    }

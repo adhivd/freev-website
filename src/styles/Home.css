@@ -16,3 +16,20 @@
         font-family: 'Lato', sans-serif;
         margin: 0;
     }
+
+    .apply {
+        background-color: #67379A;
+        padding: 15px 25px;
+        border-radius: 3px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 20px;
+        position: relative;
+        top: 40px;
+        transition: 0.3s all ease-out;
+    }
+
+    .apply:hover {
+        background-color: #533178;
+    }

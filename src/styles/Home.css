@@ -1,3 +1,42 @@
+p {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    /* font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: #303030;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.underline::before {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-color: #67379A;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+.underline:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+
 .splash {
     margin: 0 auto;
     text-align: center;
@@ -43,11 +82,26 @@
 }
 
     .overview .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 20px;
         max-width: 60em;
     }
 
     .overview .mini-header {
-        text-align:center;
+        float: left;
+    }
+
+    .overview .mini-header h2 {
+        display: inline-block;
+        position: relative;
+        bottom: 22px;
+        left: 20px;
+        margin: 0;
+    }
+
+    .overview .mini-header .underline {
+        margin-top: 20px;
     }
 
     .overview .icon {
@@ -62,9 +116,18 @@
         background-size: 30px;
     }
 
-    .overview h2 {
-        display: inline-block;
-        position: relative;
-        bottom: 25px;
-        left: 20px;
+    .numbers {
+        padding: 0 10px;
+        display: relative;
+        bottom: 30px;
+    }
+
+    .numbers h3 {
+        margin-bottom: 10px;
+    }
+
+    .numbers .bigNumber {
+        font-size: 60px;
+        display: block;
+
     }

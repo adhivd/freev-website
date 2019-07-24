@@ -1,7 +1,5 @@
 import React from 'react';
 import logo from './../assets/free-v-square.png';
-import rocket from './../assets/rocket.png';
-
 import { Link } from "react-router-dom";
 
 import './../styles/App.css';
@@ -24,15 +22,14 @@ function Home() {
                 <div className="mini-header">
                     <span className="icon"></span>
                     <h2>The Free Ventures Accelerator</h2>
+                    <p>Here is a really great description about the FreeV Accelerator. If I was a great copy writer, I would write all of this in a night. Here is a really great description about the FreeV Accelerator. If I was a great copy writer, I would write all of this in a night. Here is a really great description about the FreeV Accelerator. If I was a great copy writer, I would write all of this in a night</p>
+                    <Link to="/program" className="underline">Learn more about the program</Link>
                 </div>
                 <div className="numbers">
-                    <p>53 teams</p>
-                    <p>$40m raised</p>
-                    <p>11 batches</p>
+                    <h3><span className="bigNumber">53</span> startups accelerated</h3>
+                    <h3><span className="bigNumber">$30m</span> raised by teams post-program</h3>
+                    <h3><span className="bigNumber">11</span> batches hosted</h3>
                 </div>
-
-                <p>Here is a really great description about the FreeV Accelerator. If I was a great copy writer, I would write all of this in a night</p>
-
             </div>
         </div>
     </section>

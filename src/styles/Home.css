@@ -40,7 +40,7 @@ a {
 .splash {
     margin: 0 auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 80px;
 }
     /* .splash img {
@@ -59,6 +59,10 @@ a {
         font-weight: 400;
         font-family: 'Lato', sans-serif;
         margin: 0;
+    }
+
+    .splash .container {
+        max-width: 800px;
     }
 
         .apply {

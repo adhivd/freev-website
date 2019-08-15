@@ -1,15 +1,88 @@
 import React from 'react';
+import HomeCompany from './HomeCompany';
 import logo from './../assets/free-v-square.png';
 import { Link } from "react-router-dom";
 import mentors from './../assets/mentors.png';
 import pitch from './../assets/pitch.png';
 import curriculum from './../assets/curriculum.png';
 
+import paladin from './../assets/paladin.png';
+import distributed from './../assets/distributed.png';
+import gainful from './../assets/gainful.png';
+
 import './../styles/App.css';
 import './../styles/Home.css';
 
 
 function Home() {
+
+    let companiesContent = [{
+        logo: paladin,
+        companyName: "Paladin Drones",
+        description: "Paladin Drones deploys drones to 911 calls to give first responders instant access to critical information.",
+        raised: "$1.3m raised",
+        link: "https://google.com",
+        linkTitle: "Read more on TechCrunch",
+        tags: [
+            {
+                content: "FreeV SP17",
+                backgroundColor: "#67379A"
+            },
+            {
+                content: "YC S2018",
+                backgroundColor: "#EC8641"
+            }
+        ]
+    },
+    {
+        logo: distributed,
+        companyName: "Distributed Systems",
+        description: "Distributed Systems builds a decentralized identity platform. Acquired by Coinbase.",
+        raised: "$1.7m raised",
+        link: "https://google.com",
+        linkTitle: "Read about the acquisition",
+        tags: [
+            {
+                content: "FreeV SP16",
+                backgroundColor: "#67379A"
+            },
+            {
+                content: "Acquired",
+                backgroundColor: "#424242"
+            }
+        ]
+    },
+    {
+        logo: gainful,
+        companyName: "Gainful",
+        description: "Personalized protein powder, delivered directly to your doorstep.",
+        raised: "$120k raised",
+        link: "https://google.com",
+        linkTitle: "Check out their website",
+        tags: [
+            {
+                content: "FreeV SP18",
+                backgroundColor: "#67379A"
+            },
+            {
+                content: "YC W2018",
+                backgroundColor: "#EC8641"
+            }
+        ]
+    }];
+
+    let companies = companiesContent.map((company) => {
+        return <HomeCompany
+                logo={company.logo}
+                companyName={company.companyName}
+                description={company.description}
+                raised={company.raised}
+                link={company.link}
+                linkTitle={company.linkTitle}
+                tags={company.tags}
+            />
+    })
+
   return (
     <section>
         <div className="splash">
@@ -54,6 +127,14 @@ function Home() {
                         <h3>Pitch prep</h3>
                         <p>Throughout the semester we work with founders to hone their ability to pitch to venture capital and angel investors successfully. Our program culminates with our pitch sessions with top tier VCs as well as a Demo Day, where startups get to share their progress with investors across Silicon Valley.</p>
                     </article>
+                </div>
+            </div>
+        </div>
+        <div className="portfolio">
+            <div className="container">
+                <h2>Selected portfolio</h2>
+                <div className="three-grid">
+                    {companies}
                 </div>
             </div>
         </div>

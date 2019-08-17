@@ -15,8 +15,8 @@ function Footer() {
       <div className="footer">
         <div className="container">
             <span>
-                <img src={logogray} alt="FreeV Logo" />
-                <h1>Free Ventures</h1>
+                <Link exact to="/"><img src={logogray} alt="FreeV Logo" />
+                <h1>Free Ventures</h1></Link>
                 <p>Free Ventures is a 501c3 nonprofit dedicated towards yalalalala. Free Ventures is a 501c3 nonprofit dedicated towards yalalalala.</p>
             </span>
             <span>
@@ -27,15 +27,12 @@ function Footer() {
             </span>
             <span className="links">
                 <p>Menu</p>
-                <Link exact to="/">Home</Link>
                 <Link to="/program">Program</Link>
                 <Link to="/team">Team</Link>
                 <Link to="/portfolio">Portfolio</Link>
-
             </span>
             <span className="links">
-                <p>Menu</p>
-                <Link to="/partners">Partners</Link>
+                <p className="disappear">.</p>
                 <Link to="/partners">Partners</Link>
                 <Link to="/fiatlux">Fiat lux</Link>
                 <Link to="/apply">Apply</Link>

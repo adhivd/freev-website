@@ -3,13 +3,15 @@
     background-color: #222222;
     margin: 0;
     height: auto;
-    padding: 40px 0;
+    padding: 60px 0;
     color: #ebebeb;
+    text-decoration: none;
 }
 
     .footer h1 {
         font-size: 20px;
         margin: 0;
+        color: white;
     }
 
     .footer p {
@@ -20,9 +22,11 @@
     .footer .container {
         display: grid;
         grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
-        grid-column-gap: 30px;
+        grid-column-gap: 40px;
         grid-row-gap: 30px;
     }
+
+
 
     .footer input {
         background-color: #e3e3e3;
@@ -63,4 +67,50 @@
         margin-bottom: 10px;
         font-size: 17px;
         text-transform: lowercase;
+    }
+
+    .footer .links p {
+        margin-top: 0;
+    }
+
+    .disappear {
+        color: #222222;
+    }
+
+
+
+    @media (max-width: 1034px) {
+        .footer .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 40px;
+            grid-row-gap: 30px;
+        }
+
+        .links a {
+            margin-bottom: 0;
+        }
+
+        .disappear {
+            display: none;
+        }
+
+        .links:last-child {
+            position: relative;
+            bottom: 30px;
+        }
+
+        .footer input {
+            display: block;
+            text-align: center;
+            padding: 10px 0px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        .footer .genericButton {
+            display: block;
+            text-align: center;
+            margin: 10px 0 0 0;
+        }
     }

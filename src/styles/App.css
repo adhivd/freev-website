@@ -179,7 +179,7 @@ section {
 .genericTop {
     background-color: #EDF4FC;
     text-align: center;
-    padding: 20px 0 60px 0;
+    padding: 20px 0 20px 0;
 }
 
     .genericTop h1 {
@@ -191,18 +191,18 @@ section {
         font-size: 25px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
-        margin: 0 0 10px 0;
+        margin: 0 0 0px 0;
     }
 
 .genericPage {
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: block;
     min-height: 300px;
     max-width: 1000px;
-    position: relative;
+    /* position: relative; */
     bottom: 60px;
     padding: 40px 20px;
     background-color: white;
-    -webkit-box-shadow: 0 17px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+    /* -webkit-box-shadow: 0 17px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025); */
+    /* box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025); */
 }

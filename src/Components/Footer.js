@@ -22,15 +22,23 @@ function Footer() {
             <span>
                 <h1>Stay updated with our newsletter</h1>
                 <p>Every month we feature teams, talk about our processes, and keep the community updated with FreeV news! Drop your email below to stay updated with what's happening in the startup community!</p>
+                <input placeholder="Type your email here" />
+                <a href="#" className="genericButton">Subscribe</a>
             </span>
-            <span>
+            <span className="links">
+                <p>Menu</p>
                 <Link exact to="/">Home</Link>
                 <Link to="/program">Program</Link>
                 <Link to="/team">Team</Link>
                 <Link to="/portfolio">Portfolio</Link>
+
+            </span>
+            <span className="links">
+                <p>Menu</p>
                 <Link to="/partners">Partners</Link>
-                <Link to="/fiatlux">fiat lux</Link>
-                <Link to="/apply">apply</Link>
+                <Link to="/partners">Partners</Link>
+                <Link to="/fiatlux">Fiat lux</Link>
+                <Link to="/apply">Apply</Link>
             </span>
 
         </div>

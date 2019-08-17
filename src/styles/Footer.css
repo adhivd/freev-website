@@ -7,20 +7,35 @@
     color: #ebebeb;
 }
 
-    h1 {
+    .footer h1 {
         font-size: 20px;
+        margin: 0;
     }
 
-    p {
+    .footer p {
         font-size: 15px;
         line-height: 1.5;
     }
 
     .footer .container {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
+    }
+
+    .footer input {
+        background-color: #e3e3e3;
+        padding: 10px 10px;
+        border-radius: 3px;
+        width: 200px;
+        font-size: 15px;
+        border: none;
+    }
+
+    .footer .genericButton {
+        padding: 10px 15px;
+        margin: 0 5px;
     }
 
     .footer span:nth-child(1) img {
@@ -31,8 +46,21 @@
     .footer span:nth-child(1) h1 {
         display: inline-block;
         font-size: 20px;
+        position: relative;
+        left: 12px;
+        bottom: 13px;
     }
 
     .footer span:nth-child(1) p {
         line-height: 1.5;
+    }
+
+    .footer .links a {
+        display: block;
+        text-decoration: none;
+        color: #ebebeb;
+        font-weight: 700;
+        margin-bottom: 10px;
+        font-size: 17px;
+        text-transform: lowercase;
     }

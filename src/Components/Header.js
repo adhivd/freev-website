@@ -13,8 +13,11 @@ function Header() {
   return (
       <header className="header">
         <div className="container">
-            <img src={logo} alt="free v logo"/>
-            <h1>Free Ventures</h1>
+            <div className="logo">
+                <img src={logo} alt="free v logo"/>
+                <h1>Free Ventures</h1>
+            </div>
+
             <div className="nav">
                 <ul>
                     <li><NavLink exact to="/" activeClassName="activeLinkStyle" >home</NavLink></li>

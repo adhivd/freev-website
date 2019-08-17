@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    background-color: #222222;
+    margin: 0;
+    height: auto;
+    padding: 40px 0;
+    color: #ebebeb;
+}
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .footer .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .footer span:nth-child(1) img {
+        width: 40px;
+        display: inline-block
+    }
+
+    .footer span:nth-child(1) h1 {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .footer span:nth-child(1) p {
+        line-height: 1.5;
+    }

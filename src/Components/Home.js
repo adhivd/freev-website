@@ -118,7 +118,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="tiers">
+        <div className="tiers homeSection">
             <div className="container">
                 <h2>What we offer</h2>
                 <div className="three-grid">
@@ -140,7 +140,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className="portfolio">
+        <div className="portfolio homeSection">
             <div className="container">
                 <h2>Selected portfolio</h2>
                 <div className="three-grid">
@@ -149,7 +149,7 @@ function Home() {
                 <Link to="/portfolio" className="genericButton">See all our portfolio companies</Link>
             </div>
         </div>
-        <div className="sponsors">
+        <div className="sponsors homeSection">
             <div className="container">
                 <h2>Our partners</h2>
                 <p>These sponsors help make FreeV and our accelerator possible with their support and resources</p>

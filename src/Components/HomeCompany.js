@@ -9,7 +9,6 @@ class HomeCompany extends React.Component {
 
     render() {
 
-
         let tags = this.props.tags.map((tag) => {
             const tagStyle = {
                 backgroundColor: tag.backgroundColor

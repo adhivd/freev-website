@@ -14,8 +14,7 @@ section {
 }
 
     .container h2:first-child {
-        font-size: 34px;
-        margin: 0;
+
     }
 
 .header {
@@ -33,18 +32,24 @@ section {
         width: 55px;
         display: inline-block;
         position: relative;
-        top: 17px;
+        top: 14px
     }
 
     .header h1 {
         display: inline-block;
-        font-size: 30px;
+        font-size: 27px;
         position: relative;
         left: 20px;
+        bottom: 5px;
     }
 
     .header .container {
         max-width: 1000px;
+        padding: 0;
+    }
+
+    .header .logo {
+        display: inline-block;
     }
 
 .nav {

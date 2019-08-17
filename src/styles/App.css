@@ -13,6 +13,11 @@ section {
     max-width: 1000px;
 }
 
+    .container h2:first-child {
+        font-size: 34px;
+        margin: 0;
+    }
+
 .header {
   display: block;
   align-items: center;

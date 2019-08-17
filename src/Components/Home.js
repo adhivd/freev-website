@@ -10,6 +10,9 @@ import paladin from './../assets/paladin.png';
 import distributed from './../assets/distributed.png';
 import gainful from './../assets/gainful.png';
 
+import arrow from './../assets/arrow.png';
+import whitearrow from './../assets/arrow-white.png'
+
 import './../styles/App.css';
 import './../styles/Home.css';
 
@@ -40,7 +43,7 @@ function Home() {
         description: "Distributed Systems builds a decentralized identity platform. Acquired by Coinbase.",
         raised: "$1.7m raised",
         link: "https://google.com",
-        linkTitle: "Read about the acquisition",
+        linkTitle: "Learn about the acquisition",
         tags: [
             {
                 content: "FreeV SP16",
@@ -71,6 +74,8 @@ function Home() {
         ]
     }];
 
+    let sponsorsContent = [distributed, distributed,distributed,distributed,distributed,distributed,distributed,distributed]
+
     let companies = companiesContent.map((company) => {
         return <HomeCompany
                 logo={company.logo}
@@ -82,6 +87,10 @@ function Home() {
                 tags={company.tags}
             />
     })
+
+    let sponsors = sponsorsContent.map((sponsor) => {
+        return <img src={sponsor} alt={sponsor}/>
+    });
 
   return (
     <section>
@@ -99,7 +108,8 @@ function Home() {
                     <span className="icon"></span>
                     <h2>The Free Ventures Accelerator</h2>
                     <p>Free Ventures is a semester long program that runs both in the fall and spring academic semesters. We connect founders to experienced mentors who can help think strategically about how to grow their businesses and provide a host of personalized resources to help startups scale into the future.</p>
-                    <Link to="/program" className="underline">Learn more about the program</Link>
+                    <Link to="/program" className="genericButton">Learn more about the program </Link>
+
                 </div>
                 <div className="numbers">
                     <h3><span className="bigNumber">53</span> startups accelerated</h3>
@@ -136,6 +146,23 @@ function Home() {
                 <div className="three-grid">
                     {companies}
                 </div>
+                <Link to="/portfolio" className="genericButton">See all our portfolio companies</Link>
+            </div>
+        </div>
+        <div className="sponsors">
+            <div className="container">
+                <h2>Our partners</h2>
+                <p>These sponsors help make FreeV and our accelerator possible with their support and resources</p>
+                <div className="four-grid">
+                    {sponsors}
+                </div>
+                <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
+                    <h2>Our partners</h2>
+                    <p>These sponsors help make FreeV and our accelerator possible with their support and resources</p>
+                    <div className="four-grid">
+                        {sponsors}
+                    </div>
+                    <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
             </div>
         </div>
     </section>

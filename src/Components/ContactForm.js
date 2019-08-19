@@ -40,15 +40,6 @@ class ContactForm extends React.Component {
     render() {
       const { name, email, subject, message } = this.state;
 
-      let companyConditional;
-
-      // if(this.props.company) {
-          // companyConditional = (<p>
-          //   <label>Company</label>
-          //  <input name="company" value={company} onChange={this.handleChange} />
-          // </p>)
-      // }
-
       return (
          <span>
              <form data-netlify="true" onSubmit={this.handleSubmit} netlify name="contact" method="POST" className="contact">

@@ -59,7 +59,7 @@ class ContactForm extends React.Component {
                <textarea name="message"></textarea>
              </form>
 
-             <form data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit} netlify="true" name="contact" className="contact">
+             <form data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit} netlify="true" netlify name="contact" method='POST' className="contact">
                  <input type="hidden" name="form-name" value="contact" />
                  <div className="two-grid" >
                      <p>

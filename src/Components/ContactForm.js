@@ -15,7 +15,7 @@ return Object.keys(data)
 class ContactForm extends React.Component {
     constructor(props) {
       super(props);
-      this.state = { name: "", email: "", message: "", company:"", subject: "" };
+      this.state = { name: "", email: "", message: "", subject: "" };
     }
 
 
@@ -38,7 +38,7 @@ class ContactForm extends React.Component {
     handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render() {
-      const { name, email, subject, company, message } = this.state;
+      const { name, email, subject, message } = this.state;
 
       let companyConditional;
 
@@ -63,10 +63,6 @@ class ContactForm extends React.Component {
                          <input type="email" name="email" value={email} onChange={this.handleChange} />
                      </p>
                  </div>
-                 <p>
-                   <label>Company</label>
-                  <input name="company" value={company} onChange={this.handleChange} />
-                 </p>
                <p>
                  <label>Subject</label>
                  <input name="subject" value={subject} onChange={this.handleChange} />

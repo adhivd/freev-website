@@ -42,24 +42,16 @@ class ContactForm extends React.Component {
 
       let companyConditional;
 
-      if(this.props.company) {
-          companyConditional = (<p>
-            <label>Company</label>
-           <input name="company" value={company} onChange={this.handleChange} />
-          </p>)
-      }
+      // if(this.props.company) {
+          // companyConditional = (<p>
+          //   <label>Company</label>
+          //  <input name="company" value={company} onChange={this.handleChange} />
+          // </p>)
+      // }
 
       return (
          <span>
-             <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-               <input type="text" name="name" />
-               <input type="email" name="email" />
-               <input type="text" name="subject" />
-               <input type="text" name="company" />
-               <textarea name="message"></textarea>
-             </form>
-
-             <form data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={this.handleSubmit} netlify="true" netlify name="contact" method='POST' className="contact">
+             <form data-netlify="true" onSubmit={this.handleSubmit} netlify name="contact" method="POST" className="contact">
                  <input type="hidden" name="form-name" value="contact" />
                  <div className="two-grid" >
                      <p>
@@ -71,7 +63,10 @@ class ContactForm extends React.Component {
                          <input type="email" name="email" value={email} onChange={this.handleChange} />
                      </p>
                  </div>
-               {companyConditional}
+                 <p>
+                   <label>Company</label>
+                  <input name="company" value={company} onChange={this.handleChange} />
+                 </p>
                <p>
                  <label>Subject</label>
                  <input name="subject" value={subject} onChange={this.handleChange} />

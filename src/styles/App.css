@@ -8,6 +8,13 @@ section {
     margin: 0 auto;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
 .container {
     margin: 0 auto;
     max-width: 1000px;

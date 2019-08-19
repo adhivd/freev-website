@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactForm';
 import HomeCompany from './HomeCompany';
 import logo from './../assets/free-v-square.png';
 import { Link } from "react-router-dom";
@@ -163,6 +164,13 @@ function Home() {
                         {sponsors}
                     </div>
                     <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
+            </div>
+        </div>
+        <div className="contactSection homeSection">
+            <div className="container">
+                <h2>Looking to get involved?</h2>
+                <p>We believe a university ecosystem is the ideal place to start up, and Cal is one of the best. But there's still a huge need for a strengthened community on campus to bring students together to tackle meaningful challenges. Join us in our quest to build a better community.</p>
+                <ContactForm />
             </div>
         </div>
     </section>

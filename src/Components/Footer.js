@@ -17,7 +17,7 @@ function Footer() {
             <span>
                 <Link exact to="/"><img src={logogray} alt="FreeV Logo" />
                 <h1>Free Ventures</h1></Link>
-                <p>Free Ventures is a 501c3 nonprofit dedicated towards yalalalala. Free Ventures is a 501c3 nonprofit dedicated towards yalalalala.</p>
+                <p>Founded in 2013, Free Ventures is a 501(c)(3) student-run non-profit with the mission of making entrepreneurship accessible to UC Berkeley students of all backgrounds by empowering them with the support to innovate and build</p>
             </span>
             <span>
                 <h1>Stay updated with our newsletter</h1>

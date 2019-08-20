@@ -1,9 +1,11 @@
 import React from 'react';
 import './../styles/App.css';
+import './../styles/Portfolio.css';
+
 import GenericTop from './GenericTop';
 import GenericPage from './GenericPage';
 
-function Program() {
+function Portfolio() {
 
     return (
         <section>
@@ -12,9 +14,17 @@ function Program() {
                 description={'Insert description here'}
             />
             <GenericPage>
+                <div className="container portfolio">
+                    <div>
+                        batches
+                    </div>
+                    <div>
+                        portfolio
+                    </div>
+                </div>
             </GenericPage>
         </section>
     );
 }
 
-export default Program;
+export default Portfolio;

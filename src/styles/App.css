@@ -18,6 +18,7 @@ button:focus {
 .container {
     margin: 0 auto;
     max-width: 1000px;
+    position: relative;
 }
 
     .container h2:first-child {
@@ -26,9 +27,6 @@ button:focus {
 
 .header {
   display: block;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: rgb(18, 18, 18);
   font-weight: 900;
   padding-top: 20px;
@@ -53,6 +51,7 @@ button:focus {
     .header .container {
         max-width: 1000px;
         padding: 0;
+        position: relative;
     }
 
     .header .logo {
@@ -62,6 +61,9 @@ button:focus {
 .nav {
     display: inline-block;
     float: right;
+    position: absolute;
+    right: 0;
+    top: 10px;
 }
     .nav ul {
         list-style: none;
@@ -106,8 +108,8 @@ button:focus {
       position: absolute;
       width: 36px;
       height: 30px;
-      right: 36px;
-      top: 46px;
+      right: 22px;
+      top: 27px;
     }
 
     /* Color/shape of burger icon bars */

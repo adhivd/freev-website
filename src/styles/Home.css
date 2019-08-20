@@ -53,8 +53,7 @@ a {
 .splash {
     margin: 0 auto;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 80px;
+    padding-top: 50px;
 }
     /* .splash img {
         display: block;
@@ -86,8 +85,7 @@ a {
             text-decoration: none;
             font-weight: 600;
             font-size: 15px;
-            position: relative;
-            top: 40px;
+            margin-top: 40px;
             transition: 0.3s all ease-out;
             display: inline-block;
         }
@@ -117,19 +115,25 @@ a {
     margin: 0;
 }
 
-
+.blueWaveTop {
+    position: relative;
+    top: 50px;
+    z-index: -1
+}
 
 .overview {
     background-color: #EDF4FC;
     display: block;
+    position: relative;
 }
+
 
     .overview .container {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-gap: 20px;
         max-width: 1000px;
-        padding: 50px 0;
+        padding-bottom: 50px;
     }
 
     .overview .mini-header {
@@ -178,7 +182,7 @@ a {
     }
 
 .tiers {
-    padding: 40px 0;
+    padding-top: 40px;
 }
 
     .tiers h2 {
@@ -214,20 +218,29 @@ a {
         padding: 50px 0;
     }
 
-.portfolio {
-    background-color: #F7F7F7;
-    padding: 40px 0;
+    .tiers .three-grid {
+        padding: 50px 0 0 0 !important;
+    }
+
+.grayWave {
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+
+.portfolioHome {
+    background-color: #f3f4f5;
     text-align: center;
 }
 
-    .portfolio .three-grid {
+    .portfolioHome .three-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column-gap: 30px;
-        padding: 50px 0;
+        padding-top: 50px;
     }
 
-    .portfolio .extend {
+    .portfolioHome .extend {
         display: block;
         height: 100%;
     }

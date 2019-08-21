@@ -4,3 +4,106 @@
     grid-gap: 20px;
     max-width: 1000px;
 }
+
+    .portfolio ul {
+        list-style-type: none;
+    }
+
+    .portfolio li {
+
+        padding: 10px 10px;
+        font-weight: 600;
+        margin: 5px 0;
+        width: 100%;
+        border-radius: 5px;
+        color: #333;
+    }
+
+    .portfolio li:hover {
+        cursor: pointer;
+        background-color: #F1F1F1;
+    }
+
+.portfolio .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 1000px;
+}
+
+    .portfolio .content .company img {
+    }
+
+    .company {
+        display: inline-block;
+        border-radius: 5px;
+        box-shadow: 0 13px 27px -5px rgba(50,50,93,.15), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+        background-color: white;
+        color: #333333;
+        position: relative;
+        transition: all 0.3s ease;
+        text-align: left;
+    }
+
+        .company:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 13px 27px -5px rgba(50,50,93,.30), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+        }
+
+        .company img {
+            height: 40px;
+            width: auto;
+            display: inline-block;
+        }
+
+        .company h1 {
+        }
+
+        .company p {
+            font-family: 'Lato', sans-serif;
+            display: block;
+        }
+
+        .company a {
+            display: inline-block;
+            text-decoration: none;
+            font-weight: 700;
+            color: #333333;
+            position: absolute;
+            bottom: 20px;
+            font-size: 15px;
+            margin: 0;
+            transition: all 0.2s ease;
+        }
+
+        .company a img {
+            width: 12px;
+            height: auto;
+            position: relative;
+            left: 10px;
+            bottom: 1px;
+            transition: all 0.2s ease;
+        }
+
+        .company a:hover {
+            color: rgb(73, 137, 223);
+        }
+
+        .company a:hover img {
+            width: 12px;
+            height: auto;
+            position: relative;
+            left: 15px;
+            bottom: 1px;
+        }
+
+        .company .companyTag {
+            display: inline-block;
+            color: white;
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-right: 5px;
+            margin-bottom: 3px;
+        }

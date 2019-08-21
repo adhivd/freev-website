@@ -31,10 +31,7 @@
     max-width: 1000px;
 }
 
-    .portfolio .content .company img {
-    }
-
-    .company {
+    .companyPortfolio {
         display: inline-block;
         border-radius: 5px;
         box-shadow: 0 13px 27px -5px rgba(50,50,93,.15), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
@@ -43,28 +40,33 @@
         position: relative;
         transition: all 0.3s ease;
         text-align: left;
+        padding: 20px;
     }
 
-        .company:hover {
+        .companyPortfolio:hover {
             transform: translateY(-5px);
             box-shadow: 0 13px 27px -5px rgba(50,50,93,.30), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
         }
 
-        .company img {
-            height: 40px;
+        .companyPortfolio img {
+            height: 30px;
             width: auto;
             display: inline-block;
         }
 
-        .company h1 {
+        .companyPortfolio h1 {
+            margin: 10px 0 0 0;
         }
 
-        .company p {
+        .companyPortfolio p {
             font-family: 'Lato', sans-serif;
             display: block;
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 8px 0;
         }
 
-        .company a {
+        .companyPortfolio a {
             display: inline-block;
             text-decoration: none;
             font-weight: 700;
@@ -76,7 +78,7 @@
             transition: all 0.2s ease;
         }
 
-        .company a img {
+        .companyPortfolio a img {
             width: 12px;
             height: auto;
             position: relative;
@@ -85,11 +87,11 @@
             transition: all 0.2s ease;
         }
 
-        .company a:hover {
+        .companyPortfolio a:hover {
             color: rgb(73, 137, 223);
         }
 
-        .company a:hover img {
+        .companyPortfolio a:hover img {
             width: 12px;
             height: auto;
             position: relative;
@@ -97,7 +99,7 @@
             bottom: 1px;
         }
 
-        .company .companyTag {
+        .companyPortfolio .companyTag {
             display: inline-block;
             color: white;
             border-radius: 4px;

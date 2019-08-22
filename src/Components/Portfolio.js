@@ -11,8 +11,12 @@ import PortfolioCompanyCardExpanded from './PortfolioCompanyCardExpanded.js';
 class Portfolio extends React.Component {
 
     state = {
-        sideBarTabName: "",
+        sideBarTabName: '',
         companiesToRender: [],
+    }
+
+    componentDidMount() {
+        this.handleSideBarClick(this.props.sideBarTabName);
     }
 
     clipDescription = (desc) => {

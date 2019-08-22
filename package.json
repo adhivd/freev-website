@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.3.3",
+    "@material-ui/icons": "^4.2.1",
     "@sendgrid/mail": "^6.4.0",
     "eslint-config-react-app": "^4.0.1",
     "react": "^16.8.6",

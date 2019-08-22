@@ -6,6 +6,7 @@ import portfolioContent from './../content/portfolio.js';
 import GenericTop from './GenericTop';
 import GenericPage from './GenericPage';
 import PortfolioCompanyCard from './PortfolioCompanyCard';
+import PortfolioCompanyCardExpanded from './PortfolioCompanyCardExpanded.js';
 
 class Portfolio extends React.Component {
 
@@ -16,6 +17,12 @@ class Portfolio extends React.Component {
 
     clipDescription = (desc) => {
         return desc.slice(0, desc.slice(100).indexOf(" ") + 100) + "...";
+    }
+
+    clearSelectedCompany = () => {
+        this.setState({
+            selectedCompany: null
+        });
     }
 
     handleSideBarClick = (sideBarTabName) => {
@@ -39,8 +46,12 @@ class Portfolio extends React.Component {
         this.setState({
           companiesToRender,
           sideBarTabName
-        });
+      }, () => {
+          console.log(this.state)
+      });
     }
+
+
 
     render() {
 
@@ -57,6 +68,7 @@ class Portfolio extends React.Component {
                             this.handleSideBarClick(batch.batchName)
                         }}
                         style={activeLinkStyle}
+                        key={batch.batchName}
                     >
             {batch.batchName}
             </li>);
@@ -82,16 +94,34 @@ class Portfolio extends React.Component {
 
 
         let renderCompanies = (this.state.companiesToRender || []).map((company) => {
+            console.log("making it in here");
             let descSnippet = this.clipDescription(company.description);
             return (<PortfolioCompanyCard
                         logo={company.logo}
                         companyName={company.name}
+                        key={company.name}
                         description={descSnippet}
                         link={company.link}
                         tags={company.tags}
-
+                        onClick={() => {
+                            this.setState({
+                                selectedCompany: company
+                            });
+                        }}
                     />)
         });
+
+        let expandedPanel;
+
+        if(this.state.selectedCompany) {
+            expandedPanel = (
+                <PortfolioCompanyCardExpanded
+                    open={true}
+                    company={this.state.selectedCompany}
+                    clearSelectedCompany={this.clearSelectedCompany}
+                />
+            );
+        }
 
         return (
             <section>
@@ -111,7 +141,11 @@ class Portfolio extends React.Component {
                             </ul>
                         </div>
                         <div className="content">
-                            {renderCompanies}
+                            <p>Click on a company to learn more</p>
+                            <div className="content-grid">
+                                {renderCompanies}
+                            </div>
+                            {expandedPanel}
                         </div>
                     </div>
                 </GenericPage>

@@ -7,6 +7,8 @@
 
     .portfolio ul {
         list-style-type: none;
+        margin: 0 0 20px 0;
+        padding: 0;
     }
 
     .portfolio li {
@@ -25,6 +27,10 @@
     }
 
 .portfolio .content {
+    padding-left: 20px;
+}
+
+.portfolio .content-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
@@ -34,8 +40,7 @@
     .companyPortfolio {
         display: inline-block;
         border-radius: 5px;
-        box-shadow: 0 13px 27px -5px rgba(50,50,93,.15), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
-        background-color: white;
+        background-color: #f5f5f5;
         color: #333333;
         position: relative;
         transition: all 0.3s ease;
@@ -45,7 +50,7 @@
 
         .companyPortfolio:hover {
             transform: translateY(-5px);
-            box-shadow: 0 13px 27px -5px rgba(50,50,93,.30), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+            box-shadow: 0 13px 27px -5px rgba(50,50,93,.15), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
         }
 
         .companyPortfolio img {
@@ -108,4 +113,26 @@
             font-weight: 700;
             margin-right: 5px;
             margin-bottom: 3px;
+        }
+
+    .dialog img {
+        height: 40px;
+        width: auto;
+        display: block;
+        margin: 10px 0;
+    }
+
+        .dialog h1 {
+            text-transform: lowercase capitalize;
+            font-size: 20px;
+            margin: 0;
+        }
+
+        @media (max-width: 1034px) {
+            .portfolio .content-grid {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 20px;
+                max-width: 1000px;
+            }
         }

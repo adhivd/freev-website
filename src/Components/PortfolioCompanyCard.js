@@ -20,7 +20,7 @@ function PortfolioCompanyCard(props) {
 
 
         return (
-            <div className="companyPortfolio">
+            <div className="companyPortfolio" onClick={props.onClick}>
                     <img src={props.logo} alt="logo" />
                     <h1>{props.companyName}</h1>
                     <p>{props.description}</p>

@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './../assets/freev-white.png';
 import logogray from './../assets/freev-gray.png';
+import fb from './../assets/facebook.png';
+import medium from './../assets/medium.png';
+import twitter from './../assets/twitter.png';
 
 import { Link } from "react-router-dom";
 
@@ -30,12 +33,26 @@ function Footer() {
                 <Link to="/program">Program</Link>
                 <Link to="/team">Team</Link>
                 <Link to="/portfolio">Portfolio</Link>
-            </span>
-            <span className="links">
-                <p className="disappear">.</p>
                 <Link to="/partners">Partners</Link>
                 <Link to="/fiatlux">Fiat lux</Link>
                 <Link to="/apply">Apply</Link>
+                <Link to="/contact">Contact</Link>
+            </span>
+            <span className="links">
+                <p>Connect with us</p>
+                <a href="https://www.facebook.com/FreeVentures/" target="_blank">
+                    <img src={fb} alt="" />
+                    Facebook
+                </a>
+                <a href="https://twitter.com/FreeVentures" target="_blank">
+                    <img src={twitter} alt="" />
+                    Twitter
+                </a>
+                <a href="https://medium.com/@FreeVentures" target="_blank">
+                    <img src={medium} alt="" />
+                    Medium
+                </a>
+
             </span>
 
         </div>

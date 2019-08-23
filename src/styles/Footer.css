@@ -21,7 +21,7 @@
 
     .footer .container {
         display: grid;
-        grid-template-columns: 1fr 2fr 0.5fr 0.5fr;
+        grid-template-columns: 1fr 2fr 0.4fr 0.6fr;
         grid-column-gap: 40px;
         grid-row-gap: 30px;
     }
@@ -59,6 +59,7 @@
         line-height: 1.5;
     }
 
+
     .footer .links a {
         display: block;
         text-decoration: none;
@@ -66,6 +67,12 @@
         font-weight: 700;
         margin-bottom: 10px;
         font-size: 17px;
+        opacity: 0.8;
+        transition: 0.1s all ease;
+    }
+
+    .footer .links a:hover {
+        opacity: 1;
     }
 
     .footer .links p {
@@ -74,6 +81,23 @@
 
     .disappear {
         color: #222222;
+    }
+
+    .footer span:nth-child(4) a {
+        margin-bottom: 20px;
+        opacity: 0.8;
+        transition: 0.1s all ease;
+    }
+
+        .footer span:nth-child(4) a:hover {
+            opacity: 1;
+        }
+
+    .footer span:nth-child(4) img {
+        width: 20px;
+        margin-right: 8px;
+        position: relative;
+        top: 2px;
     }
 
 

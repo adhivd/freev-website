@@ -191,23 +191,36 @@ a {
     }
 
     .tiers article {
-        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-row-gap: 100px;
     }
 
     .tiers article img {
-        width: 50px;
+        height: 50px;
+        width: auto;
+    }
+
+
+    .tiers article span:first-child {
+        text-align: left;
+    }
+
+    .tiers article span:last-child {
+        text-align: left;
     }
 
     .tiers article h3 {
         color: #67379A;
-        font-weight: 500;
-        margin: 20px 0 10px 0;
+        font-weight: 600;
+        margin: 0px 0 10px 0;
     }
 
     .tiers article p {
         font-size: 17px;
-        font-weight: 300;
+        font-weight: 500;
         margin-top: 0;
+        color: #333;
         line-height: 1.75;
     }
 
@@ -220,6 +233,7 @@ a {
 
     .tiers .three-grid {
         padding: 50px 0 0 0 !important;
+        grid-row-gap: 50px;
     }
 
 .grayWave {

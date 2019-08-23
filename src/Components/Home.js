@@ -126,19 +126,64 @@ function Home() {
                 <h2>What we offer</h2>
                 <div className="three-grid">
                     <article>
-                        <img src={curriculum} alt="" />
-                        <h3>Curriculum</h3>
-                        <p>Each week, we bring in founders, investors, and industry experts to help guide our teams. These sessions provide startups with the opportunity to get a variety of perspectives on the problems they’re solving from people who have successfully started and scaled businesses.</p>
+                        <span>
+                            <img src={curriculum} alt="" />
+                        </span>
+
+                        <span>
+                            <h3>Curriculum</h3>
+                            <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
+                        </span>
                     </article>
                     <article>
-                        <img src={mentors} alt="" />
-                        <h3>Mentorship</h3>
-                        <p>Leveraging our network of industry partners, our program provides interactive sessions on product development, legal & banking, fundraising, and recruiting. These sessions help educate founders on topics that they need to know at the early stages of starting a company.</p>
+                        <span>
+                            <img src={mentors} alt="" />
+                        </span>
+
+                        <span>
+                            <h3>Mentorship</h3>
+                            <p>Leveraging our network of industry partners, our program provides interactive sessions. </p>
+                        </span>
+
                     </article>
                     <article>
-                        <img src={pitch} alt="" />
-                        <h3>Pitch prep</h3>
-                        <p>Throughout the semester we work with founders to hone their ability to pitch to venture capital and angel investors successfully. Our program culminates with our pitch sessions with top tier VCs as well as a Demo Day, where startups get to share their progress with investors across Silicon Valley.</p>
+                        <span>
+                            <img src={pitch} alt="" />
+                        </span>
+                        <span>
+                            <h3>Pitch prep</h3>
+                            <p>We work with founders to hone their ability to pitch to venture capital and angel investors successfully. </p>
+                        </span>
+                    </article>
+                    <article>
+                        <span>
+                            <img src={curriculum} alt="" />
+                        </span>
+
+                        <span>
+                            <h3>Curriculum</h3>
+                            <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
+                        </span>
+                    </article>
+                    <article>
+                        <span>
+                            <img src={mentors} alt="" />
+                        </span>
+
+                        <span>
+                            <h3>Mentorship</h3>
+                            <p>Leveraging our network of industry partners, our program provides interactive sessions. </p>
+                        </span>
+
+                    </article>
+                    <article>
+                        <span>
+                            <img src={pitch} alt="" />
+                        </span>
+                        <span>
+                            <h3>Pitch prep</h3>
+                            <p>We work with founders to hone their ability to pitch to venture capital and angel investors successfully. </p>
+                        </span>
                     </article>
                 </div>
             </div>

@@ -186,9 +186,10 @@ button:focus {
     }
 
 .genericTop {
-    background-color: #EDF4FC;
-    text-align: center;
-    padding: 20px 0 20px 0;
+    background-color: #67379A;
+    text-align: left;
+    padding: 40px 0 40px 0;
+    color: white;
 }
 
     .genericTop h1 {
@@ -197,7 +198,7 @@ button:focus {
     }
 
     .genericTop h2 {
-        font-size: 25px;
+        font-size: 17px;
         font-family: 'Lato', sans-serif;
         font-weight: 400;
         margin: 0 0 0px 0;

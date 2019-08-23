@@ -81,6 +81,7 @@ class Portfolio extends React.Component {
         // there's definitely a better way to do this
 
         let allStartupsStyle, pressStyle;
+        let clickInstructionText = (<p>Click on a company to learn more</p>);
 
         if(this.state.sideBarTabName === "All startups") {
             allStartupsStyle = {
@@ -94,6 +95,7 @@ class Portfolio extends React.Component {
                 backgroundColor: '#F1F1F1',
                 color: '#67379A'
             };
+            clickInstructionText = "";
         }
 
 
@@ -131,7 +133,7 @@ class Portfolio extends React.Component {
             <section>
                 <GenericTop
                     header={'Portfolio'}
-                    description={'Insert description here'}
+                    description={'Our founders have gone on to become Forbes 30 Under 30, build companies that are changing the world, and continue to develop the college startup scene by creating The House. We have helped our 53 alumni teams raise over $30 million from top firms such as Y Combinator, Greylock, KPCB, and Accel.'}
                 />
                 <GenericPage>
                     <div className="container portfolio">
@@ -145,7 +147,7 @@ class Portfolio extends React.Component {
                             </ul>
                         </div>
                         <div className="content">
-                            <p>Click on a company to learn more</p>
+                            {clickInstructionText}
                             <div className="content-grid">
                                 {renderCompanies}
                             </div>

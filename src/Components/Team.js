@@ -11,7 +11,7 @@ import Pranav from './../assets/team/pranav.png';
 function Team() {
 
     var header = "Meet the Team";
-    var description = "Insert description here";
+    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click here to learn about when we open up applications.";
     var peopleContent = [{
         name: "Pranav Gulati",
         position: "Managing Director",

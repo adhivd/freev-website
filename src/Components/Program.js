@@ -9,7 +9,7 @@ function Program() {
         <section>
             <GenericTop
                 header={'Program'}
-                description={'Insert description here'}
+                description={'Each semester the brightest UC Berkeley student founders apply to Free Ventures to bring their dissertation research, side projects, or innovative products to market.'}
             />
             <GenericPage>
             </GenericPage>

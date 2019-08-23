@@ -8,6 +8,14 @@ import GenericPage from './GenericPage';
 import PortfolioCompanyCard from './PortfolioCompanyCard';
 import PortfolioCompanyCardExpanded from './PortfolioCompanyCardExpanded.js';
 
+import tc from './../assets/press/tc.png'
+import huffpost from './../assets/press/huffpost.png'
+import forbes from './../assets/press/forbes.png'
+import mic from './../assets/press/mic.png'
+import medium from './../assets/press/medium.png'
+import recode from './../assets/press/recode.png'
+import wired from './../assets/press/wired.png'
+
 class Portfolio extends React.Component {
 
     state = {
@@ -17,6 +25,8 @@ class Portfolio extends React.Component {
 
     componentDidMount() {
         this.handleSideBarClick(this.props.sideBarTabName);
+
+
     }
 
     clipDescription = (desc) => {
@@ -117,6 +127,19 @@ class Portfolio extends React.Component {
                     />)
         });
 
+        let renderPress;
+
+        if(this.state.sideBarTabName === "Press") {
+            renderPress = portfolioContent.pressList.map((article) => {
+                return (<a href={article.address}>
+                            <div className="pressArticle">
+                                <img src={article.image} alt="Logo" />
+                                <h1>{article.title}</h1>
+                            </div>
+                        </a>);
+            });
+        }
+
         let expandedPanel;
 
         if(this.state.selectedCompany) {
@@ -148,6 +171,7 @@ class Portfolio extends React.Component {
                         </div>
                         <div className="content">
                             {clickInstructionText}
+                            {renderPress}
                             <div className="content-grid">
                                 {renderCompanies}
                             </div>

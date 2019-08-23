@@ -5,6 +5,22 @@ import memory from './../assets/portfolio/memory.png';
 import peereditr from './../assets/portfolio/peereditr.png';
 import acuity from './../assets/portfolio/acuity.png';
 
+// press
+import tc from './../assets/press/tc.png'
+import huffpost from './../assets/press/huffpost.png'
+import forbes from './../assets/press/forbes.png'
+import mic from './../assets/press/mic.png'
+import medium from './../assets/press/medium.png'
+import recode from './../assets/press/recode.png'
+import wired from './../assets/press/wired.png'
+import bb from './../assets/press/bb.jpg';
+import dailycal from './../assets/press/dailycal.jpg';
+import e27 from './../assets/press/e27.png';
+import alchemy from './../assets/press/alchemy.jpeg';
+
+
+
+
 
 let portfolioContent = {
     batchList: [
@@ -114,6 +130,92 @@ let portfolioContent = {
                 },
             ]
         },
+    ],
+    pressList: [
+        {
+            image: forbes,
+            title: "Huge congratulations to FreeV co-founder Jeremy Fiance for being featured on the 2017 Forbes 30 Under 30 list!",
+            address: "https://www.forbes.com/pictures/lmh45edlmk/30-under-30-education/#1abbfbef1c3d",
+            date: "Jan 3, 2017"
+        },
+        {
+            image: wired,
+            title: "The College Kids Doing What Twitter Won't",
+            address: "https://www.wired.com/story/the-college-kids-doing-what-twitter-wont/",
+        },
+        {
+            image: e27,
+            title: "Singaporean startup Glints has raised US$2M Series A to help you find a job",
+            address: "https://e27.co/singaporean-startup-glints-has-raised-us2million-series-a-to-help-you-find-a-job-20160905/",
+            date: "Sep 5, 2016"
+        },
+        {
+            image: tc,
+            title: "Meet VC Jeremy Fiance, UC Berkeley's 24-year-old superconnector",
+            address: "http://techcrunch.com/2016/04/18/meet-vc-jeremy-fiance-uc-berkeleys-24-year-old-superconnector/",
+        },
+        {
+            image: forbes,
+            title: "Huge congratulations to FreeV co-founder Jeremy Fiance for being featured on the 2017 Forbes 30 Under 30 list!",
+            address: "https://www.forbes.com/pictures/lmh45edlmk/30-under-30-education/#1abbfbef1c3d",
+        },
+        {
+            image: huffpost,
+            title: "Wildfire App Alerts Users of Emergency Situations",
+            address: "http://www.huffingtonpost.com/rawan-abushaban/wildfire-app-alerts-users_b_9287408.html",
+        },
+        {
+            image: tc,
+            title: "YC-Backed Instant eSports Is ESPN for Competitive Gaming",
+            address: "http://techcrunch.com/2015/06/29/yc-backed-instant-esports-is-espn-for-competitive-gaming/",
+        },
+        {
+            image: recode,
+            title: "Searching for the Next Stanford: Silicon Valley Turns Its Eyes to Berkeley",
+            address: "http://recode.net/2015/05/07/searching-for-the-next-stanford-silicon-valley-turns-its-eyes-to-berkeley/",
+        },
+        {
+            image: tc,
+            title: "Lily, A Camera Drone That Automatically Follows You, Pulls In A Mountainous $34 Million In Pre-Orders",
+            address: "http://techcrunch.com/2016/01/08/lily-a-camera-drone-that-automatically-follows-you-pulls-in-a-mountainous-34-million-in-pre-orders/",
+        },
+        {
+            image: bb,
+            title: "Meet Free Ventures Managing Director Cameron Baradar",
+            address: "https://vimeo.com/106034256",
+        },
+        {
+            image: mic,
+            title: "The Vibrator of the Future Is Here - And Women Should Be Excited",
+            address: "http://mic.com/articles/112886/a-pair-of-entrepreneurs-want-to-make-sure-every-woman-gets-the-pleasure-she-deserves#.oWYar7k3v",
+        },
+        {
+            image: recode,
+            title: "Free Ventures Is Seeking the Next Mark Zuckerberg to Drop In and Maybe Drop Out",
+            address: "http://recode.net/2014/06/08/free-ventures-is-seeking-the-next-mark-zuckerberg/",
+        },
+        {
+            image: alchemy,
+            title: "Free Ventures - Students Turning Cool Ideas into Startups",
+            address: "http://blog.alchemyapi.com/free-ventures-students-startups",
+        },
+        {
+            image: bb,
+            title: "Free Ventures: First accelerator for and by students",
+            address: "http://www.berkeleybyte.com/2014/03/07/free-ventures-first-accelerator-for-and-by-students/",
+        },
+        {
+            image: dailycal,
+            title: "Student-run incubator program hosts competition for startups at SkyDeck Berkeley",
+            address: "http://www.dailycal.org/2013/12/10/student-run-incubator-program-hosts-competition-startups-skydeck-berkeley/",
+        },
+        {
+            image: dailycal,
+            title: "UC Berkeley student-run organization aims to help undergrads launch startups",
+            address: "http://www.dailycal.org/2013/09/16/uc-berkeley-student-run-organization-aims-to-help-undergrads-launch-startups/",
+        },
+
+
     ]
 }
 

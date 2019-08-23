@@ -129,6 +129,40 @@
             margin: 0;
         }
 
+.pressArticle {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    padding: 20px;
+    margin: 20px 0;
+    display: block;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.05), 0 8px 16px -8px rgba(0,0,0,.1), 0 -6px 16px -6px rgba(0,0,0,.025);
+    transition: 0.2s all ease;
+    position: relative;
+    bottom: 0px
+}
+
+    .pressArticle:hover {
+        box-shadow: 0 13px 27px -5px rgba(50,50,93,.10), 0 8px 16px -8px rgba(0,0,0,.2), 0 -6px 16px -6px rgba(0,0,0,.025);
+        bottom: 2px;
+    }
+
+    .pressArticle img {
+        height: 25px;
+        width: auto;
+    }
+
+    .pressArticle a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .pressArticle h1 {
+        margin: 10px 0;
+        font-size: 16px;
+        color: #333;
+    }
+
         @media (max-width: 1034px) {
             .portfolio .content-grid {
                 display: grid;

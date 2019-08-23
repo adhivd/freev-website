@@ -14,6 +14,15 @@ import gainful from './../assets/gainful.png';
 import arrow from './../assets/arrow.png';
 import whitearrow from './../assets/arrow-white.png'
 
+import tc from './../assets/press/grayscale/tc.png';
+import huffpost from './../assets/press/grayscale/huffpost.png';
+import forbes from './../assets/press/grayscale/forbes.png';
+import mic from './../assets/press/grayscale/mic.png';
+import medium from './../assets/press/grayscale/medium.png';
+import recode from './../assets/press/grayscale/recode.png';
+import wired from './../assets/press/grayscale/wired.png';
+
+
 import './../styles/App.css';
 import './../styles/Home.css';
 
@@ -75,6 +84,38 @@ function Home() {
         ]
     }];
 
+    let pressContent = [
+        {
+            address: "https://www.wired.com/story/the-college-kids-doing-what-twitter-wont/",
+            image: wired,
+        },
+        {
+            address: "https://techcrunch.com/2015/06/29/yc-backed-instant-esports-is-espn-for-competitive-gaming/",
+            image: tc,
+        },
+        {
+            address: "http://www.huffingtonpost.com/rawan-abushaban/wildfire-app-alerts-users_b_9287408.html",
+            image: huffpost,
+        },
+        {
+            address: "https://www.forbes.com/pictures/lmh45edlmk/30-under-30-education/#12b818c11c3d",
+            image: forbes,
+        },
+        {
+            address: "https://www.mic.com/articles/112886/a-pair-of-entrepreneurs-want-to-make-sure-every-woman-gets-the-pleasure-she-deserves#.oWYar7k3v",
+            image: mic,
+        },
+        {
+            address: "https://medium.com/@robhat/identifying-propaganda-bots-on-twitter-5240e7cb81a9",
+            image: medium,
+        },
+        {
+            address: "https://www.vox.com/2015/5/7/11562380/searching-for-the-next-stanford-silicon-valley-turns-its-eyes-to",
+            image: recode,
+        },
+
+]
+
     let sponsorsContent = [distributed, distributed,distributed,distributed,distributed,distributed,distributed,distributed]
 
     let companies = companiesContent.map((company) => {
@@ -93,6 +134,10 @@ function Home() {
         return <img src={sponsor} alt={sponsor}/>
     });
 
+    let press = pressContent.map((link) => {
+        return <li><a href={link.address} target="_blank"><img src={link.image} /></a></li>;
+    });
+
   return (
     <section>
         <div className="splash">
@@ -105,8 +150,7 @@ function Home() {
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" className="blueWaveTop" viewBox="0 0 1440 320"><path fill="#EDF4FC" fill-opacity="1" d="M0,96L80,117.3C160,139,320,181,480,181.3C640,181,800,139,960,128C1120,117,1280,139,1360,149.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
         <div className="overview">
-
-            <div className="container">
+            <div className="container overviewLayout">
                 <div className="mini-header">
                     <span className="icon"></span>
                     <h2>The Free Ventures Accelerator</h2>
@@ -119,6 +163,12 @@ function Home() {
                     <h3><span className="bigNumber">$30m</span> raised by teams post-program</h3>
                     <h3><span className="bigNumber">11</span> batches hosted</h3>
                 </div>
+            </div>
+            <div className="container pressHome" >
+                <hr />
+                <ul>
+                    {press}
+                </ul>
             </div>
         </div>
         <div className="tiers homeSection">

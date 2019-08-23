@@ -22,6 +22,24 @@ import medium from './../assets/press/grayscale/medium.png';
 import recode from './../assets/press/grayscale/recode.png';
 import wired from './../assets/press/grayscale/wired.png';
 
+import accel from './../assets/partners/accel.png';
+import aws from './../assets/partners/aws.png';
+import cooley from './../assets/partners/cooley.png';
+import fbstart from './../assets/partners/fbstart.png';
+import gc from './../assets/partners/gc.png';
+import github from './../assets/partners/github.png';
+import greylock from './../assets/partners/greylock.jpg';
+import house from './../assets/partners/house.png';
+import kpcb from './../assets/partners/kpcb.png';
+import lightspeed from './../assets/partners/lightspeed.png';
+import pear from './../assets/partners/pear.png';
+import scet from './../assets/partners/scet.png';
+import spark from './../assets/partners/spark.png';
+import svangel from './../assets/partners/svangle.png';
+import svb from './../assets/partners/svb.png';
+import ycombinator from './../assets/partners/ycombinator.png';
+
+
 
 import './../styles/App.css';
 import './../styles/Home.css';
@@ -116,7 +134,111 @@ function Home() {
 
 ]
 
-    let sponsorsContent = [distributed, distributed,distributed,distributed,distributed,distributed,distributed,distributed]
+    let investorsContent = [
+            {
+                logo: ycombinator,
+                name: 'YCombinator',
+                website: "http://www.ycombinator.com/"
+            },
+            {
+                logo: kpcb,
+                name: 'KPCB',
+                website: "http://www.kpcb.com/"
+            },
+            {
+                logo: greylock,
+                name: 'Greylock Partners',
+                website: "http://www.greylock.com/"
+            },
+            {
+                logo: pear,
+                name: 'Pear VC',
+                website: "http://www.pear.vc/"
+            },
+            {
+                logo: accel,
+                name: 'Accel',
+                website: "https://www.accel.com/"
+            },
+            {
+                logo: lightspeed,
+                name: 'Lightspeed Ventures',
+                website: "http://lsvp.com/"
+            },
+            {
+                logo: spark,
+                name: 'Spark Capital',
+                website: "http://sparkcapital.com/"
+            },
+            {
+                logo: svangel,
+                name: 'SV Angel',
+                website: "http://svangel.com/"
+            },
+        ];
+
+        let partnersContent = [
+                {
+                    logo: kpcb,
+                    name: 'KPCB',
+                    website: "http://www.kpcb.com/"
+                },
+                {
+                    logo: greylock,
+                    name: 'Greylock Partners',
+                    website: "http://www.greylock.com/"
+                },
+                {
+                    logo: pear,
+                    name: 'Pear VC',
+                    website: "http://www.pear.vc/"
+                },
+                {
+                    logo: accel,
+                    name: 'Accel',
+                    website: "https://www.accel.com/"
+                },
+                {
+                    logo: cooley,
+                    name: 'Cooley',
+                    website: "https://www.cooley.com"
+                },
+                {
+                    logo: house,
+                    name: 'The House Fund',
+                    website: "http://thehouse.fund/"
+                },
+                {
+                    logo: svb,
+                    name: 'Silicon Valley Bank',
+                    website: "https://www.svb.com/"
+                },
+                {
+                    logo: gc,
+                    name: 'General Catalyst',
+                    website: "https://www.generalcatalyst.com/"
+                },
+                {
+                    logo: scet,
+                    name: 'Stardja Center for Entreprenuership and Technology',
+                    website: "https://scet.berkeley.edu/"
+                },
+                {
+                    logo: fbstart,
+                    name: 'FB Start',
+                    website: "https://fbstart.com/"
+                },
+                {
+                    logo: github,
+                    name: 'Github',
+                    website: "http://github.com"
+                },
+                {
+                    logo: aws,
+                    name: 'AWS Activate',
+                    website: "https://aws.amazon.com/activate/"
+                },
+            ];
 
     let companies = companiesContent.map((company) => {
         return <HomeCompany
@@ -130,8 +252,12 @@ function Home() {
             />
     })
 
-    let sponsors = sponsorsContent.map((sponsor) => {
-        return <img src={sponsor} alt={sponsor}/>
+    let investors = investorsContent.map((investor) => {
+        return (<a href={investor.website}><img src={investor.logo} alt={investor.name} /></a>);
+    });
+
+    let partners = partnersContent.map((partner) => {
+        return (<a href={partner.website}><img src={partner.logo} alt={partner.name} /></a>);
     });
 
     let press = pressContent.map((link) => {
@@ -251,18 +377,18 @@ function Home() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" d="M0,128L60,138.7C120,149,240,171,360,176C480,181,600,171,720,149.3C840,128,960,96,1080,85.3C1200,75,1320,85,1380,90.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
         <div className="sponsors homeSection">
             <div className="container">
-                <h2>Our partners</h2>
-                <p>These sponsors help make FreeV and our accelerator possible with their support and resources</p>
+                <h2>Our companies are funded by leading investors</h2>
+                <p>Here is an awesome, secondary sentence about our the investors in our companies</p>
                 <div className="four-grid">
-                    {sponsors}
+                    {investors}
+                </div>
+                <br />
+                <h2 style={{paddingTop: '80px'}}>We connect UC Berkeley's brightest minds to industry leaders</h2>
+                <p>Meet some of the firms our founders work with</p>
+                <div className="four-grid">
+                    {partners}
                 </div>
                 <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
-                    <h2>Our partners</h2>
-                    <p>These sponsors help make FreeV and our accelerator possible with their support and resources</p>
-                    <div className="four-grid">
-                        {sponsors}
-                    </div>
-                    <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
             </div>
         </div>
         <div className="contactSection homeSection">

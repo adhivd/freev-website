@@ -277,8 +277,8 @@ a {
 
 .grayWave {
     position: relative;
-    top: 20px;
-    z-index: -1;
+    top: 5px;
+    z-index: -100;
 }
 
 .portfolioHome {
@@ -385,14 +385,25 @@ a {
     .four-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-column-gap: 30px;
         grid-row-gap: 30px;
-        padding: 30px 0 40px 0;
+        padding: 0px 0 40px 0;
     }
 
     .four-grid img {
         margin: 0 auto;
-        width: 100%;
+        width: 70%;
+    }
+
+    .four-grid a {
+        align-self: center;
+        text-align: center;
+        transition: 0.2s all ease;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .four-grid a:hover {
+        bottom: 4px;
     }
 
     .sponsors .genericButton {

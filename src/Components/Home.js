@@ -286,8 +286,8 @@ function Home() {
                 </div>
                 <div className="numbers">
                     <h3><span className="bigNumber">53</span> startups accelerated</h3>
-                    <h3><span className="bigNumber">$30m</span> raised by teams post-program</h3>
-                    <h3><span className="bigNumber">11</span> batches hosted</h3>
+                    <h3><span className="bigNumber">$40m</span> raised by teams post-program</h3>
+                    <h3><span className="bigNumber">14</span> batches hosted</h3>
                 </div>
             </div>
             <div className="pressHome" >

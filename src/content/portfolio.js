@@ -10,6 +10,7 @@ import petra from './../assets/portfolio/petra.png';
 import iris from './../assets/portfolio/iris.png';
 import homeslice from './../assets/portfolio/homeslice.png';
 import channeltime from './../assets/portfolio/channeltime.png';
+import robhat from './../assets/portfolio/robhat.png';
 
 
 
@@ -44,6 +45,12 @@ let portfolioContent = {
                 {
                     name: "ROBHAT LABS",
                     description: "Using machine learning techniques and cryptography to stop the spread of misinformation. Signed contract with the DNC and frequently feature on MSNBC, Wired, and other outlets. Currently focused on making their product production-ready and doing demos to secure paying clients for the November 2018 elections. Sample article on their work here",
+                    links: [{
+                        address: "https://www.robhat.com/",
+                        title: "Website"
+                    }],
+                    logo: robhat
+
                 },
                 {
                     name: "MADTECH LABS",

@@ -164,7 +164,7 @@ function Home() {
                     <h3><span className="bigNumber">11</span> batches hosted</h3>
                 </div>
             </div>
-            <div className="container pressHome" >
+            <div className="pressHome" >
                 <hr />
                 <ul>
                     {press}

@@ -7,6 +7,7 @@ import GenericTop from './GenericTop';
 import GenericPage from './GenericPage';
 import PortfolioCompanyCard from './PortfolioCompanyCard';
 import PortfolioCompanyCardExpanded from './PortfolioCompanyCardExpanded.js';
+import SimpleSelect from './Select.js';
 
 import tc from './../assets/press/tc.png';
 import huffpost from './../assets/press/huffpost.png';
@@ -29,8 +30,6 @@ class Portfolio extends React.Component {
 
     componentDidMount() {
         this.handleSideBarClick(this.props.sideBarTabName);
-
-
     }
 
     clipDescription = (desc) => {
@@ -73,8 +72,11 @@ class Portfolio extends React.Component {
 
     render() {
 
+        let selectOptions = [];
+
         let sideBarTabs = portfolioContent.batchList.map((batch) => {
             let activeLinkStyle = {}
+            selectOptions.push(batch.batchName);
 
             if (this.state.sideBarTabName === batch.batchName) {
                 activeLinkStyle = {
@@ -82,6 +84,7 @@ class Portfolio extends React.Component {
                     color: '#67379A'
                 };
             }
+
             return (<li onClick={() => {
                             this.handleSideBarClick(batch.batchName)
                         }}
@@ -92,10 +95,18 @@ class Portfolio extends React.Component {
             </li>);
         })
 
+        console.log(selectOptions);
+
         // there's definitely a better way to do this
 
         let allStartupsStyle, pressStyle;
         let clickInstructionText = (<p>Click on a company to learn more</p>);
+        let simpleSelect = (<SimpleSelect
+            options={selectOptions}
+            placeholder={this.sideBarTabName}
+            updateSelectedTabName={this.updateSelectedTabName}
+            handleSideBarClick={this.handleSideBarClick}
+        />);
 
         if(this.state.sideBarTabName === "All startups") {
             allStartupsStyle = {
@@ -111,6 +122,8 @@ class Portfolio extends React.Component {
             };
             clickInstructionText = "";
         }
+
+
 
 
         let renderCompanies = (this.state.companiesToRender || []).map((company) => {
@@ -135,7 +148,7 @@ class Portfolio extends React.Component {
 
         if(this.state.sideBarTabName === "Press") {
             renderPress = portfolioContent.pressList.map((article) => {
-                return (<a href={article.address}>
+                return (<a href={article.address} target="_blank">
                             <div className="pressArticle">
                                 <img src={article.image} alt="Logo" />
                                 <h1>{article.title}</h1>
@@ -151,7 +164,6 @@ class Portfolio extends React.Component {
                 <PortfolioCompanyCardExpanded
                     open={true}
                     company={this.state.selectedCompany}
-                    clearSelectedCompany={this.clearSelectedCompany}
                 />
             );
         }
@@ -164,14 +176,16 @@ class Portfolio extends React.Component {
                 />
                 <GenericPage>
                     <div className="container portfolio">
-                        <div>
+                        <div className="portfolioNav">
                             <ul className="generalSideBar">
                                 <li onClick={() => {this.handleSideBarClick("All startups") }} style={allStartupsStyle}>All startups</li>
                                 <li onClick={() => {this.handleSideBarClick("Press") }} style={pressStyle}>Press</li>
                             </ul>
+                            {simpleSelect}
                             <ul className="batchSideBar">
                                 {sideBarTabs}
                             </ul>
+
                         </div>
                         <div className="content">
                             {clickInstructionText}

@@ -124,19 +124,18 @@
     }
 
         .dialog h1 {
-            text-transform: lowercase capitalize;
             font-size: 20px;
             margin: 0;
         }
 
 .pressArticle {
     width: 100%;
-    background-color: #f2f2f2;
+    background-color: #fefefe;
     border-radius: 3px;
     padding: 20px;
     margin: 20px 0;
     display: block;
-    box-shadow: 0 13px 27px -5px rgba(50,50,93,.05), 0 8px 16px -8px rgba(0,0,0,.1), 0 -6px 16px -6px rgba(0,0,0,.025);
+    /* box-shadow: 0 13px 27px -5px rgba(50,50,93,.05), 0 8px 16px -8px rgba(0,0,0,.1), 0 -6px 16px -6px rgba(0,0,0,.025); */
     transition: 0.2s all ease;
     position: relative;
     bottom: 0px

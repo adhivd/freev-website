@@ -4,6 +4,15 @@ import foresight from './../assets/portfolio/foresight.png';
 import memory from './../assets/portfolio/memory.png';
 import peereditr from './../assets/portfolio/peereditr.png';
 import acuity from './../assets/portfolio/acuity.png';
+import iota from './../assets/portfolio/iota.webp';
+import pantheon from './../assets/portfolio/pantheon.webp';
+import petra from './../assets/portfolio/petra.png';
+import iris from './../assets/portfolio/iris.png';
+import homeslice from './../assets/portfolio/homeslice.png';
+import channeltime from './../assets/portfolio/channeltime.png';
+
+
+
 
 // press
 import tc from './../assets/press/tc.png'
@@ -127,6 +136,77 @@ let portfolioContent = {
                     name: "ACUITY FOR MOMS",
                     description: "Acuity for Moms in an online platform that empowers moms to re-enter the workforce by providing online skills training and community. Our platform aggregates existing online courses — think Coursera and EdX — to create customized learning paths based on skills, interests, personality, and time availability. These courses are coupled with a community of like-minded moms and value-add resources in order to help moms ultimately return to the workforce.",
                     logo: acuity,
+                },
+            ]
+        },
+        {
+            batchName: "Spring 2016",
+            batchNumber: 13,
+            companies: [
+                {
+                    name: "PANTHEON VR",
+                    description: "Pantheon is a VR application that makes 3D modeling and animation immersive and effortless. We seek to create a tool that drives people to create beautiful 3D content, the same way Instagram made photographers, Medium made writers, and Youtube made filmmakers. We’ve created a simple set of tools that you use while immersed in VR, that let you to easily build, animate, and share your digital world. We took a process that takes weeks to learn and brought it down to minutes. Pantheon allows anyone to quickly and easily create 3D content, and share it with others. ",
+                    logo: pantheon,
+                    tags: [
+                        {
+                            content: "FreeV SP16",
+                            backgroundColor: "#67379A"
+                        },
+                        {
+                            content: "YC S2017",
+                            backgroundColor: "#EC8641"
+                        }
+                    ],
+                    links: [{
+                        address: "https://www.crunchbase.com/organization/pantheon-3",
+                        title: "Crunchbase"
+                    }]
+
+                },
+                {
+                    name: "IOTA LABS",
+                    description: "Introducing Dot, the physical push notification that tells your phone where you are so that it understands your behaviors and patterns in the places that make up your life (bedroom, living room, garage, backyard, work, car, etc). Dot serves a dual purpose: it provides ultra-precise location data to your smartphone, and allows users to create extensible, interactive interfaces anywhere. This combination creates an invaluable asset when dealing with data — context.",
+                    tags: [
+                        {
+                            content: "Kickstarter",
+                            backgroundColor: "#04ce78"
+                        },
+                    ],
+                    links: [{
+                        address: "https://www.kickstarter.com/projects/1867163750/dot-the-physical-push-notification",
+                        title: "Kickstarter"
+
+                    },
+                    {
+                        address: "https://www.crunchbase.com/organization/iota-labs",
+                        title: "Crunchbase"
+                    }],
+                    logo: iota,
+
+                },
+                {
+                    name: "CHANNELTIME.TV",
+                    description: "ChannelTime.tv’s goal is to create a service that improves upon other video-sharing sites for all types of users: viewers, content creators, and even advertisers. Using microtransactions, viewers can directly support the content creators they love. Content creators gets a constant amount per view, and more with “just ask” payments. Viewers can support the content creators they love directly. Advertisers benefit because watching ads on ChannelTime.tv is entirely optional and advertisers directly reward the viewers so there is a positive emotional response to their promotions",
+                    links: [{
+                        address: "https://laughingsquid.com/channeltime-tv-a-social-streaming-service-that-compiles-videos-from-reddit-into-a-single-feed/",
+                        title: "Article"
+                    }],
+                    logo: channeltime,
+                },
+                {
+                    name: "HOMESLICE",
+                    description: "HomeSlice is a platform focused on making home ownership more accessible by facilitating fractional purchases between like-minded individuals. Real estate prices have reached a level where much of the population is priced out of the market and forced to rent. ",
+                    logo: homeslice,
+                },
+                {
+                    name: "Petra",
+                    description: "Petra is a service that empowers millennials who have not received quality financial advice to take control of their financial future.Our app provides users with budgeting tools, personal financial education, and a personalized plan. The plan helps users understand their financial health, watch and control their spending, pay off debts, and put money into investments (for young people, this is the most important and impactful time to be investing).",
+                    logo: petra,
+                },
+                {
+                    name: "IRIS BCI",
+                    description: "At Iris BCI we are building a AAC device that allows an individual to talk using just their brain waves. The user will be using consciously controllable thought processes that can be picked up as EEG signals (brainwaves) and a simple senary language (base 6) that is used to output speech in normal everyday languages by the device.",
+                    logo: iris,
                 },
             ]
         },

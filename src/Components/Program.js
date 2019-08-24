@@ -8,6 +8,12 @@ import './../styles/App.css';
 import './../styles/Program.css';
 
 import freevgroup from './../assets/program/freevgroup.jpg'
+import thiel from './../assets/program/thiel.jpg';
+import forbes from './../assets/program/forbes.png';
+import yc from './../assets/program/yc.png';
+import greylock from './../assets/program/greylock.jpeg';
+import accel from './../assets/program/accel.png';
+import kp from './../assets/program/kp.png';
 
 import equity from './../assets/program/business.png';
 import mentors from './../assets/program/mentorship.png';
@@ -125,8 +131,22 @@ function Program() {
                     <div className="container">
                         <h2>Our Track Record</h2>
                         <div className="trackInfo">
-                            <h1>FOUNDERS</h1>
-                            <h1>TEAMS</h1>
+                            <div className="trackFounders">
+                                <h1>FOUNDERS</h1>
+                                <div className="foundersPics">
+                                    <img src ={thiel}/>
+                                    <img src ={forbes}/>
+                                </div>
+                            </div>
+                            <div className="trackTeams">
+                                <h1>TEAMS</h1>
+                                <div className="teamsVCPics">
+                                    <img src={yc}/>
+                                    <img src={greylock}/>
+                                    <img src={kp}/>
+                                    <img src={accel}/>
+                                </div>
+                            </div>
                         </div>
                         <div className="trackImage">
                             <img src={freevgroup}/>
@@ -141,7 +161,7 @@ function Program() {
                         <div className="three-grid">
                             {spotarticles}
                         </div>
-                        <Link to="/portfolio" className="genericButton">See all our articles</Link>
+                        <a href="https://medium.com/@FreeVentures" className="genericButton">See all our articles</a>
                     </div>
                 </div>
             </div>

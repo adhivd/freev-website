@@ -62,8 +62,8 @@
 	background-color: #f3f4f5;
 	text-align: center;
 	background-size: cover;
-	padding-top: 5px;
-	padding-bottom: 25px;
+	padding-top: 8vh;
+	padding-bottom: 9vh;
 }
 	.trackRecord h2 {
 		text-align: center;
@@ -81,10 +81,34 @@
 	.trackImage {
 		display: inline-block;
 		width: 50%;
+		padding-left: -6px;
 	}
 
 	.trackImage img {
-		width: 85%;
+		width: 95%;
+		padding-top: 30px;
+	}
+
+	.foundersPics {
+		float: left;
+
+	}
+
+	.foundersPics img {
+		width: 40%;
+		padding-right: 30px;
+		padding-top: 20px;
+		padding-bottom: 40px;
+		height: auto;
+	}
+
+	.teamsVCPics {
+		padding-top: 15px;
+		justify-content: space-around;
+	}
+
+	.teamsVCPics img {
+		width: 45%;
 	}
 
 .spotlightArticles {

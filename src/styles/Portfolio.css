@@ -1,3 +1,7 @@
+p, a {
+    font-family: "Lato";
+}
+
 .portfolio {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -116,6 +120,17 @@
             margin-bottom: 3px;
         }
 
+        .companyTag {
+            display: inline-block;
+            color: white;
+            border-radius: 4px;
+            padding: 5px 10px;
+            font-size: 12px;
+            font-weight: 700;
+            margin-right: 5px;
+            margin-bottom: 3px;
+        }
+
     .dialog img {
         height: 40px;
         width: auto;
@@ -163,6 +178,35 @@
 .batchSelect {
     display: none;
 }
+
+.MuiDialogActions-root {
+    justify-content: flex-start !important;
+    padding: 0 0 20px 20px !important;
+}
+
+.linkSection p {
+    margin: 3px;
+    font-size: 13px;
+}
+
+.linkSection a {
+    background-color: #dbdbdb;
+    text-decoration: none;
+    color: #333;
+    border-radius: 3px;
+    padding: 7px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lato';
+    transition: 0.2s all ease;
+    margin-right: 5px;
+}
+
+    .linkSection a:hover {
+        background-color: #d0d0d0;
+    }
+
+    .link
 
         @media (max-width: 1034px) {
             .portfolio .content-grid {

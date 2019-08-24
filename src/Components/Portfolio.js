@@ -164,6 +164,7 @@ class Portfolio extends React.Component {
                 <PortfolioCompanyCardExpanded
                     open={true}
                     company={this.state.selectedCompany}
+                    clearSelectedCompany={this.clearSelectedCompany}
                 />
             );
         }

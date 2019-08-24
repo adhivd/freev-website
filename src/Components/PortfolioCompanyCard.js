@@ -18,10 +18,15 @@ function PortfolioCompanyCard(props) {
             });
         }
 
+        let logo;
+        if(props.logo) {
+            logo = <img src={props.logo} alt="logo" />;
+        }
+
 
         return (
             <div className="companyPortfolio" onClick={props.onClick}>
-                    <img src={props.logo} alt="logo" />
+                    {logo}
                     <h1>{props.companyName}</h1>
                     <p>{props.description}</p>
                     {tags}

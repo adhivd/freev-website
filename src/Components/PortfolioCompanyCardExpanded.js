@@ -9,6 +9,8 @@ import IconButton from '@material-ui/core/IconButton';
 import CloseIcon from '@material-ui/icons/Close';
 import Typography from '@material-ui/core/Typography';
 import './../styles/Portfolio.css';
+import './../styles/App.css';
+
 
 const styles = theme => ({
   root: {
@@ -71,7 +73,10 @@ function CustomizedDialogs(props) {
 
         linkSection = (
             <DialogActions>
-                {links}
+                <span className="linkSection">
+                    <p>Links</p>
+                    {links}
+                </span>
             </DialogActions>
         );
     }
@@ -79,6 +84,20 @@ function CustomizedDialogs(props) {
     let logo;
     if(props.company.logo) {
         logo = <img src={props.company.logo} />;
+    }
+
+    let tags;
+
+    if(props.company.tags) {
+        tags = props.company.tags.map((tag) => {
+            const tagStyle = {
+                backgroundColor: tag.backgroundColor
+            };
+
+            return (<span className="companyTag" style={tagStyle}>
+                        {tag.content}
+                    </span>);
+        });
     }
 
   return (
@@ -92,6 +111,7 @@ function CustomizedDialogs(props) {
           <Typography gutterBottom>
             {props.company.description}
           </Typography>
+          {tags}
         </DialogContent>
         {linkSection}
       </Dialog>

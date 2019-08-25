@@ -140,12 +140,14 @@ function Program() {
                             </div>
                             <div className="trackTeams">
                                 <h1>TEAMS</h1>
+                                <h3>over $30 million raised from:</h3>
                                 <div className="teamsVCPics">
                                     <img src={yc}/>
                                     <img src={greylock}/>
                                     <img src={kp}/>
                                     <img src={accel}/>
                                 </div>
+                                <Link to="/portfolio" className="genericButton">See all our companies</Link>
                             </div>
                         </div>
                         <div className="trackImage">

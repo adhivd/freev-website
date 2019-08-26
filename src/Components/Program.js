@@ -70,7 +70,7 @@ function Program() {
                             </span>
 
                             <span>
-                                <h3>Equtiy-free Funds</h3>
+                                <h3>Equity-free Funds</h3>
                                 <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
                             </span>
                         </article>

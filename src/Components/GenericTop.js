@@ -9,8 +9,12 @@ function GenericTop(props) {
   return (
     <section className="genericTop">
         <div class="container">
-            <h1>{props.header}</h1>
-            <h2>{props.description}</h2>
+        	<div class="topHeader">
+            	<h1>{props.header}</h1>
+            </div>
+            <div class="topDesc">
+            	<h2>{props.description}</h2>
+            </div>
         </div>
     </section>
   );

@@ -25,6 +25,7 @@ button:focus {
 
     }
 
+
 .header {
   display: block;
   color: rgb(18, 18, 18);
@@ -203,6 +204,30 @@ button:focus {
         font-weight: 400;
         margin: 0 0 0px 0;
     }
+
+    .topHeader {
+        transform: translateX(-25%);
+        -webkit-transform: translateX(-25%);
+        animation: slide 1.75s forwards;
+    }
+
+    .topDesc {
+        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+        animation: fadein 2s;
+    }
+
+    @keyframes slide {
+      100% { transform: translateX(0%); }
+    }
+
+    @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+}
+
 
 .genericPage {
     /* border-radius: 5px; */

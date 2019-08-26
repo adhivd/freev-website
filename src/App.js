@@ -9,14 +9,18 @@ import Apply from './Components/Apply.js';
 import FiatLux from './Components/FiatLux.js';
 import Portfolio from './Components/Portfolio.js';
 import Program from './Components/Program.js';
+import ScrollToTop from './Components/ScrollToTop.js';
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 import './styles/App.css';
 
 function App() {
+
+
   return (
       <Router>
+        <ScrollToTop>
         <div>
           <Header />
           <Route exact path="/" component={Home} />
@@ -29,6 +33,7 @@ function App() {
           <Route exact path="/program" component={Program} />
           <Footer />
         </div>
+        </ScrollToTop>
       </Router>
   );
 }

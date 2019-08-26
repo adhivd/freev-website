@@ -1,4 +1,5 @@
 import React from 'react';
+
 import ContactForm from './ContactForm';
 import HomeCompany from './HomeCompany';
 import logo from './../assets/free-v-square.png';
@@ -38,10 +39,17 @@ import spark from './../assets/partners/spark.png';
 import svangel from './../assets/partners/svangle.png';
 import svb from './../assets/partners/svb.png';
 import ycombinator from './../assets/partners/ycombinator.png';
+import freevsequoia from './../assets/freevsequoia.png';
+import community from './../assets/program/group.png';
+import legal from './../assets/program/banking.png';
+import fundraising from './../assets/program/fundraise.png';
 
 
 import './../styles/App.css';
 import './../styles/Home.css';
+
+import Carousel from 'react-images';
+
 
 
 function Home() {
@@ -263,14 +271,23 @@ function Home() {
         return <li><a href={link.address} target="_blank"><img src={link.image} /></a></li>;
     });
 
+    const images = [{ src: './slider1.png' }, { src: './slider2.JPG' },
+    { src: './slider3.jpg' }, { src: './slider4.jpg' }, { src: './slider5.jpg' }];
+
+
   return (
     <section>
         <div className="splash">
             <div className="container">
-                <img src={logo} alt="free v logo"/>
-                <h1>Empowering the brighest Berkeley founders to build great startups</h1>
-                <h2>Free Ventures is Cal’s leading pre-seed startup incubator</h2>
-                <Link to="apply" className="apply">Apply to Batch XII</Link>
+                <span>
+                    <h1>Empowering the brighest Berkeley founders to build great startups</h1>
+                    <h2>Free Ventures is Cal’s leading pre-seed startup incubator</h2>
+                    <Link to="apply" className="apply">Apply to Batch XII</Link>
+                </span>
+                <span>
+                    <img src={freevsequoia} alt="" />
+                </span>
+
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" className="blueWaveTop" viewBox="0 0 1440 320"><path fill="#EDF4FC" fill-opacity="1" d="M0,96L80,117.3C160,139,320,181,480,181.3C640,181,800,139,960,128C1120,117,1280,139,1360,149.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
@@ -332,31 +349,31 @@ function Home() {
                     </article>
                     <article>
                         <span>
-                            <img src={curriculum} alt="" />
+                            <img src={community} alt="" />
                         </span>
 
                         <span>
-                            <h3>Curriculum</h3>
+                            <h3>Community</h3>
                             <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
                         </span>
                     </article>
                     <article>
                         <span>
-                            <img src={mentors} alt="" />
+                            <img src={legal} alt="" />
                         </span>
 
                         <span>
-                            <h3>Mentorship</h3>
+                            <h3>Legal/Banking Information</h3>
                             <p>Leveraging our network of industry partners, our program provides interactive sessions. </p>
                         </span>
 
                     </article>
                     <article>
                         <span>
-                            <img src={pitch} alt="" />
+                            <img src={fundraising} alt="" />
                         </span>
                         <span>
-                            <h3>Pitch prep</h3>
+                            <h3>Fundraising Guidance</h3>
                             <p>We work with founders to hone their ability to pitch to venture capital and angel investors successfully. </p>
                         </span>
                     </article>
@@ -398,7 +415,7 @@ function Home() {
             </div>
         </div>
     </section>
-  );
+    );
 }
 
 export default Home;

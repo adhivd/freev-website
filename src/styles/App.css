@@ -74,6 +74,12 @@ button:focus {
         display: inline;
         font-size: 20px;
         margin: 0 15px;
+
+    }
+
+    .nav a {
+        opacity: 0.6;
+        transition: 0.1s all ease;
     }
 
     .nav a, .mobileNav a {
@@ -83,10 +89,12 @@ button:focus {
 
     .nav a:hover {
         border-bottom: 3px solid #252525;
+        opacity: 1;
     }
 
     .activeLinkStyle {
         border-bottom: 3px solid #000 !important;
+        opacity: 1 !important;
     }
 
     .mobileNav {

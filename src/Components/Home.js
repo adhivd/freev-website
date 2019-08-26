@@ -40,7 +40,6 @@ import svb from './../assets/partners/svb.png';
 import ycombinator from './../assets/partners/ycombinator.png';
 
 
-
 import './../styles/App.css';
 import './../styles/Home.css';
 

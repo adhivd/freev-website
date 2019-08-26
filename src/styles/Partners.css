@@ -1,0 +1,120 @@
+.partners {
+    text-align: center;
+    padding: 40px 0;
+}
+
+    .four-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+        padding: 0px 0 40px 0;
+    }
+
+    .four-grid img {
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .four-grid a {
+        align-self: center;
+        text-align: center;
+        transition: 0.2s all ease;
+        position: relative;
+        bottom: 0px;
+    }
+
+    .four-grid a:hover {
+        bottom: 4px;
+    }
+
+    .partners .genericButton {
+        margin-bottom: 30px;
+    }
+
+.quoteSection {
+    background-color: #f3f4f5;
+    text-align: center;
+}
+
+.legalBanking {
+    background-color: #f3f4f5;
+    text-align: center;
+    padding-bottom: 40px;
+}
+    .legalBanking h2 {
+        padding-top: 30px;
+    }
+
+    .legalBanking .cooley {
+        padding-left: 85px;
+        padding-top: 40px;
+        padding-right: 85px;
+    }
+
+    .legalBanking .svb {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+
+    .legalBanking img {
+        width: 40%;
+        height: auto;
+    }
+
+    .legalBanking .info {
+        padding-top: 6vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-right: 7vw;
+        flex-flow: row-wrap;
+    }
+
+    .legalBanking .lbtext {
+        text-align: left;
+    }
+
+.partnerValue {
+    padding-left: 20vw;
+    padding-right: 20vw;
+
+}
+    .partnerValue h2 {
+        padding-top: 30px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .partnerValue .value {
+        text-align: center;
+        align-items: center;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .partnerValue .value p {
+        text-align: left;
+    }
+
+/*    .valueImage {
+        display: inline-block;
+        float: left;
+    }*/
+
+    mark {
+        /*display: inline-block;*/
+        line-height: 0em;
+        margin-top: 10px;
+        padding-bottom: 0.5em;
+        background-color: #D1B3DB;
+    }
+
+.contactSection {
+    background-color: #f3f4f5;
+    margin-top: 3vh;
+}
+    .contactSection h2 {
+        padding-top: 5vh;
+    }

@@ -205,9 +205,6 @@ p, a {
     .linkSection a:hover {
         background-color: #d0d0d0;
     }
-
-    .link
-
         @media (max-width: 1034px) {
             .portfolio .content-grid {
                 display: grid;

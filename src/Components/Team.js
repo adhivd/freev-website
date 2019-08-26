@@ -4,7 +4,12 @@ import './../styles/App.css';
 import './../styles/Team.css';
 import GenericTop from './GenericTop';
 import GenericPage from './GenericPage';
-import Pranav from './../assets/team/pranav.png';
+import pranav from './../assets/team/pranav.png';
+import aashi from './../assets/team/aashi.png';
+import pratik from './../assets/team/pratik.png';
+import kathy from './../assets/team/kqkong.png';
+import adhiv from './../assets/team/adhiv.png';
+import nikita from './../assets/team/nikita.png';
 
 
 
@@ -15,44 +20,44 @@ function Team() {
     var peopleContent = [{
         name: "Pranav Gulati",
         position: "Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
+        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
         mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        image: pranav
     },
     {
-        name: "Pranav Gulati",
-        position: "Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        name: "Pratik Bhat",
+        position: "Director",
+        linkedinUrl: "https://www.linkedin.com/in/pratikbhat/",
+        mailTo: "mailto:pratik@freeventures.org",
+        image: pratik
     },
     {
-        name: "Pranav Gulati",
-        position: "Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        name: "Kathy Kong",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
+        mailTo: "mailto:kathy@freeventures.org",
+        image: kathy
     },
     {
-        name: "Pranav Gulati",
-        position: "Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        name: "Aashi Jhawar",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
+        mailTo: "mailto:aashi@freeventures.org",
+        image: aashi
     },
     {
-        name: "Pranav Gulati",
-        position: "Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        name: "Nikita Ashok",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
+        mailTo: "mailto:nikita@freeventures.org",
+        image: nikita
     },
     {
-        name: "Pranav Gulati",
-        position: "Managing Director",
+        name: "Adhiv Dhar",
+        position: "Associate",
         linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: Pranav
+        mailTo: "mailto:adhiv@freeventures.org",
+        image: adhiv
     },
 
 ]

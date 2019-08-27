@@ -77,16 +77,20 @@
 .partnerValue {
     padding-left: 20vw;
     padding-right: 20vw;
-
+    background-color: #f3f4f5;
 }
     .partnerValue h2 {
-        padding-top: 30px;
+        padding-top: 40px;
         text-align: center;
         padding-bottom: 20px;
     }
 
+    .partnerValue h3 {
+        color: #67379A 
+    }
+
     .partnerValue .value {
-        text-align: center;
+        text-align: left;
         align-items: center;
         padding-top: 2.5vh;
         padding-bottom: 2.5vh;
@@ -98,21 +102,21 @@
         text-align: left;
     }
 
-/*    .valueImage {
+    .valueImage {
         display: inline-block;
         float: left;
-    }*/
+        margin-right: 30px;
+    }
 
-    mark {
-        /*display: inline-block;*/
+    /*mark {
+        display: inline-block;
         line-height: 0em;
         margin-top: 10px;
         padding-bottom: 0.5em;
         background-color: #D1B3DB;
-    }
+    }*/
 
 .contactSection {
-    background-color: #f3f4f5;
     margin-top: 3vh;
 }
     .contactSection h2 {

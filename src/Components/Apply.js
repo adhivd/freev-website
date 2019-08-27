@@ -128,7 +128,7 @@ let batchFAQContent = [
                 header={'Join the FreeV Family'}
                 description={''}
             >
-                <a href="http://google.com" className="genericButtonWhite" target="_blank">Fall 2019 Batch Application</a>
+                <a href="http://google.com" className="genericButton" target="_blank">Fall 2019 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>

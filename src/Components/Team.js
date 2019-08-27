@@ -31,6 +31,13 @@ function Team() {
         image: pratik
     },
     {
+        name: "Pranav Gulati",
+        position: "Senior Advisor | Former MD",
+        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
+        mailTo: "mailto:pranav@freeventures.org",
+        image: pranav
+    },
+    {
         name: "Kathy Kong",
         position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
@@ -58,13 +65,7 @@ function Team() {
         mailTo: "mailto:adhiv@freeventures.org",
         image: adhiv
     },
-    {
-        name: "Pranav Gulati",
-        position: "Senior Advisor | Former MD",
-        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: pranav
-    },
+
 
 ]
 

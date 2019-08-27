@@ -123,6 +123,10 @@ button:focus {
                 width: auto;
                 padding: 5px 0;
             }
+
+        .genericTop .container {
+            margin-left: 10px;
+        }
     }
 
     /* Position and sizing of burger button */
@@ -210,12 +214,16 @@ button:focus {
 .genericTop {
     /*background-color: #67379A;*/
     text-align: left;
-    margin-left: 195px;
     margin-top: 30px;
     padding: 0px 0 0px 0;
     color: black;
-    border-left: 5px solid #67379A;
+
 }
+
+    .genericTop .container {
+        border-left: 5px solid #67379A;
+        padding-left: 20px;
+    }
 
     .genericTop h1 {
         font-size: 37px;

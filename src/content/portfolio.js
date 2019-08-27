@@ -28,6 +28,11 @@ import workngo from './../assets/portfolio/workngo.png';
 import simplata from './../assets/portfolio/simplata.png';
 import certifiedrecs from './../assets/portfolio/certifiedrecs.png';
 import fourthstate from './../assets/portfolio/fourthstate.png';
+import distributed from './../assets/portfolio/distributed.png';
+import opthrift from './../assets/portfolio/opthrift.png';
+import photon from './../assets/portfolio/photon.png';
+import tileworks from './../assets/portfolio/tileworks.png';
+import diced from './../assets/portfolio/diced.png';
 
 
 // photos
@@ -210,7 +215,7 @@ let portfolioContent = {
             batchNumber: 12,
             companies: [
                 {
-                    name: "GAINFUL",
+                    name: "Gainful",
                     logo: gainful,
                     links: [{
                         address: "https://thestartu.com/everyone-is-unique-why-shouldnt-your-protein-powder-be-too/",
@@ -225,7 +230,7 @@ let portfolioContent = {
                     description: "Personalized protein powder, delivered monthly. Recently completed YC Winter ‘18 Batch and hit $40k monthly sales in February on 2.7k total customers, and in the process of raising a target $2M seed round. Learn more at gogainful.com",
                 },
                 {
-                    name: "ROBHAT LABS",
+                    name: "RoBhat Labs",
                     description: "Using machine learning techniques and cryptography to stop the spread of misinformation. Signed contract with the DNC and frequently feature on MSNBC, Wired, and other outlets. Currently focused on making their product production-ready and doing demos to secure paying clients for the November 2018 elections. Sample article on their work here",
                     links: [{
                         address: "https://www.robhat.com/",
@@ -235,7 +240,7 @@ let portfolioContent = {
 
                 },
                 {
-                    name: "MADTECH LABS",
+                    name: "Madtech Labs",
                     links: [
                         {
                             address: "https://angel.co/company/madtech-labs/jobs",
@@ -245,7 +250,7 @@ let portfolioContent = {
                     description: "Developing tertiary hybrid power trains as B2B products to disrupt the transportation market. Two-person founding team with deep industry expertise comprised of a PhD in mechanical engineering and an undergraduate specializing in customer development. To date have validated the technology in the lab, and are seeking to scale with customers during this semester and raise a small seed round",
                 },
                 {
-                    name: "COVERSTAR",
+                    name: "Coverstar",
                     logo: coverstar,
                     links: [
                         {
@@ -260,7 +265,7 @@ let portfolioContent = {
                     description: "A social app where users create fun Kpop music videos. >100k users (70k MAU) to date with strong engagement metrics, and currently raising a seed round",
                 },
                 {
-                    name: "YEARBOOK",
+                    name: "Yearbook",
                     description: "Realtime YearBook for preschools. Very talented team of undergraduates with domain knowledge and decent traction among schools despite forming recently. Focused on product and customer development over the course of the Free Ventures batch",
                 },
             ]
@@ -331,38 +336,38 @@ let portfolioContent = {
                     logo: paladin,
                 },
                 {
-                    name: "LAYER SIX",
+                    name: "Layer Six",
                     description: "Information overload drains the cognitive bandwidth of high-performing individuals and organizations, reducing their peak performance potential. We are the only research-backed cognitive enhancement solution serving this market, bringing data-driven diagnostics, enterprise software, and customized VR therapeutics to the world.",
                     logo: layersix,
                 },
                 {
-                    name: "FORESIGHT MENTAL HEALTH",
-                    description: "Foresight Mental Health is transforming mental healthcare by leveraging cutting-edge science and technology while remaining affordable and accessible. Care at Foresight begins with building a patient profile based on the patient's genetic profile, comprehensive symptom profile, brain-chemical balance estimates, mental health history, family history, lifestyle, and many other factors. With the patient profile, the Foresight Platform analyzes hundreds of thousands of pages of clinical research to assist our doctors in accurately and quickly identifying the optimal treatment for the patient. Weekly surveys via our patient portal keep the patient's symptom profile constantly up to date. Practice-issued wearable devices continuously monitor sleep, exercise, stress, anxiety, mood, and other key factors of mental health. Based on the patient's status, treatment plans are updated. At Foresight, we are committed to leveraging technology to improve mental healthcare.",
+                    name: "Foresight Mental Health",
+                    description: "Transforming mental healthcare by leveraging cutting-edge science and technology while remaining affordable and accessible. Care at Foresight begins with building a patient profile based on the patient's genetic profile, comprehensive symptom profile, brain-chemical balance estimates, mental health history, family history, lifestyle, and many other factors. With the patient profile, the Foresight Platform analyzes hundreds of thousands of pages of clinical research to assist our doctors in accurately and quickly identifying the optimal treatment for the patient. Weekly surveys via our patient portal keep the patient's symptom profile constantly up to date. Practice-issued wearable devices continuously monitor sleep, exercise, stress, anxiety, mood, and other key factors of mental health. Based on the patient's status, treatment plans are updated. At Foresight, we are committed to leveraging technology to improve mental healthcare.",
                     logo: foresight,
                 },
                 {
-                    name: "MEMORY",
-                    description: "Memory is an Alexa-based voice assistant for individuals with Alzheimer’s. It responds to patients’ questions using information provided by family members and caretakers, and collects data used for medical research and improvement. Memory’s goal is to reduce the burden on caretakers and allow physicians and healthcare providers to provide customized treatment methods directly to patients in their own homes.",
+                    name: "Memory",
+                    description: "An Alexa-based voice assistant for individuals with Alzheimer’s. It responds to patients’ questions using information provided by family members and caretakers, and collects data used for medical research and improvement. Memory’s goal is to reduce the burden on caretakers and allow physicians and healthcare providers to provide customized treatment methods directly to patients in their own homes.",
                     logo: memory,
                 },
                 {
-                    name: "PEEREDITR",
-                    description: "PeerEditr is the quickest way to get feedback. It's a feedback and collaboration tool designed for visual documents like resumes, slide decks, and marketing material. It takes one click to create a feedback room with annotation tools and version control, which you can share with anyone. Our goal is to provide the quickest and most seamless feedback experience.",
+                    name: "Peereditr",
+                    description: "The quickest way to get feedback. It's a feedback and collaboration tool designed for visual documents like resumes, slide decks, and marketing material. It takes one click to create a feedback room with annotation tools and version control, which you can share with anyone. Our goal is to provide the quickest and most seamless feedback experience.",
                     logo: peereditr,
                 },
                 {
-                    name: "ACUITY FOR MOMS",
-                    description: "Acuity for Moms in an online platform that empowers moms to re-enter the workforce by providing online skills training and community. Our platform aggregates existing online courses — think Coursera and EdX — to create customized learning paths based on skills, interests, personality, and time availability. These courses are coupled with a community of like-minded moms and value-add resources in order to help moms ultimately return to the workforce.",
+                    name: "Acuity For Moms",
+                    description: "An online platform that empowers moms to re-enter the workforce by providing online skills training and community. Our platform aggregates existing online courses — think Coursera and EdX — to create customized learning paths based on skills, interests, personality, and time availability. These courses are coupled with a community of like-minded moms and value-add resources in order to help moms ultimately return to the workforce.",
                     logo: acuity,
                 },
             ]
         },
         {
-            batchName: "Spring 2016",
+            batchName: "Fall 2016",
             batchNumber: 13,
             companies: [
                 {
-                    name: "PANTHEON VR",
+                    name: "Pantheon VR",
                     description: "Pantheon is a VR application that makes 3D modeling and animation immersive and effortless. We seek to create a tool that drives people to create beautiful 3D content, the same way Instagram made photographers, Medium made writers, and Youtube made filmmakers. We’ve created a simple set of tools that you use while immersed in VR, that let you to easily build, animate, and share your digital world. We took a process that takes weeks to learn and brought it down to minutes. Pantheon allows anyone to quickly and easily create 3D content, and share it with others. ",
                     logo: pantheon,
                     tags: [
@@ -382,7 +387,7 @@ let portfolioContent = {
 
                 },
                 {
-                    name: "IOTA LABS",
+                    name: "Iota Labs",
                     description: "Introducing Dot, the physical push notification that tells your phone where you are so that it understands your behaviors and patterns in the places that make up your life (bedroom, living room, garage, backyard, work, car, etc). Dot serves a dual purpose: it provides ultra-precise location data to your smartphone, and allows users to create extensible, interactive interfaces anywhere. This combination creates an invaluable asset when dealing with data — context.",
                     tags: [
                         {
@@ -426,6 +431,55 @@ let portfolioContent = {
                     description: "At Iris BCI we are building a AAC device that allows an individual to talk using just their brain waves. The user will be using consciously controllable thought processes that can be picked up as EEG signals (brainwaves) and a simple senary language (base 6) that is used to output speech in normal everyday languages by the device.",
                     logo: iris,
                 },
+            ]
+        },
+        {
+            batchName: "Spring 2016",
+            companies: [
+                {
+                    name: "Distributed Systems",
+                    description: "Pavlov is a simple interface to build and manage enterprise machine intelligence applications. Pavlov's current technology brings enterprise support and tooling to critical data processing technologies, enabling teams to quickly build, deploy, and scale machine learning pipelines out-of-the-box. Pavlov is currently focused on addressing fraud related use cases, making sense of textual and rich media content at scale via Pavlov Spot, their first product offering. ",
+                    logo: distributed,
+                    tags: [
+                        {
+                            content: "Acquired",
+                            backgroundColor: "#424242"
+                        }
+                    ],
+                    links: [{
+                        address: "https://techcrunch.com/2018/08/15/login-with-coinbase/",
+                        title: "Acquisition"
+                    }]
+
+                },
+                {
+                    name: "Opthrift",
+                    description: "Helps people purchase like-new high-end products from sites like Craiglist and eBay. We provide domain-specific expertise, and handle negotiation, purchase, and delivery for our customers so they can get a convenient, personal shopping experience at thrift prices.",
+                    logo: opthrift,
+                },
+                {
+                    name: "Photon",
+                    description: "A mobile app that generates industry-grade shading analysis reports for solar installers. By attaching an inexpensive fisheye lens to his or her smartphone, a solar designer can take photos on a roof to find the optimal placement of solar panels. The solar industry’s best solution for this is a device from 2006 that costs $3,000 secondhand. The secret is that all of this device’s hardware components are found on today’s smartphone. We plan to sell to small to medium sized solar integrators. We’re generating a quote instantly, while the current solutions can take weeks on average. The unsustainable energy situation needs to be solved this century, and the solution starts with products like ours.",
+                    logo: photon,
+                    links: [{
+                        address: "https://www.tryphoton.com/",
+                        title: "Website"
+                    },
+                    {
+                        address: "https://www.indiehackers.com/interview/building-an-app-for-the-solar-industry-growing-to-1-000-mo-8e9f6d12b4",
+                        title: "Article"
+                    }]
+                },
+                {
+                    name: "TileWorks",
+                    description: "Every major retail industry requires some form of inventory warehouse, filled with forklifts, aisles and manpower. Imagine being able to eliminate the need for all these and increase efficiency at the same time. TileWorks is an overhead transportation system that revolutionizes commercial storage by using an innovative trackless grid layout adaptable to any commercial ceiling. The system not only allows for robots to rapidly pick up and deliver objects to any location, but it also doubles available storage capacity.",
+                    logo: tileworks,
+                },
+                {
+                    name: "Diced",
+                    description: "A grocery delivery service that makes it easy to cook meals at home. For $42 a week, we send you 6 recipes along with the ingredients to cook each recipe. Each meal is delicious and can be made in 15 minutes. We can deliver an amazing experience at practical prices by offloading the cost of sourcing, preparing, and packaging ingredients to grocery stores.",
+                    logo: diced,
+                }
             ]
         },
         {

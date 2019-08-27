@@ -149,10 +149,6 @@ a {
     padding-top: 8vh;
 }
 
-.homeSection .three-grid {
-    grid-template-columns: 1fr 1fr 1fr !important;
-}
-
 .blueWaveTop {
     position: relative;
     top: 50px;

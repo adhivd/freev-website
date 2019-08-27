@@ -113,23 +113,6 @@ function Partners() {
                 </div>
                 <div className="quoteSection">
                 </div>
-                <div className="legalBanking">
-                    <h2> Legal and Banking Partners </h2>
-                    <div className="info">
-                        <div className="cooley">
-                            <img src={cooley} alt="cooley"/>
-                            <div className="lbtext">
-                                <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p> 
-                            </div>
-                        </div>
-                        <div className="svb">
-                            <img src={svb} alt="svb"/>
-                            <div className="lbtext">
-                                <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div className="partnerValue">
                     <h2>Our value add for partners</h2>
                     <div className="value">
@@ -137,7 +120,7 @@ function Partners() {
                             <img src={placeholder}/>
                         </div>
                         <div>
-                            <h3><mark>Access to all batch companies</mark></h3>
+                            <h3>1. Access to all batch companies</h3>
                             <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
                         </div>
                     </div>
@@ -147,7 +130,7 @@ function Partners() {
                             <img src={placeholder}/>
                         </div>
                         <div>
-                            <h3><mark>Campus network of entrepreneurship focused students</mark></h3>
+                            <h3>2. Campus network of entrepreneurship focused students</h3>
                             <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
                         </div>
                     </div>
@@ -157,7 +140,7 @@ function Partners() {
                             <img src={placeholder}/>
                         </div>
                         <div>
-                            <h3><mark>Berkeley ecosystem trends</mark></h3>
+                            <h3>3. Berkeley ecosystem trends</h3>
                             <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
                         </div>
                     </div>

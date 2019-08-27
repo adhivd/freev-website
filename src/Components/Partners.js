@@ -23,6 +23,9 @@ import svb from './../assets/partners/svb.png';
 import ycombinator from './../assets/partners/ycombinator.png';
 
 import placeholder from './../assets/partners/placeholder.png';
+import value1 from './../assets/partners/value1.jpeg';
+import value2 from './../assets/partners/value2.jpeg';
+import value3 from './../assets/partners/value3.jpg';
 
 import { Link } from "react-router-dom";
 
@@ -104,8 +107,6 @@ function Partners() {
             <div>
                 <div className="partners">
                     <div className="container">
-                        <h2>We’re proud to work with a select group of partners who share our passion
-                            for supporting Berkeley’s startup ecosystem. </h2>
                         <div className="four-grid">
                             {partners}
                         </div>
@@ -117,31 +118,31 @@ function Partners() {
                     <h2>Our value add for partners</h2>
                     <div className="value">
                         <div className="valueImage">
-                            <img src={placeholder}/>
+                            <img src={value1}/>
                         </div>
                         <div>
                             <h3>1. Access to all batch companies</h3>
-                            <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
+                            <p> At the end of each semester we organize VC trips with top firms for founders to pitch in front of notable investors. We also leverage our network of angel investors and pre-seed firms to connect our batch companies while they are in the process of fundraising. We help our founders refine their pitch to guarantee best results. </p>
                         </div>
                     </div>
 
                     <div className="value">
                         <div className="valueImage">
-                            <img src={placeholder}/>
+                            <img src={value2}/>
                         </div>
                         <div>
                             <h3>2. Campus network of entrepreneurship focused students</h3>
-                            <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
+                            <p> Sponsors get the ability to interact with all our current and alumni batch companies through both campus and sponsored events. We encourage our batch companies to utilize sponsor resources as their first option.  </p>
                         </div>
                     </div>
 
                     <div className="value">
                         <div className="valueImage">
-                            <img src={placeholder}/>
+                            <img src={value3}/>
                         </div>
                         <div>
                             <h3>3. Berkeley ecosystem trends</h3>
-                            <p> Lorem ipsum dolor sit amet, semper laoreet an has. Platonem persecuti est in, adhuc velit est no. Mea ad eros nostrum legendos, vis sint harum ne </p>
+                            <p> Free Ventures is uniquely positioned to advise sponsors on how to engage with the Berkeley community and utilize campus trends to their advantage.  </p>
                         </div>
                     </div>
                 </div>

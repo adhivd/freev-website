@@ -65,7 +65,7 @@ function Program() {
             />
             <div>
                 <div className="tiers">
-                    <div className="container">
+                    <div className="container provide">
                         <h2>What we provide</h2>
                         <div className="three-grid">
                         <article>
@@ -132,7 +132,7 @@ function Program() {
                     </div>
                 </div>
                 <div className="trackRecord">
-                    <div className="container">
+                    <div className="container trackRecord">
                         <h2>Our Track Record</h2>
                         <div className="trackInfo">
                             <div className="trackFounders">

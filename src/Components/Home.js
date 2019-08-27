@@ -41,8 +41,16 @@ import svb from './../assets/partners/svb.png';
 import ycombinator from './../assets/partners/ycombinator.png';
 import freevsequoia from './../assets/freevsequoia.png';
 import community from './../assets/program/group.png';
-import legal from './../assets/program/banking.png';
-import fundraising from './../assets/program/fundraise.png';
+import legal from './../assets/lega.png';
+import fundraising from './../assets/fundraising.png';
+import funds from './../assets/funds.png';
+
+
+import freevgroup from './../assets/program/freevgroup.jpg'
+
+
+import equity from './../assets/program/business.png';
+import workshops from './../assets/program/training.png';
 
 
 import './../styles/App.css';
@@ -59,7 +67,7 @@ function Home() {
         companyName: "Paladin Drones",
         description: "Paladin Drones deploys drones to 911 calls to give first responders instant access to critical information.",
         raised: "$1.3m raised",
-        link: "https://google.com",
+        link: "https://techcrunch.com/2019/05/28/paladin-drones-picks-up-1-3m-to-give-first-responders-a-live-feed-of-emergencies/",
         linkTitle: "Read more on TechCrunch",
         tags: [
             {
@@ -77,7 +85,7 @@ function Home() {
         companyName: "Distributed Systems",
         description: "Distributed Systems builds a decentralized identity platform. Acquired by Coinbase.",
         raised: "$1.7m raised",
-        link: "https://google.com",
+        link: "https://techcrunch.com/2018/08/15/login-with-coinbase/",
         linkTitle: "Learn about the acquisition",
         tags: [
             {
@@ -95,7 +103,7 @@ function Home() {
         companyName: "Gainful",
         description: "Personalized protein powder, delivered directly to your doorstep.",
         raised: "$120k raised",
-        link: "https://google.com",
+        link: "https://www.gainful.com",
         linkTitle: "Check out their website",
         tags: [
             {
@@ -280,12 +288,12 @@ function Home() {
         <div className="splash">
             <div className="container">
                 <span>
-                    <h1>Empowering the brighest Berkeley founders to build great startups</h1>
-                    <h2>Free Ventures is Cal’s leading pre-seed startup incubator</h2>
-                    <Link to="apply" className="apply">Apply to Batch XII</Link>
+                    <h1>Empowering the brightest founders in Berkeley</h1>
+                    <h2>Free Ventures is Cal’s leading pre-seed startup accelerator</h2>
+                    <Link to="apply" className="apply">Apply to Batch XIII</Link>
                 </span>
                 <span>
-                    <img src={freevsequoia} alt="" />
+                    <img src={freevgroup} alt="" />
                 </span>
 
             </div>
@@ -300,9 +308,9 @@ function Home() {
 
                 </div>
                 <div className="numbers">
-                    <h3><span className="bigNumber">53</span> startups accelerated</h3>
-                    <h3><span className="bigNumber">$40m</span> raised by teams post-program</h3>
-                    <h3><span className="bigNumber">14</span> batches hosted</h3>
+                    <h3><span className="bigNumber">53</span> alumni companies</h3>
+                    <h3><span className="bigNumber">$40m</span> of follow-on capital</h3>
+                    <h3><span className="bigNumber">13</span> batches hosted</h3>
                 </div>
             </div>
             <div className="pressHome" >
@@ -318,12 +326,12 @@ function Home() {
                 <div className="three-grid">
                     <article>
                         <span>
-                            <img src={curriculum} alt="" />
+                            <img src={funds} alt="" />
                         </span>
 
                         <span>
-                            <h3>Curriculum</h3>
-                            <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
+                            <h3>Equity-free Funds</h3>
+                            <p>We provide equity free funds to reimburse costs associated with growing your company on campus.</p>
                         </span>
                     </article>
                     <article>
@@ -333,7 +341,7 @@ function Home() {
 
                         <span>
                             <h3>Mentorship</h3>
-                            <p>Leveraging our network of industry partners, our program provides interactive sessions. </p>
+                            <p>Each week, we bring in founders, investors, and industry experts to help guide our teams. </p>
                         </span>
 
                     </article>
@@ -342,8 +350,8 @@ function Home() {
                             <img src={pitch} alt="" />
                         </span>
                         <span>
-                            <h3>Pitch prep</h3>
-                            <p>We work with founders to hone their ability to pitch to venture capital and angel investors successfully. </p>
+                            <h3>Curriculum</h3>
+                            <p>We host workshops including sales, product, and design, to help founders learn quickly and scale.</p>
                         </span>
                     </article>
                     <article>
@@ -353,7 +361,7 @@ function Home() {
 
                         <span>
                             <h3>Community</h3>
-                            <p>Each week, we bring in founders, investors, and industry experts to help guide our teams.</p>
+                            <p>Our campus network provides access to Berkeley’s growing entrepreneurship ecosystem.</p>
                         </span>
                     </article>
                     <article>
@@ -362,8 +370,8 @@ function Home() {
                         </span>
 
                         <span>
-                            <h3>Legal/Banking Information</h3>
-                            <p>Leveraging our network of industry partners, our program provides interactive sessions. </p>
+                            <h3>Legal / Banking</h3>
+                            <p>We partner with top firms SVB and Cooley to provide founder-friendly legal and banking services. </p>
                         </span>
 
                     </article>
@@ -373,7 +381,7 @@ function Home() {
                         </span>
                         <span>
                             <h3>Fundraising Guidance</h3>
-                            <p>We work with founders to hone their ability to pitch to venture capital and angel investors successfully. </p>
+                            <p>We help our companies fundraise from top investors in the valley during and after the batch.</p>
                         </span>
                     </article>
                 </div>
@@ -392,17 +400,11 @@ function Home() {
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" d="M0,128L60,138.7C120,149,240,171,360,176C480,181,600,171,720,149.3C840,128,960,96,1080,85.3C1200,75,1320,85,1380,90.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
         <div className="sponsors homeSection">
             <div className="container">
-                <h2>Our companies are funded by leading investors</h2>
-                <p>Here is an awesome, secondary sentence about our the investors in our companies</p>
+                <h2 className="pratik">Our companies are funded by leading investors</h2>
                 <div className="four-grid">
                     {investors}
                 </div>
                 <br />
-                <h2 style={{paddingTop: '80px'}}>We connect UC Berkeley's brightest minds to industry leaders</h2>
-                <p>Meet some of the firms our founders work with</p>
-                <div className="four-grid">
-                    {partners}
-                </div>
                 <Link to="/partners" className="genericButton">Learn more about our partnerships</Link>
             </div>
         </div>

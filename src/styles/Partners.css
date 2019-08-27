@@ -87,7 +87,7 @@
     }
 
     .partnerValue h3 {
-        color: #67379A 
+        color: #67379A
     }
 
     .partnerValue .value {
@@ -130,3 +130,9 @@
     .contactSection h2 {
         padding-top: 5vh;
     }
+
+@media (max-width: 1034px) {
+    .partnerValue .value {
+        grid-template-columns: 1fr;
+    }
+}

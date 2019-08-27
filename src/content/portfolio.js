@@ -267,6 +267,36 @@ let portfolioContent = {
                 },
             ]
         },
+        {
+            batchName: "Fall 2015",
+            batchNumber: 12,
+            companies: [
+                {
+                    name: "Lifted",
+                    description: "An iPad app that makes life easier for special education teachers, therapists, and behavior analysts to help accelerate the learning outcomes for the ~7M students (preK-12) with learning disabilities in the US.",
+                },
+                {
+                    name: "Thera",
+                    description: "1 in 4 college women and 1 in 33 college men will be sexually assaulted by the time they graduate. And 40% of survivors never tell anyone, not even their closest friends or family members, due to the stigma associated with rape culture and the lack of accessible, safe resources. As a result, these survivors never receive the help they deserve and need. Thera is an online chat platform that connects survivors of sexual assault to certified experts for anonymous and confidential support. With Thera, users receive quality care and advice while protecting their identities. ",
+                },
+                {
+                    name: "Wildfire",
+                    description: "A local safety app that crowd sources crime reporting to users. When breaking news happens in your local area, how do you find out about it and how quickly do you hear?",
+                },
+                {
+                    name: "Nom Nom",
+                    description: "Their mission is to empower local culinary talent to share their food to their community by providing an online marketplace for home-styled artisan food.",
+                },
+                {
+                    name: "Sigma Sports",
+                    description: "A wearable device with a software component to help coaching staff monitor athletes' training and conditioning. ",
+                },
+                {
+                    name: "Smart Notes",
+                    description: "An interactive notebook designed to help students, particularly students in STEM, learn more effectively.",
+                },
+            ]
+        },
     ],
     pressList: [
         {

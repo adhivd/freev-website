@@ -11,53 +11,59 @@ import kathy from './../assets/team/kqkong.png';
 import adhiv from './../assets/team/adhiv.png';
 import nikita from './../assets/team/nikita.png';
 
+import house from './../assets/partners/house.png';
+import haas from './../assets/partners/haas.jpg';
+import berkeleyengineering from './../assets/partners/berkeleyengineering.png';
+import scet from './../assets/partners/scet.png';
+import skydeck from './../assets/partners/skydeck.png';
 
 
 function Team() {
 
     var header = "Meet the Team";
     var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click here to learn about when we open up applications.";
-    var peopleContent = [{
-        name: "Pranav Gulati",
-        position: "Managing Director",
-        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: pranav
-    },
+    var peopleContent = [
     {
         name: "Pratik Bhat",
-        position: "Director",
+        position: "Managing Director",
         linkedinUrl: "https://www.linkedin.com/in/pratikbhat/",
         mailTo: "mailto:pratik@freeventures.org",
         image: pratik
     },
     {
         name: "Kathy Kong",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
         mailTo: "mailto:kathy@freeventures.org",
         image: kathy
     },
     {
         name: "Aashi Jhawar",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
         mailTo: "mailto:aashi@freeventures.org",
         image: aashi
     },
     {
         name: "Nikita Ashok",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
         mailTo: "mailto:nikita@freeventures.org",
         image: nikita
     },
     {
         name: "Adhiv Dhar",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://linkedin.com/in/adhivd/",
         mailTo: "mailto:adhiv@freeventures.org",
         image: adhiv
+    },
+    {
+        name: "Pranav Gulati",
+        position: "Senior Advisor | Former MD",
+        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
+        mailTo: "mailto:pranav@freeventures.org",
+        image: pranav
     },
 
 ]
@@ -82,6 +88,14 @@ function Team() {
             <GenericPage>
                 <div className="peopleGrid">
                     {peopleComponents}
+                </div>
+                <h2 style={{ textAlign: 'center', padding: '50px 0'}}>Our Advisors come from</h2>
+                <div className="five-grid">
+                    <img src={house} />
+                    <img src={skydeck} />
+                    <img src={scet} />
+                    <img src={haas} />
+                    <img src={berkeleyengineering} />
                 </div>
             </GenericPage>
         </section>

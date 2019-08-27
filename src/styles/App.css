@@ -195,15 +195,23 @@ button:focus {
     }
 
 .genericTop {
-    background-color: #67379A;
+    /*background-color: #67379A;*/
     text-align: left;
-    padding: 40px 0 40px 0;
-    color: white;
+    margin-left: 195px;
+    margin-top: 30px;
+    padding: 0px 0 0px 0;
+    color: black;
+    border-left: 5px solid #67379A;
 }
 
     .genericTop h1 {
         font-size: 37px;
         margin: 0 0 10px 0;
+    }
+
+    .headerContainer {
+      margin-left: 30px;
+      margin-right: 110px;
     }
 
     .genericTop h2 {

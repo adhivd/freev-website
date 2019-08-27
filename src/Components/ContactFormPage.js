@@ -13,7 +13,7 @@ function Partners() {
         <section>
             <GenericTop
                 header={'Contact Us'}
-                description={'Looking to get involved? Use this form to email us!'}
+                description={'Looking to get involved or have a question? Use this form to email us!'}
             />
             <GenericPage>
                 <ContactForm company={true} />

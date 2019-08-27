@@ -146,6 +146,7 @@ a {
 .homeSection h2 {
     font-size: 34px;
     margin: 0;
+    padding-top: 30px;
 }
 
 .blueWaveTop {
@@ -155,7 +156,7 @@ a {
 }
 
 .overview {
-    background-color: #EDF4FC;
+    background-color: #f8ecfc;
     display: block;
     position: relative;
 }
@@ -176,9 +177,6 @@ a {
 
     .overview .mini-header h2 {
         display: inline-block;
-        position: relative;
-        bottom: 22px;
-        left: 20px;
     }
 
     .overview .mini-header .underline {

@@ -144,6 +144,8 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
+                        <h2>Applications are open for Fall 2019!</h2>
+                        <p>If you'd like to apply to the FreeV Program, the application link can be found above and below. Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
                             <article>
@@ -197,6 +199,7 @@ let batchFAQContent = [
                     <FAQHolder
                         faq={batchFAQContent}
                     />
+                <p>More questions? Fill out this <a href="/contact">contact form</a> and we'll get back to you!</p>
                     <br />
                     <a href="#" className="genericButton" target="_blank">Go to Application</a>
                     </TabPanel>

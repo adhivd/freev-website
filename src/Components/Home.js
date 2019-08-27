@@ -44,6 +44,8 @@ import community from './../assets/program/group.png';
 import legal from './../assets/lega.png';
 import fundraising from './../assets/fundraising.png';
 import funds from './../assets/funds.png';
+import logofull from './../assets/logo-full.png';
+import logocircle from './../assets/logo-circle.png';
 
 
 import freevgroup from './../assets/program/freevgroup.jpg'

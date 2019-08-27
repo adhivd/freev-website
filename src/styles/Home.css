@@ -81,6 +81,11 @@ a {
         display: inline-block;
     }
 
+    .splash .container img {
+        border-bottom-left-radius: 10px;
+        box-shadow: 6px 6px 3px rgba(221, 221, 221);
+    }
+
     .splash h1 {
         font-size: 45px;
         margin: 20px 0;

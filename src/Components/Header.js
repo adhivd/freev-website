@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './../assets/free-v-square.png';
 import { NavLink } from "react-router-dom";
 import { slide as Menu } from 'react-burger-menu';
+import logofull from './../assets/logo-full.png';
 
 
 import './../styles/App.css';
@@ -14,8 +15,7 @@ function Header() {
       <header className="header">
         <div className="container">
             <div className="logo">
-                <img src={logo} alt="free v logo"/>
-                <h1>Free Ventures</h1>
+                <img src={logofull} alt="free v logo"/>
             </div>
 
             <div className="nav">

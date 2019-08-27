@@ -4,6 +4,8 @@ import logogray from './../assets/freev-gray.png';
 import fb from './../assets/facebook.png';
 import medium from './../assets/medium.png';
 import twitter from './../assets/twitter.png';
+import logocircle from './../assets/logo-circle.png';
+
 
 import { Link } from "react-router-dom";
 
@@ -18,8 +20,8 @@ function Footer() {
       <div className="footer">
         <div className="container">
             <span>
-                <Link exact to="/"><img src={logogray} alt="FreeV Logo" />
-                <h1>Free Ventures</h1></Link>
+                <Link exact to="/">
+                <img src={logocircle} /></Link>
                 <p>Founded in 2013, Free Ventures is a 501(c)(3) student-run non-profit with the mission of making entrepreneurship accessible to UC Berkeley students of all backgrounds by empowering them with the support to innovate and build</p>
             </span>
             <span>

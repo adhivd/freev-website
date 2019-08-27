@@ -36,7 +36,7 @@ function FiatLux() {
                     <h3>Attending</h3>
                     <p>If you are a student interested in attending Fiat Lux, send an email to <a href="mailto:aashi@freeventures.org">aashi@freeventures.org</a>.</p>
                     <h3>Speaking</h3>
-                    <p>If you are an industry professional looking to get involved as a speaker or company sponsor pelase fill out the form below</p>
+                    <p>If you are an industry professional looking to get involved as a speaker or company sponsor please fill out the form below</p>
                 </span>
                 <ContactForm />
             </GenericPage>

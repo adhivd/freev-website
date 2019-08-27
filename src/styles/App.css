@@ -34,12 +34,19 @@ button:focus {
   margin: 0 20px 20px 20px;
 }
 
-    .header img {
-        width: 55px;
+    /* .header img {
+        height: 45px;
         display: inline-block;
         position: relative;
-        top: 14px
-    }
+        top: 15px
+    } */
+
+    .header img {
+    height: 39px;
+    display: inline-block;
+    position: relative;
+    top: 19px;
+}
 
     .header h1 {
         display: inline-block;
@@ -131,11 +138,11 @@ button:focus {
 
     /* Position and sizing of burger button */
     .bm-burger-button {
-      position: absolute;
-      width: 36px;
-      height: 30px;
-      right: 22px;
-      top: 27px;
+        position: absolute;
+        width: 30px;
+        height: 22px;
+        right: 15px;
+        top: 30px;
     }
 
     /* Color/shape of burger icon bars */
@@ -212,17 +219,14 @@ button:focus {
     }
 
 .genericTop {
-    /*background-color: #67379A;*/
     text-align: left;
-    margin-top: 30px;
-    padding: 0px 0 0px 0;
+    padding-top: 40px;
     color: black;
-
 }
 
     .genericTop .container {
-        border-left: 5px solid #67379A;
-        padding-left: 20px;
+        padding-left: 30px;
+        position: relative;
     }
 
     .genericTop h1 {
@@ -230,9 +234,17 @@ button:focus {
         margin: 0 0 10px 0;
     }
 
-    .headerContainer {
-      margin-left: 30px;
-      margin-right: 110px;
+    .purpleBorder {
+        /* height: 100%; */
+        height: 0%;
+        width: 6px;
+        position: absolute;
+        left: 0px;
+        border-radius: 1000px;
+        background-color: #67379A;
+        animation: expand 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
     }
 
     .genericTop h2 {
@@ -243,10 +255,11 @@ button:focus {
         padding-bottom: 10px;
     }
 
-    .topHeader {
-        transform: translateX(-25%);
-        -webkit-transform: translateX(-25%);
-        animation: slide 1.75s forwards;
+        .topHeader {
+        transform: translateX(-5%);
+        -webkit-transform: translateX(-5%);
+        animation: slide 1s forwards;
+        opacity: 0;
     }
 
     .topDesc {
@@ -258,13 +271,22 @@ button:focus {
     }
 
     @keyframes slide {
-      100% { transform: translateX(0%); }
+      100% {
+          transform: translateX(0%);
+          opacity: 1;
+       }
+    }
+
+    @keyframes expand {
+        100% {
+            height: 100%;
+         }
     }
 
     @keyframes fadein {
       from { opacity: 0; }
       to   { opacity: 1; }
-}
+    }
 
 
 .genericPage {

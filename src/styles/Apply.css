@@ -54,3 +54,9 @@
     .timeline span img {
         width: 20px;
     }
+
+@media (max-width: 1034px) {
+    .timeline span {
+        display: none;
+    }
+}

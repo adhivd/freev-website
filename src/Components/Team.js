@@ -92,11 +92,15 @@ function Team() {
                 </div>
                 <h2 style={{ textAlign: 'center', padding: '50px 0'}}>Our Advisors come from</h2>
                 <div className="five-grid">
-                    <img src={house} />
-                    <img src={skydeck} />
-                    <img src={scet} />
-                    <img src={haas} />
-                    <img src={berkeleyengineering} />
+                    <span><img src={house} /></span>
+                    <span><img src={skydeck} /></span>
+                    <span><img src={scet} /></span>
+                    <span><img src={haas} /></span>
+                    <span><img src={berkeleyengineering} /></span>
+
+
+
+
                 </div>
             </GenericPage>
         </section>

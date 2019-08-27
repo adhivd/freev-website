@@ -15,6 +15,11 @@ import gainful from './../assets/portfolio/gainful.png';
 import coverstar from './../assets/portfolio/coverstar.jpg';
 import onederful from './../assets/portfolio/onederful.png';
 import dataagora from './../assets/portfolio/dataagora.png';
+import rooster from './../assets/portfolio/rooster.png';
+import wildfire from './../assets/portfolio/wildfire.jpg';
+import blitz from './../assets/portfolio/blitz.png';
+import glints from './../assets/portfolio/glints.png';
+
 
 
 
@@ -39,6 +44,7 @@ import alchemy from './../assets/press/alchemy.jpeg';
 
 // COBA
 // http://www.koreatimes.com/article/20181126/1216680?fbclid=IwAR0TLvFzCFKCLbc-gPEZTyTKQQ1GtFWugwK9hree-cP1ZenlFMIE_JDKkks
+//
 
 
 
@@ -282,6 +288,21 @@ let portfolioContent = {
                 {
                     name: "Wildfire",
                     description: "A local safety app that crowd sources crime reporting to users. When breaking news happens in your local area, how do you find out about it and how quickly do you hear?",
+                    logo: wildfire,
+                    links: [{
+                        address: "https://www.huffpost.com/entry/wildfire-app-alerts-users_b_9287408",
+                        title: "Huffington Post Article"
+                    },{
+                        address: "https://www.getwildfire.com/",
+                        title: "App Website"
+                    }],
+                    tags: [
+                        {
+                            content: "YC S2017",
+                            backgroundColor: "#EC8641"
+                        }
+                    ],
+
                 },
                 {
                     name: "Nom Nom",
@@ -294,6 +315,133 @@ let portfolioContent = {
                 {
                     name: "Smart Notes",
                     description: "An interactive notebook designed to help students, particularly students in STEM, learn more effectively.",
+                },
+            ]
+        },
+        {
+            batchName: "Spring 2015",
+            batchNumber: 12,
+            companies: [
+                {
+                    name: "C. Light Technologies",
+                    description: "Right now there are 24 million people suffering from Alzheimer’s disease. This number is projected to increase to 100 million by 2050. And the sad truth is, in terms of diagnostics, the field of neurology is decades behind other areas of medicine. There are no quick, non-invasive diagnostics for Alzheimer’s and many other neurological disorders including Parkinson’s, MS, ALS, and Schizophrenia. All of these diseases, exhibit abnormal eye movements. However, the only eye-movements clinicians are able to observe now are quite large, due to a lack of fine resolution available in current clinical tools. This makes any small changes completely invisible to clinicians. We at C. Light Technologies are working to fill in the diagnostic tool gap through the use of our precision eye tracker.",
+                },
+                {
+                    name: "Improving Outcomes",
+                    description: "Healthcare providers currently have very little information on what happens to their patients after they leave the hospital unless they get readmitted or have a complication. Any follow-up data that does exist is rarely collected in a systematic or meaningful way. We want to change that by closing the feedback loop, bringing this critical information back to the point-of-care so everyone can align around what ultimately matters - patient outcomes. Our platform enables healthcare providers to seamlessly collect information on the functional, symptomatic and quality-of-life outcomes of care using clinically validated patient-reported surveys. We use this data to help the care-team better manage patients, predict the outcomes of treatments and facilitate reporting of outcomes to payers and the public",
+                },
+                {
+                    name: "Blitz E-Sports",
+                    description: "Blitz Esports is a tech and media startup focused on bridging the gap between esports fandom and personal gameplay. We're one of the premier media publications in esports, specializing in educational video content for League of Legends, CS:GO and Overwatch. We've also developed the first fully automatic League of Legends coaching app, which uses computer vision and data-driven insights to proactively help gamers make better decisions at each step of their gameplay experience. A month into open beta, the Blitz app is now used in over a million games each week.",
+                    logo: blitz,
+                    links: [{
+                        address: "https://www.crunchbase.com/organization/instant-esports#section-funding-rounds",
+                        title: "Crunchbase"
+                    },{
+                        address: "https://medium.com/@blitzesports/the-blitz-team-joins-discord-e3b17578966b",
+                        title: "Acquisition"
+                    }],
+                    tags: [
+                        {
+                            content: "Acquired",
+                            backgroundColor: "#424242"
+                        }
+                    ],
+                },
+                {
+                    name: "Rooster",
+                    description: "There was a time where neighbors loved to help one another - they shared and gifted. This behavior almost completely disappeared with our rapid online lifestyle, and yet we all wish we could have it back. We are Rooster: a local sharing community where we help, borrow and share with each other, as neighbors. On Rooster anyone can ask for whatever they need and help whenever they can, the only rule: it has to be for free.  Thousands of Rooster members have given away sofas, TVs, Art supplies and clothes, borrowed baby cribs and baseball bats, got together to jog, play, consult and much more.  Rooster is available in select Bay Area locations.",
+                    logo: rooster,
+                    links: [{
+                        address: "https://therooster.co/",
+                        title: "Website"
+                    },{
+                        address: "https://www.crunchbase.com/organization/roosters-inc",
+                        title: "Crunchbase"
+                    }]
+
+                },
+                {
+                    name: "Wist",
+                    description: "Wist is a smart waitlist that lets users remotely join restaurant waitlists while providing machine learning driven wait time predictions. ",
+                },
+                {
+                    name: "Zypper",
+                    description: "Businesses worldwide are becoming increasingly reliant on finding the right products and services to grow with. They want to purchase fast, but on average, companies take 12 months to make a single purchasing decision. Why? The current procurement process is slow, bureaucratic, and highly expensive. Zypper aims to eliminate wasted time in the enterprise procurement process, producing cost savings of 25%. Simply put, Zypper makes your enterprise purchases smart, simple, and fast.",
+                },
+            ]
+        },
+        {
+            batchName: "Fall 2014",
+            companies: [
+                {
+                    name: "Nimble",
+                    description: "Nimble is a cloud-based radiation oncology planning system that uses novel optimization tools, big data, and cross-institution insights to dramatically lower the cost and improve treatment outcomes throughout the healthcare industry.",
+                },
+                {
+                    name: "Obsidian",
+                    description: "Obsidian is a peer-backed payment manager that allows users to pay for anything in flexible installments. Users can use any payment method, including Bitcoin, to make purchases for users, and allow them to determine their repayment duration and installment intervals",
+                },
+                {
+                    name: "Unboard",
+                    description: "Bringing the magic of tabletop games to the digital world. First, Unboard generates traction and popularity by virtualizing board games with established audiences. Then, we utilize it by launching the first ever all-medium Trading Card Game."
+                },
+                {
+                    name: "Crowd Control",
+                    description: "Crowd Control is accurately measuring how crowded public spaces are in real-time and predicting how crowded they will be in the future. This allows customers to decide when to go to their favorite gyms, supermarkets, restaurants, etc and businesses can better manage their establishments.",
+                },
+                {
+                    name: "Glints",
+                    description: "Glints partners with companies to develop real-world challenges for youths. Rather than academic knowledge, candidates gain real work experience and career skills. They gain employability by self-directing their own career development as they acquire badges for the career skills they seek.",
+                    links: [
+                        {
+                            address: "https://glints.com/",
+                            title: "Website",
+                        },
+                        {
+                            address: "https://www.crunchbase.com/organization/glints",
+                            title: "Crunchbase"
+                        },
+                        {
+                            address: "https://vulcanpost.com/668927/glints-funding-series-b-singapore/",
+                            title: "Series B Article"
+                        }
+                    ],
+                    logo: glints,
+
+                },
+                {
+                    name: "Tablink",
+                    description: "Tablink manages browser tabs. We cluster tabs and create a 'tab' filesystem, allowing users to sync and find information instantly. We tackle the problem of having excessive tabs open, which limits productivity and affects over 60% of internet users.",
+                },
+            ]
+        },
+        {
+            batchName: "Spring 2014",
+            companies: [
+                {
+                    name: "Demilune",
+                    description: "The Demilune walker is an adjustable full-size walker that is able to provide support in both its large configuration and its much smaller form. The adjustable design makes the walker effective in all areas of the home, helping to prevent in-home falls and promote independence among the elderly.",
+                },
+                {
+                    name: "SmartBod",
+                    description: "SmartBod builds vibrators that learn from and adapt to a woman's physiological responses, heightening her level of pleasure and enlightening her (and her sexual partner) about her sexual preferences.",
+                },
+                {
+                    name: "Etch",
+                    description: "Simplicity and intricacy never seem to coexist on a business card, but Etch opens the door to a lean business card that shows every single aspect of yourself by allowing you to store all your professional and social information on the cloud--accessed by scanning the Etch Code."
+                },
+                {
+                    name: "Bru",
+                    description: "A fully robotic personalized bartender controlled with just a tap on your phone. The machine mixes a nearly endless combination of familiar and exotic drinks by precisely combining up to 16 ingredients. Potential markets range from homes to hotels.",
+                },
+                {
+                    name: "Einstein",
+                    description: "Einstein helps users looking to purchase a product make the best informed decision. By intelligently consolidating customer and professional product reviews and understanding all the customers' needs using basic questions, Einstein can recommend the best product."
+                },
+                {
+                    name: "Iris",
+                    description: "Iris is a community for people's interests where users write articles about their passions and share them with like-minded people. They aim to solve the issue with reach, engagement, and discovery that bloggers have through a keyword extraction algorithm.",
                 },
             ]
         },

@@ -122,7 +122,7 @@ function Partners() {
                         </div>
                         <div>
                             <h3>1. Access to all batch companies</h3>
-                            <p> At the end of each semester we organize VC trips with top firms for founders to pitch in front of notable investors. We also leverage our network of angel investors and pre-seed firms to connect our batch companies while they are in the process of fundraising. We help our founders refine their pitch to guarantee best results. </p>
+                            <p> Sponsors get the ability to interact with all our current and alumni batch companies through both campus and sponsored events. We encourage our batch companies to utilize sponsor resources as their first option.  </p>
                         </div>
                     </div>
 
@@ -132,7 +132,7 @@ function Partners() {
                         </div>
                         <div>
                             <h3>2. Campus network of entrepreneurship focused students</h3>
-                            <p> Sponsors get the ability to interact with all our current and alumni batch companies through both campus and sponsored events. We encourage our batch companies to utilize sponsor resources as their first option.  </p>
+                            <p> Free Ventures continues to develop its on campus network of students, founders, and researchers that are working on groundbreaking projects.   </p>
                         </div>
                     </div>
 

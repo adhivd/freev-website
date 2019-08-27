@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
 function SimpleSelect(props) {
   const classes = useStyles();
   const [values, setValues] = React.useState({
-    batch: 'Spring 2018',
+    batch: 'Spring 2019',
   });
 
   function handleChange(event) {

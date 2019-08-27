@@ -100,6 +100,14 @@ function CustomizedDialogs(props) {
         });
     }
 
+    let photos;
+
+    if(props.company.photos) {
+        photos = props.company.photos.map((photo) => {
+            return (<img className="companyPhoto" src={photo.src} alt="" />);
+        })
+    }
+
   return (
     <div>
       <Dialog className="dialog" onClose={handleClose} aria-labelledby="customized-dialog-title" open={props.open}>
@@ -112,6 +120,7 @@ function CustomizedDialogs(props) {
             {props.company.description}
           </Typography>
           {tags}
+          {photos}
         </DialogContent>
         {linkSection}
       </Dialog>

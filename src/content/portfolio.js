@@ -19,6 +19,36 @@ import rooster from './../assets/portfolio/rooster.png';
 import wildfire from './../assets/portfolio/wildfire.jpg';
 import blitz from './../assets/portfolio/blitz.png';
 import glints from './../assets/portfolio/glints.png';
+import atlas from './../assets/portfolio/atlas.jpeg';
+import pitvidura from './../assets/portfolio/pitvidura.png';
+import coba from './../assets/portfolio/coba.png';
+import orbit from './../assets/portfolio/orbit.png';
+import skindex from './../assets/portfolio/skindex.png';
+import workngo from './../assets/portfolio/workngo.png';
+import simplata from './../assets/portfolio/simplata.png';
+import certifiedrecs from './../assets/portfolio/certifiedrecs.png';
+import fourthstate from './../assets/portfolio/fourthstate.png';
+
+
+// photos
+import demilune1 from './../assets/portfolio/demilune1.jpeg';
+import etch1 from './../assets/portfolio/etch1.jpeg';
+import smartbod1 from './../assets/portfolio/smartbod1.jpeg';
+import bru1 from './../assets/portfolio/bru1.jpeg';
+import einstein1 from './../assets/portfolio/einstein1.jpeg';
+import iris1 from './../assets/portfolio/iris1.jpeg';
+import nimble1 from './../assets/portfolio/nimble.png';
+import obsidian from './../assets/portfolio/obsidian.png';
+import unboard from './../assets/portfolio/unboard.png';
+import crowdcontrol1 from './../assets/portfolio/crowdcontrol.png';
+import glints1 from './../assets/portfolio/glints1.png';
+import tablink1 from './../assets/portfolio/tablink1.png';
+import c1 from './../assets/portfolio/c1.jpeg';
+import outcomes1 from './../assets/portfolio/outcomes1.jpeg';
+import blitz1 from './../assets/portfolio/blitz1.jpeg';
+import rooster1 from './../assets/portfolio/rooster1.jpeg';
+import wist1 from './../assets/portfolio/wist1.jpeg';
+import zypper1 from './../assets/portfolio/zypper1.jpeg';
 
 
 
@@ -43,13 +73,138 @@ import alchemy from './../assets/press/alchemy.jpeg';
 // blitz
 
 // COBA
-// http://www.koreatimes.com/article/20181126/1216680?fbclid=IwAR0TLvFzCFKCLbc-gPEZTyTKQQ1GtFWugwK9hree-cP1ZenlFMIE_JDKkks
+//
 //
 
 
 
 let portfolioContent = {
     batchList: [
+        {
+            batchName: "Spring 2019",
+            batchNumber: 12,
+            companies: [
+                {
+                    name: "Orbit",
+                    description: "Orbit is a platform that enables organizations to streamline internal operations through spreadsheet-powered mobile apps. In minutes, anybody can create and deliver custom mobile-first experiences for their organization — all from a spreadsheet. From the sheet, administrators can easily add, edit, and release updates in real-time, allowing the platform to keep up with their organization’s day-to-day operations.",
+                    logo: orbit,
+                    links: [
+                        {
+                            address: "https://www.ocf.berkeley.edu/~shomil/",
+                            title: "Website",
+                        }
+                    ],
+
+                },
+                {
+                    name: "Skindex",
+                    description: "Skindex is an AI-powered search and discovery platform that enables users to find skincare and cosmetic products that are compatible with their skin. By leveraging existing cosmetic research on comodogenity, demographic data and machine learning, Skindex can analyze patterns from different users’ skin types and learn what ingredients might be causing a bad reaction, providing the user with instant feedback and automated product recommendations, ultimately resulting in a new way to discover skincare and cosmetic products.",
+                    logo: skindex,
+                },
+                {
+                    name: "WorknGo",
+                    description: "A platform which allows students to work “SmartJobs”: quick, on-demand, and temporary work at local businesses, with no long-term commitments. SmartJobs also allow local businesses to fill spots at a moment’s notice, either during peak hours or when employees call in sick. We have already partnered with multiple McDonald’s franchises in Berkeley, Kiwi Campus, and many other stores to provide SmartJobs for students!",
+                    logo: workngo,
+                    links: [
+                        {
+                            address: "https://www.dailycal.org/2019/04/24/berkeley-startup-workngo-to-provide-access-to-temporary-student-jobs/",
+                            title: "Article",
+                        }
+                    ],
+                },
+                {
+                    name: "Simplata",
+                    links: [
+                        {
+                            address: "https://www.simplata.io",
+                            title: "Website",
+                        }
+                    ],
+                    logo: simplata,
+                    description: "Simplata is developing a new way to share and connect data. We offer an end-to-end data storage, management and visualization solution. Clients can upload whatever datasets they choose and visualize them with ease. Our graph visualization software turns data into visual, interactive graphs — revealing the hidden connections at the heart of any analysis.",
+                },
+                {
+                    name: "CertifiedRecs",
+                    description: "A web platform that allows users to store, share, and view verified private references enabling authenticity in the recruiting process. Users can then send out any number of references via a simple share link. All parties involved with the reference (user, giver, viewer) must verify their own accounts, and all verified information is transparent to the other users involved with the reference.",
+                    logo: certifiedrecs,
+                    links: [
+                        {
+                            address: "https://certifiedrecs.com/",
+                            title: "Website",
+                        }
+                    ],
+                },
+            ]
+        },
+        {
+            batchName: "Fall 2018",
+            batchNumber: 12,
+            companies: [
+                {
+                    name: "Atlas Mental Health",
+                    description: "Building a K-12 mental health support network to supercharge communities with the knowledge and tools they need to keep each other mentally healthy. Their mobile applications connect parents, students, and schools to prevent student suicides and barriers to getting help for those that need it.",
+                    logo: atlas,
+                    links: [
+                        {
+                            address: "https://www.atlasmh.com/",
+                            title: "Website",
+                        }
+                    ],
+
+                },
+                {
+                    name: "Fourthstate Labs",
+                    description: "Blockchain scalability company working on Plasma, a layer 2 solution to reduce transaction fees and increase throughput of blockchains. Plasma allows users to step off the main chain(i.e. Ethereum) onto cheaper and faster side chains where transactions can be conducted.",
+                    logo: fourthstate,
+                    links: [
+                        {
+                            address: "https://github.com/fourthstate",
+                            title: "Github",
+                        }
+                    ],
+                },
+                {
+                    name: "COBA",
+                    links: [
+                        {
+                            address: "https://medium.com/@FreeVentures/introducing-coba-the-coffee-bar-4a02a4be5472",
+                            title: "FreeV Spotlight",
+                        },
+                        {
+                            address: "https://www.coba.coffee/",
+                            title: "Website",
+                        },
+                        {
+                            address: "https://www.kickstarter.com/projects/237610002/coba-coffee-you-eat-0",
+                            title: "Kickstarter",
+                        }
+                    ],
+                    tags: [
+                        {
+                            content: "Kickstarter",
+                            backgroundColor: "#04ce78"
+                        },
+                    ],
+                    logo: coba,
+                    description: "A solid coffee alternative made from whole coffee beans that empowers busy people to do more. While traditional coffee utilizes only 20% of the coffee bean, their bar utilizes the whole bean and contains the caffeine content of 1 cup of coffee.",
+                },
+                {
+                    name: "Escape Technologies",
+                    description: "Escape is is creating an enhanced augmented reality experience through proprietary optical architecture that will enable a compact, lightweight headset with high shareability and field of view.",
+                },
+                {
+                    name: "Pit Vedura",
+                    description: "Pit Vidura offers safe and affordable sanitation services for low-income households in dense urban slums. By developing innovative hardware and software tools, they aim to make emptying pit latrines hygienic, efficient, and affordable. Pit Vidura is backed by Unilever and the Gates Foundation to bring sustainable solutions to sanitation problems in developing countries.",
+                    logo: pitvidura,
+                    links: [
+                        {
+                            address: "https://www.pitvidura.com/",
+                            title: "Website",
+                        }
+                    ],
+                },
+            ]
+        },
         {
             batchName: "Spring 2018",
             batchNumber: 12,
@@ -325,10 +480,16 @@ let portfolioContent = {
                 {
                     name: "C. Light Technologies",
                     description: "Right now there are 24 million people suffering from Alzheimer’s disease. This number is projected to increase to 100 million by 2050. And the sad truth is, in terms of diagnostics, the field of neurology is decades behind other areas of medicine. There are no quick, non-invasive diagnostics for Alzheimer’s and many other neurological disorders including Parkinson’s, MS, ALS, and Schizophrenia. All of these diseases, exhibit abnormal eye movements. However, the only eye-movements clinicians are able to observe now are quite large, due to a lack of fine resolution available in current clinical tools. This makes any small changes completely invisible to clinicians. We at C. Light Technologies are working to fill in the diagnostic tool gap through the use of our precision eye tracker.",
+                    photos: [{
+                        src: c1
+                    }]
                 },
                 {
                     name: "Improving Outcomes",
                     description: "Healthcare providers currently have very little information on what happens to their patients after they leave the hospital unless they get readmitted or have a complication. Any follow-up data that does exist is rarely collected in a systematic or meaningful way. We want to change that by closing the feedback loop, bringing this critical information back to the point-of-care so everyone can align around what ultimately matters - patient outcomes. Our platform enables healthcare providers to seamlessly collect information on the functional, symptomatic and quality-of-life outcomes of care using clinically validated patient-reported surveys. We use this data to help the care-team better manage patients, predict the outcomes of treatments and facilitate reporting of outcomes to payers and the public",
+                    photos: [{
+                        src: outcomes1
+                    }]
                 },
                 {
                     name: "Blitz E-Sports",
@@ -347,6 +508,9 @@ let portfolioContent = {
                             backgroundColor: "#424242"
                         }
                     ],
+                    photos: [{
+                        src: blitz1
+                    }]
                 },
                 {
                     name: "Rooster",
@@ -358,16 +522,25 @@ let portfolioContent = {
                     },{
                         address: "https://www.crunchbase.com/organization/roosters-inc",
                         title: "Crunchbase"
+                    }],
+                    photos: [{
+                        src: rooster1
                     }]
 
                 },
                 {
                     name: "Wist",
                     description: "Wist is a smart waitlist that lets users remotely join restaurant waitlists while providing machine learning driven wait time predictions. ",
+                    photos: [{
+                        src: wist1
+                    }]
                 },
                 {
                     name: "Zypper",
                     description: "Businesses worldwide are becoming increasingly reliant on finding the right products and services to grow with. They want to purchase fast, but on average, companies take 12 months to make a single purchasing decision. Why? The current procurement process is slow, bureaucratic, and highly expensive. Zypper aims to eliminate wasted time in the enterprise procurement process, producing cost savings of 25%. Simply put, Zypper makes your enterprise purchases smart, simple, and fast.",
+                    photos: [{
+                        src: zypper1
+                    }]
                 },
             ]
         },
@@ -377,18 +550,30 @@ let portfolioContent = {
                 {
                     name: "Nimble",
                     description: "Nimble is a cloud-based radiation oncology planning system that uses novel optimization tools, big data, and cross-institution insights to dramatically lower the cost and improve treatment outcomes throughout the healthcare industry.",
+                    photos: [{
+                        src: nimble1
+                    }]
                 },
                 {
                     name: "Obsidian",
                     description: "Obsidian is a peer-backed payment manager that allows users to pay for anything in flexible installments. Users can use any payment method, including Bitcoin, to make purchases for users, and allow them to determine their repayment duration and installment intervals",
+                    photos: [{
+                        src: obsidian
+                    }]
                 },
                 {
                     name: "Unboard",
-                    description: "Bringing the magic of tabletop games to the digital world. First, Unboard generates traction and popularity by virtualizing board games with established audiences. Then, we utilize it by launching the first ever all-medium Trading Card Game."
+                    description: "Bringing the magic of tabletop games to the digital world. First, Unboard generates traction and popularity by virtualizing board games with established audiences. Then, we utilize it by launching the first ever all-medium Trading Card Game.",
+                    photos: [{
+                        src: unboard
+                    }]
                 },
                 {
                     name: "Crowd Control",
                     description: "Crowd Control is accurately measuring how crowded public spaces are in real-time and predicting how crowded they will be in the future. This allows customers to decide when to go to their favorite gyms, supermarkets, restaurants, etc and businesses can better manage their establishments.",
+                    photos: [{
+                        src: crowdcontrol1
+                    }]
                 },
                 {
                     name: "Glints",
@@ -408,11 +593,17 @@ let portfolioContent = {
                         }
                     ],
                     logo: glints,
+                    photos: [{
+                        src: glints1
+                    }]
 
                 },
                 {
                     name: "Tablink",
                     description: "Tablink manages browser tabs. We cluster tabs and create a 'tab' filesystem, allowing users to sync and find information instantly. We tackle the problem of having excessive tabs open, which limits productivity and affects over 60% of internet users.",
+                    photos: [{
+                        src: tablink1
+                    }]
                 },
             ]
         },
@@ -422,26 +613,44 @@ let portfolioContent = {
                 {
                     name: "Demilune",
                     description: "The Demilune walker is an adjustable full-size walker that is able to provide support in both its large configuration and its much smaller form. The adjustable design makes the walker effective in all areas of the home, helping to prevent in-home falls and promote independence among the elderly.",
+                    photos: [{
+                        src: demilune1
+                    }]
                 },
                 {
                     name: "SmartBod",
                     description: "SmartBod builds vibrators that learn from and adapt to a woman's physiological responses, heightening her level of pleasure and enlightening her (and her sexual partner) about her sexual preferences.",
+                    photos: [{
+                        src: smartbod1
+                    }]
                 },
                 {
                     name: "Etch",
-                    description: "Simplicity and intricacy never seem to coexist on a business card, but Etch opens the door to a lean business card that shows every single aspect of yourself by allowing you to store all your professional and social information on the cloud--accessed by scanning the Etch Code."
+                    description: "Simplicity and intricacy never seem to coexist on a business card, but Etch opens the door to a lean business card that shows every single aspect of yourself by allowing you to store all your professional and social information on the cloud--accessed by scanning the Etch Code.",
+                    photos: [{
+                        src: etch1
+                    }]
                 },
                 {
                     name: "Bru",
                     description: "A fully robotic personalized bartender controlled with just a tap on your phone. The machine mixes a nearly endless combination of familiar and exotic drinks by precisely combining up to 16 ingredients. Potential markets range from homes to hotels.",
+                    photos: [{
+                        src: bru1
+                    }]
                 },
                 {
                     name: "Einstein",
-                    description: "Einstein helps users looking to purchase a product make the best informed decision. By intelligently consolidating customer and professional product reviews and understanding all the customers' needs using basic questions, Einstein can recommend the best product."
+                    description: "Einstein helps users looking to purchase a product make the best informed decision. By intelligently consolidating customer and professional product reviews and understanding all the customers' needs using basic questions, Einstein can recommend the best product.",
+                    photos: [{
+                        src: einstein1
+                    }]
                 },
                 {
                     name: "Iris",
                     description: "Iris is a community for people's interests where users write articles about their passions and share them with like-minded people. They aim to solve the issue with reach, engagement, and discovery that bloggers have through a keyword extraction algorithm.",
+                    photos: [{
+                        src: iris1
+                    }]
                 },
             ]
         },

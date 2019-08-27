@@ -110,6 +110,19 @@ button:focus {
             display: inline-block !important;
             color: white;
         }
+
+        .five-grid {
+            display:grid;
+            grid-template-columns: 1fr !important;
+            text-align: center;
+        }
+
+            .five-grid img {
+                margin: 0 auto;
+                height: 80px !important;
+                width: auto;
+                padding: 5px 0;
+            }
     }
 
     /* Position and sizing of burger button */
@@ -262,4 +275,14 @@ button:focus {
     background-color: white;
     -webkit-box-shadow: 0 17px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
     box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,.025);
+}
+
+.five-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+
+.five-grid img {
+    height: 60px;
 }

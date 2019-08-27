@@ -25,8 +25,7 @@ function Footer() {
             <span>
                 <h1>Stay updated with our newsletter</h1>
                 <p>Every month we feature teams, talk about our processes, and keep the community updated with FreeV news! Drop your email below to stay updated with what's happening in the startup community!</p>
-                <input placeholder="Type your email here" />
-                <a href="#" className="genericButton">Subscribe</a>
+                <a href="https://freeventures.substack.com/" className="genericButton" target="_blank">Subscribe</a>
             </span>
             <span className="links">
                 <p>Menu</p>

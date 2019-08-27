@@ -334,6 +334,16 @@ let portfolioContent = {
                     description: "Paladin Drones is creating autonomous drone solutions for public safety, at a price even volunteer departments can afford. Their product decreases response time by at least two minutes by providing crucial situational awareness to first responders before they arrive on scene. Their solutions have landed them a spot as a finalist for Berkeley Big Ideas, and helped them win the Penn Innovation Grant.",
                     link: "https://paladindrones.io",
                     logo: paladin,
+                    tags: [
+                        {
+                            content: "YC S2018",
+                            backgroundColor: "#EC8641"
+                        }
+                    ],
+                    links: [{
+                        address: "https://techcrunch.com/2019/05/28/paladin-drones-picks-up-1-3m-to-give-first-responders-a-live-feed-of-emergencies/",
+                        title: "Crunchbase"
+                    }]
                 },
                 {
                     name: "Layer Six",

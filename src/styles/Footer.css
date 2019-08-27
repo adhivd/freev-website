@@ -118,7 +118,7 @@
             display: none;
         }
 
-        .links:last-child {
+        .footer .links:last-child {
             position: relative;
             bottom: 30px;
         }

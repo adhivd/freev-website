@@ -30,6 +30,10 @@
         margin: 10px 0;
     }
 
+    .person .links {
+        display: block;
+    }
+
     .person .links img {
         width: 17px;
         opacity: 0.6;

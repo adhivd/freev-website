@@ -48,3 +48,9 @@
     border: none;
     cursor: pointer;
 }
+
+.contact .submit {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 18px;
+}

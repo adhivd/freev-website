@@ -62,7 +62,7 @@ class ContactForm extends React.Component {
                  <label>Message</label>
                  <textarea name="message" value={message} onChange={this.handleChange} />
                </p>
-               <p style={{textAlign: 'center'}}>
+               <p className="submit" style={{textAlign: 'center'}}>
                  <button className="genericButton" type="submit">Submit!</button>
                </p>
              </form>

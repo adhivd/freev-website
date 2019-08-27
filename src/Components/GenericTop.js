@@ -15,6 +15,7 @@ function GenericTop(props) {
             <div class="topDesc">
             	<h2>{props.description}</h2>
             </div>
+            {props.children}
         </div>
     </section>
   );

@@ -85,6 +85,11 @@ a {
         font-size: 45px;
         margin: 20px 0;
         letter-spacing: 0.5px;
+        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
     }
 
     .splash h2 {
@@ -92,6 +97,11 @@ a {
         font-weight: 400;
         font-family: 'Lato', sans-serif;
         margin: 0;
+        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
     }
         .apply {
             background-color: #67379A;
@@ -104,6 +114,11 @@ a {
             margin-top: 40px;
             transition: 0.3s all ease-out;
             display: inline-block;
+            -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+            -moz-animation: fadein 3s; /* Firefox < 16 */
+            -ms-animation: fadein 3s; /* Internet Explorer */
+            -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
         }
 
         .apply:hover {
@@ -548,3 +563,8 @@ a {
             width: 85%;
         }
     }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}

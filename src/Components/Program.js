@@ -64,15 +64,14 @@ function Program() {
                 description={'Each semester the brightest UC Berkeley student founders apply to Free Ventures to bring their dissertation research, side projects, or innovative products to market.'}
             />
             <div>
-                <div className="tiers">
-                    <div className="container provide">
+                <div className="tiers-program">
+                    <div className="container">
                         <h2>What we provide</h2>
-                        <div className="three-grid">
+                        <div className="program-grid">
                         <article>
                             <span>
                                 <img src={equity} alt="" />
                             </span>
-
                             <span>
                                 <h3>Equity-free Funds</h3>
                                 <p>We fund our teams to provide student startups with financial support for their project. We call them micro grants, made to alleviate students' financial concerns during the development of their startup with no strings attached.</p>

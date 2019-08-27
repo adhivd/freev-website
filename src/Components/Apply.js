@@ -81,26 +81,21 @@ useEffect(() => {
 
 let batchFAQContent = [
     {
-            question: "This is a question about batch",
-            answer: "This is an answer",
+            question: "What’s the time commitment during the batch?",
+            answer: "5 hours per week for program sessions. We require founders to be present at all sessions 7-9pm every Monday and Wednesday.",
     },
     {
-            question: "This is a question2 about batch",
-            answer: "This is an answer2",
+            question: "How long is the batch?",
+            answer: "10-12 weeks",
     },
     {
-            question: "This is a question3 about batch",
-            answer: "This is an answer",
+            question: "What resources do we get access to during the batch?",
+            answer: "Check out our program section of the website",
     },
     {
-            question: "This is a questewdsfion about batch",
-            answer: "This is an answer",
+            question: "What resources do alumni companies receive?",
+            answer: "We provide help with fundraising, hiring, introductions to people in our network, advise, etc. to our alumni companies. Alumni companies still get access to the benefits provided by our sponsors and partners.",
     },
-    {
-            question: "This is a queadsfstion about batch",
-            answer: "This is an answer",
-    },
-
     ]
 
     let internalFAQContent = [
@@ -131,7 +126,7 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'We recruit startups for our batch at the beginning of every semester. Internal team recruitment happens right afterwards.'}
+                description={''}
             >
                 <a href="http://google.com" className="genericButtonWhite" target="_blank">Fall 2019 Batch Application</a>
             </GenericTop>
@@ -145,7 +140,7 @@ let batchFAQContent = [
 
                     <TabPanel value={value} index={0}>
                         <h2>Applications are open for Fall 2019!</h2>
-                        <p>If you'd like to apply to the FreeV Program, the application link can be found above and below. Here are some details about our recruiting timeline and frequently asked questions</p>
+                        <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
                             <article>
@@ -179,7 +174,7 @@ let batchFAQContent = [
                         <h2>What we look for</h2>
                         <ul>
                             <li><p>
-                                We require at least one founder to be a student at UC Berkeley
+                                We require at least one founder to be a student at UC Berkeley.
                             </p></li>
                             <li><p>
                                 We look for founders that have experience building things and coming up with creative solutions for real problems.
@@ -208,10 +203,6 @@ let batchFAQContent = [
                     <TabPanel value={value} index={1}>
                        <p>We haven't started internal recruitment yet! Put your contact info down if you'd like to receive an email about when internal team recruitment opens.</p>
                        <a href="#" className="genericButton" target="_blank">Interest form</a>
-                       <h2>Frequently asked questions</h2>
-                       <FAQHolder
-                           faq={internalFAQContent}
-                       />
                         <br />
                     </TabPanel>
                   </div>

@@ -349,7 +349,7 @@ function Home() {
                     </article>
                     <article>
                         <span>
-                            <img src={pitch} alt="" />
+                            <img src={workshops} alt="" />
                         </span>
                         <span>
                             <h3>Curriculum</h3>

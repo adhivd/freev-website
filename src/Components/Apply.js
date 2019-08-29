@@ -128,7 +128,7 @@ let batchFAQContent = [
                 header={'Join the FreeV Family'}
                 description={''}
             >
-                <a href="http://google.com" className="genericButton" target="_blank">Fall 2019 Batch Application</a>
+                <a href="https://airtable.com/shrI4nmg4rSVokp16" className="genericButton" target="_blank">Fall 2019 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -196,13 +196,13 @@ let batchFAQContent = [
                     />
                 <p>More questions? Fill out this <a href="/contact">contact form</a> and we'll get back to you!</p>
                     <br />
-                    <a href="#" className="genericButton" target="_blank">Go to Application</a>
+                    <a href="https://airtable.com/shrI4nmg4rSVokp16" className="genericButton" target="_blank">Go to Application</a>
                     </TabPanel>
 
 
                     <TabPanel value={value} index={1}>
                        <p>We haven't started internal recruitment yet! Put your contact info down if you'd like to receive an email about when internal team recruitment opens.</p>
-                       <a href="#" className="genericButton" target="_blank">Interest form</a>
+                       <a href="https://forms.gle/RnNgaxfZDUivcnS88" className="genericButton" target="_blank">Interest form</a>
                         <br />
                     </TabPanel>
                   </div>

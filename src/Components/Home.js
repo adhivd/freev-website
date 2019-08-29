@@ -312,7 +312,7 @@ function Home() {
                 <div className="numbers">
                     <h3><span className="bigNumber">53</span> alumni companies</h3>
                     <h3><span className="bigNumber">$40m</span> of follow-on capital</h3>
-                    <h3><span className="bigNumber">13</span> batches hosted</h3>
+                    <h3><span className="bigNumber">12</span> batches hosted</h3>
                 </div>
             </div>
             <div className="pressHome" >

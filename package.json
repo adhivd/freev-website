@@ -10,6 +10,7 @@
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.11",
     "react-dom": "^16.8.6",
+    "react-ga": "^2.6.0",
     "react-images": "^1.0.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",

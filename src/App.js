@@ -10,6 +10,8 @@ import FiatLux from './Components/FiatLux.js';
 import Portfolio from './Components/Portfolio.js';
 import Program from './Components/Program.js';
 import ScrollToTop from './Components/ScrollToTop.js';
+import GA from './Components/GoogleAnalytics';
+
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
@@ -20,6 +22,7 @@ function App() {
 
   return (
       <Router>
+        { GA.init() && <GA.RouteTracker /> }
         <ScrollToTop>
         <div>
           <Header />

@@ -21,7 +21,7 @@ import skydeck from './../assets/partners/skydeck.png';
 function Team() {
 
     var header = "Meet the Team";
-    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click here to learn about when we open up applications.";
+    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to learn about when we open up applications.";
     var peopleContent = [
     {
         name: "Pratik Bhat",
@@ -85,8 +85,10 @@ function Team() {
             <GenericTop
                 header={header}
                 description={description}
-            />
-            <GenericPage>
+            >
+            <a href="https://forms.gle/RnNgaxfZDUivcnS88" className="genericButton" target="_blank">Internal Team Interest Form</a>
+            </GenericTop>
+        <GenericPage>
                 <div className="peopleGrid">
                     {peopleComponents}
                 </div>

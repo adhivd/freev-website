@@ -126,9 +126,8 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={''}
+                description={'We recruit batches at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter to hear about when applications open!'}
             >
-                <a href="https://airtable.com/shrI4nmg4rSVokp16" className="genericButton" target="_blank">Fall 2019 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -139,7 +138,7 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
-                        <h2>Applications are open for Fall 2019!</h2>
+                        <h2>Applications for Fall 2019 are closed.</h2>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
@@ -196,12 +195,11 @@ let batchFAQContent = [
                     />
                 <p>More questions? Fill out this <a href="/contact">contact form</a> and we'll get back to you!</p>
                     <br />
-                    <a href="https://airtable.com/shrI4nmg4rSVokp16" className="genericButton" target="_blank">Go to Application</a>
                     </TabPanel>
 
 
                     <TabPanel value={value} index={1}>
-                       <p>We haven't started internal recruitment yet! Put your contact info down if you'd like to receive an email about when internal team recruitment opens.</p>
+                       <p>We'll be gearing up for internal recruitment very soon. Put your contact info down if you'd like to receive an email about when internal team recruitment opens.</p>
                        <a href="https://forms.gle/RnNgaxfZDUivcnS88" className="genericButton" target="_blank">Interest form</a>
                         <br />
                     </TabPanel>

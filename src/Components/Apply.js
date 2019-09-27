@@ -126,7 +126,7 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'We recruit batches at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter to hear about when applications open!'}
+                description={'We recruit companies at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter to hear about when applications open!'}
             >
             </GenericTop>
             <GenericPage>
@@ -173,16 +173,16 @@ let batchFAQContent = [
                         <h2>What we look for</h2>
                         <ul>
                             <li><p>
-                                We require at least one founder to be a student at UC Berkeley.
+                                One founder to be a student at UC Berkeley.
                             </p></li>
                             <li><p>
-                                We look for founders that have experience building things and coming up with creative solutions for real problems.
+                                Founders that have experience building things and coming up with creative solutions for real problems.
                             </p></li>
                             <li><p>
-                                We want to see a tangible commitment to your idea, whether that’s an MVP, a prototype, or some initial traction with customers.
+                                Tangible commitment to your idea, whether that’s an MVP, a prototype, or some initial traction with customers.
                             </p></li>
                             <li><p>
-                                We look for a founding team that’s deeply passionate about the company they’re growing and the space they’re working in.
+                                A founding team that’s deeply passionate about the company they’re growing and the space they’re working in.
 
                             </p></li>
                             <li><p>

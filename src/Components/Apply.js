@@ -219,7 +219,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>October 19th-24th</h2>
+                                <h2>October 19th - 24th</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>

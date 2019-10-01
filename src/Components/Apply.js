@@ -100,24 +100,16 @@ let batchFAQContent = [
 
     let internalFAQContent = [
         {
-                question: "This is a question about internal",
-                answer: "This is an answer",
+                question: "What type of work does the Internal team do? ",
+                answer: "We spend the beginning of each semester recruiting batch companies and setting up the program. Internal team members organize the mentor sessions, plan the curriculum workshops, and coordinate with our sponsors. We also advise our batch companies on topics ranging from product to fundraising.",
         },
         {
-                question: "This is a question2 about internal",
-                answer: "This is an answer2",
+                question: "Is prior experience working with startups required?",
+                answer: "It is preferred, but not a requirement.",
         },
         {
-                question: "This is a question about internal",
-                answer: "This is an answer",
-        },
-        {
-                question: "This is a question about internal",
-                answer: "This is an answer",
-        },
-        {
-                question: "This is a question about internal",
-                answer: "This is an answer",
+                question: "What types of companies do we work with?",
+                answer: "Our companies tackle problems in Neuroscience, Drones, IoT, VR, AI/ML, Blockchain, Bioengineering, FinTech, and Renewable Energy, to name a few.",
         },
 
         ]
@@ -128,17 +120,18 @@ let batchFAQContent = [
                 header={'Join the FreeV Family'}
                 description={'We recruit companies at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter to hear about when applications open!'}
             >
+                <a href="https://airtable.com/shrvWfvMoAdX8Iabi" className="genericButton" target="_blank">Internal Team Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
                   <div className={classes.tabStyle}>
                     <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-                      <AntTab label="Batch Recruitment" />
                       <AntTab label="Internal Recruitment" />
+                      <AntTab label="Batch Recruitment" />
                     </AntTabs>
 
-                    <TabPanel value={value} index={0}>
-                        <h2>Applications for Fall 2019 are closed.</h2>
+                    <TabPanel value={value} index={1}>
+                        <h2>Batch applications for Fall 2019 are closed.</h2>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
@@ -198,10 +191,63 @@ let batchFAQContent = [
                     </TabPanel>
 
 
-                    <TabPanel value={value} index={1}>
-                       <p>We'll be gearing up for internal recruitment very soon. Put your contact info down if you'd like to receive an email about when internal team recruitment opens.</p>
-                       <a href="https://forms.gle/RnNgaxfZDUivcnS88" className="genericButton" target="_blank">Interest form</a>
+                    <TabPanel value={value} index={0}>
+                    <h2>Applications for internal team are now open!</h2>
+                    <p>Deadline to apply is by midnight on Friday October 11th</p>
+                    <div className="timeline">
+                            <article>
+                                <div>
+                                    <img src={application} alt="" />
+                                </div>
+                                <h2>Midnight, October 11th</h2>
+                                <p>Applications close</p>
+                            </article>
+                            <span>
+                                <img src={arrow} />
+                            </span>
+                            <article>
+                                <div>
+                                    <img src={interview} alt="" />
+                                </div>
+                                <h2>October 12th - 18th</h2>
+                                <p>1st Round Interviews</p>
+                            </article>
+                            <span>
+                                <img src={arrow} />
+                            </span>
+                            <article>
+                                <div>
+                                    <img src={rocket} alt="" />
+                                </div>
+                                <h2>October 19th-24th</h2>
+                                <p>Coffee Chats + 2nd Round</p>
+                            </article>
+                        </div>
+                        <h2>What we look for</h2>
+                        <ul>
+                            <li><p>
+                              Currently enrolled student at UC Berkeley.
+                            </p></li>
+                            <li><p>
+                              Passionate about working with early stage startups.
+                            </p></li>
+                            <li><p>
+                              Brings a new perspective to our team
+                            </p></li>
+                            <li><p>
+                            Experiencing leading teams and taking initiatives
+                            </p></li>
+                            <li><p>
+                                Ready to commit 8-10 hours per week and free Mondays and Wednesdays 7-9pm.
+                            </p></li>
+                        </ul>
+                       <p>You can find the application here:</p>
+                       <a href="https://airtable.com/shrvWfvMoAdX8Iabi" className="genericButton" target="_blank">Internal Team Application</a>
                         <br />
+                        <h2>Frequently asked questions</h2>
+                    <FAQHolder
+                        faq={internalFAQContent}
+                    />
                     </TabPanel>
                   </div>
                 </div>

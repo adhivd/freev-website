@@ -10,6 +10,8 @@ import pratik from './../assets/team/pratik.png';
 import kathy from './../assets/team/kqkong.png';
 import adhiv from './../assets/team/adhiv.png';
 import nikita from './../assets/team/nikita.png';
+import { Link } from "react-router-dom";
+
 
 import house from './../assets/partners/house.png';
 import haas from './../assets/partners/haas.jpg';
@@ -21,7 +23,7 @@ import skydeck from './../assets/partners/skydeck.png';
 function Team() {
 
     var header = "Meet the Team";
-    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to learn about when we open up applications.";
+    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to learn about joining!";
     var peopleContent = [
     {
         name: "Pratik Bhat",
@@ -86,7 +88,7 @@ function Team() {
                 header={header}
                 description={description}
             >
-            <a href="https://forms.gle/RnNgaxfZDUivcnS88" className="genericButton" target="_blank">Internal Team Interest Form</a>
+            <Link to="apply" className="genericButton">Apply to our internal team</Link>
             </GenericTop>
         <GenericPage>
                 <div className="peopleGrid">

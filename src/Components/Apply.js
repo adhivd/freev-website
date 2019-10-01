@@ -111,6 +111,10 @@ let batchFAQContent = [
                 question: "What types of companies do we work with?",
                 answer: "Our companies tackle problems in Neuroscience, Drones, IoT, VR, AI/ML, Blockchain, Bioengineering, FinTech, and Renewable Energy, to name a few.",
         },
+        {
+          question: "Are you looking for a particular major or background?",
+          answer: "We don't have a required major and/or background, just an interest in working with startups and bringing new perspectives to our team.",
+  },
 
         ]
 
@@ -235,7 +239,7 @@ let batchFAQContent = [
                               Brings a new perspective to our team
                             </p></li>
                             <li><p>
-                            Experiencing leading teams and taking initiatives
+                            Experienced leading teams and taking initiative
                             </p></li>
                             <li><p>
                                 Ready to commit 8-10 hours per week and free Mondays and Wednesdays 7-9pm.

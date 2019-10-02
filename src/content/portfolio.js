@@ -95,7 +95,7 @@ let portfolioContent = {
                     logo: orbit,
                     links: [
                         {
-                            address: "https://www.ocf.berkeley.edu/~shomil/",
+                            address: "https://getorbit.app/",
                             title: "Website",
                         }
                     ],
@@ -105,6 +105,12 @@ let portfolioContent = {
                     name: "Skindex",
                     description: "Skindex is an AI-powered search and discovery platform that enables users to find skincare and cosmetic products that are compatible with their skin. By leveraging existing cosmetic research on comodogenity, demographic data and machine learning, Skindex can analyze patterns from different users’ skin types and learn what ingredients might be causing a bad reaction, providing the user with instant feedback and automated product recommendations, ultimately resulting in a new way to discover skincare and cosmetic products.",
                     logo: skindex,
+                    links: [
+                        {
+                            address: "https://www.skindex.ai",
+                            title: "Website",
+                        }
+                    ],
                 },
                 {
                     name: "WorknGo",

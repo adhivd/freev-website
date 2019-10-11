@@ -197,7 +197,7 @@ let batchFAQContent = [
 
                     <TabPanel value={value} index={0}>
                     <h2>Applications for internal team are now open!</h2>
-                    <p>Deadline to apply is by midnight on Friday October 11th</p>
+                    <p>Deadline to apply is by midnight on Saturday October 12th</p>
                     <h2>Infosession</h2>
                     <p>We'll be hosting an infosession for internal recruitment on Tuesday, October 8th from 7-9pm at The House (2311 Bowditch St). You can find more information on the <a href="https://www.facebook.com/events/534914980589312" target="_blank" >facebook event page</a>.</p>
                     <h2>Recruitment Timeline</h2>
@@ -206,7 +206,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>Midnight, October 11th</h2>
+                                <h2>11:59pm, October 12th</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>

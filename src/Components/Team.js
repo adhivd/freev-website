@@ -10,6 +10,10 @@ import pratik from './../assets/team/pratik.png';
 import kathy from './../assets/team/kqkong.png';
 import adhiv from './../assets/team/adhiv.png';
 import nikita from './../assets/team/nikita.png';
+import shaantam from './../assets/team/shaantam.png';
+import adithya from './../assets/team/adithya.png';
+import christina from './../assets/team/christina.png';
+
 import { Link } from "react-router-dom";
 
 
@@ -23,7 +27,7 @@ import skydeck from './../assets/partners/skydeck.png';
 function Team() {
 
     var header = "Meet the Team";
-    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to learn about joining!";
+    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to fill out our interest form! We'll email you once we begin recruitment.";
     var peopleContent = [
     {
         name: "Pratik Bhat",
@@ -67,6 +71,27 @@ function Team() {
         mailTo: "mailto:adhiv@freeventures.org",
         image: adhiv
     },
+    {
+        name: "Shaantam Chawla",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/shaantam/",
+        mailTo: "mailto:shaantam@freeventures.org",
+        image: shaantam
+    },
+    {
+        name: "Christina Guo",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/cguo16",
+        mailTo: "mailto:christina@freeventures.org",
+        image: christina
+    },
+    {
+        name: "Adithiya Paramasivam",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/adithyaparam",
+        mailTo: "mailto:adithya@freeventures.org",
+        image: adithya
+    },
 
 
 ]
@@ -88,7 +113,7 @@ function Team() {
                 header={header}
                 description={description}
             >
-            <Link to="apply" className="genericButton">Apply to our internal team</Link>
+            <a href="https://docs.google.com/forms/d/10vxWMOJfvCBVb4aGyeEBwC8TPq64NJwzAqF9M7zP7ck/edit" target="_blank" className="genericButton">Internal team interest form</a>
             </GenericTop>
         <GenericPage>
                 <div className="peopleGrid">

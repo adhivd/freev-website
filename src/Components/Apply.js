@@ -122,9 +122,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'We recruit companies at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter to hear about when applications open!'}
+                description={'We recruit companies at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter and fill out our interest form to hear about when applications open!'}
             >
-                <a href="https://airtable.com/shrvWfvMoAdX8Iabi" className="genericButton" target="_blank">Internal Team Application</a>
+                <a href="https://docs.google.com/forms/d/10vxWMOJfvCBVb4aGyeEBwC8TPq64NJwzAqF9M7zP7ck/edit" className="genericButton" target="_blank">FreeV Interest Form</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -196,10 +196,8 @@ let batchFAQContent = [
 
 
                     <TabPanel value={value} index={0}>
-                    <h2>Applications for internal team are now open!</h2>
-                    <p>Deadline to apply is by midnight on Saturday October 12th</p>
-                    <h2>Infosession</h2>
-                    <p>We'll be hosting an infosession for internal recruitment on Tuesday, October 8th from 7-9pm at The House (2311 Bowditch St). You can find more information on the <a href="https://www.facebook.com/events/534914980589312" target="_blank" >facebook event page</a>.</p>
+                    <h2>Internal team applications for Fall 2019 are closed.</h2>
+                    <p>Deadline to apply was by midnight on Saturday October 12th</p>
                     <h2>Recruitment Timeline</h2>
                     <div className="timeline">
                             <article>
@@ -248,9 +246,7 @@ let batchFAQContent = [
                                 Ready to commit 8-10 hours per week and free Mondays and Wednesdays 7-9pm.
                             </p></li>
                         </ul>
-                       <p>You can find the application here:</p>
-                       <a href="https://airtable.com/shrvWfvMoAdX8Iabi" className="genericButton" target="_blank">Internal Team Application</a>
-                        <br />
+                       
                         <h2>Frequently asked questions</h2>
                     <FAQHolder
                         faq={internalFAQContent}

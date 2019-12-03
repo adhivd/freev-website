@@ -292,7 +292,7 @@ function Home() {
                 <span>
                     <h1>Empowering the brightest founders in Berkeley</h1>
                     <h2>Free Ventures is Cal’s leading pre-seed startup accelerator</h2>
-                    <Link to="apply" className="apply">Apply to our internal team</Link>
+                    <a href="https://www.facebook.com/events/454766658521992/" className="apply" target="_blank">Come to our Demo Day</a>
                 </span>
                 <span>
                     <img src={freevgroup} alt="" />

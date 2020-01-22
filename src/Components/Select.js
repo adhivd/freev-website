@@ -28,7 +28,7 @@ const useStyles = makeStyles(theme => ({
 function SimpleSelect(props) {
   const classes = useStyles();
   const [values, setValues] = React.useState({
-    batch: 'Spring 2019',
+    batch: 'Fall 2019', // this will be the default tab on load. SPELL CORRECTLY
   });
 
   function handleChange(event) {

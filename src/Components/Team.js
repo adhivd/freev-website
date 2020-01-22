@@ -30,18 +30,18 @@ function Team() {
     var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to fill out our interest form! We'll email you once we begin recruitment.";
     var peopleContent = [
     {
-        name: "Pratik Bhat",
-        position: "Managing Director",
-        linkedinUrl: "https://www.linkedin.com/in/pratikbhat/",
-        mailTo: "mailto:pratik@freeventures.org",
-        image: pratik
+        name: "Nikita Ashok",
+        position: "Co-Managing Director",
+        linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
+        mailTo: "mailto:nikita@freeventures.org",
+        image: nikita
     },
     {
-        name: "Pranav Gulati",
-        position: "Senior Advisor | Former MD",
-        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: pranav
+        name: "Adhiv Dhar",
+        position: "Co-Managing Director",
+        linkedinUrl: "https://linkedin.com/in/adhivd/",
+        mailTo: "mailto:adhiv@freeventures.org",
+        image: adhiv
     },
     {
         name: "Kathy Kong",
@@ -56,20 +56,6 @@ function Team() {
         linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
         mailTo: "mailto:aashi@freeventures.org",
         image: aashi
-    },
-    {
-        name: "Nikita Ashok",
-        position: "Director",
-        linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
-        mailTo: "mailto:nikita@freeventures.org",
-        image: nikita
-    },
-    {
-        name: "Adhiv Dhar",
-        position: "Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:adhiv@freeventures.org",
-        image: adhiv
     },
     {
         name: "Shaantam Chawla",
@@ -92,8 +78,20 @@ function Team() {
         mailTo: "mailto:adithya@freeventures.org",
         image: adithya
     },
-
-
+    {
+        name: "Pratik Bhat",
+        position: "Senior Adviser",
+        linkedinUrl: "https://www.linkedin.com/in/pratikbhat/",
+        mailTo: "mailto:pratik@freeventures.org",
+        image: pratik
+    },
+    {
+        name: "Pranav Gulati",
+        position: "Senior Adviser",
+        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
+        mailTo: "mailto:pranav@freeventures.org",
+        image: pranav
+    },
 ]
 
     let peopleComponents = peopleContent.map((person) => {

@@ -33,6 +33,12 @@ import opthrift from './../assets/portfolio/opthrift.png';
 import photon from './../assets/portfolio/photon.png';
 import tileworks from './../assets/portfolio/tileworks.png';
 import diced from './../assets/portfolio/diced.png';
+import biosense from './../assets/portfolio/biosense.png';
+import turing from './../assets/portfolio/turing.png';
+import flipout from './../assets/portfolio/flipout.png';
+import beyondvision from './../assets/portfolio/beyondvision.png';
+
+
 
 
 // photos
@@ -85,6 +91,57 @@ import alchemy from './../assets/press/alchemy.jpeg';
 
 let portfolioContent = {
     batchList: [
+        {
+            batchName: "Fall 2019",
+            batchNumber: 13,
+            companies: [
+                {
+                    name: "Biosense",
+                    description: "Our mission is to develop solutions that enable all animal-associated science to be highly quantative. Our wireless, non-invasive telemetry solution delivers data regarding high frequency locomotor behavior, while meeting the rigorous standards of animal research. We offer a post-processing solution that has been validated to automatically report rodent activity, and are working with our research partners on a number of other metrics, including pain, addiction, and mortality. Biosense has been funded by the NIH and 8VC, and our devices have been used by researchers at Stanford, Rockefeller, UC Santa Barbara, Indiana University, and the University of Michigan.",
+                    logo: biosense,
+                    links: [
+                        {
+                            address: "https://www.biosense.ai/",
+                            title: "Website",
+                        }
+                    ],
+
+                },
+                {
+                    name: "Turing Certs",
+                    description: "A smart citizen identifier network focused on educational innovation. They are an all-in-one-place repository for certificates that guarantees integrity and expedites verifications for job seekers, enterprises, and universities. TuringCerts is an all-in-one-place repository for certificates that guarantees the integrity of records and makes verification much more efficient than conventional hiring processes. It associates individuals with W3C decentralized identifier and GDPR-compliant data privacy principle.",
+                    logo: turing,
+                    links: [
+                        {
+                            address: "https://certs.turingchain.tech/",
+                            title: "Website",
+                        }
+                    ],
+                },
+                {
+                    name: "Flipout",
+                    description: "Flipout is a mobile platform that allows users to make sports predictions against friends on games (NBA, NFL, MLB, NCAA, and more), follow live sports scores, and win real rewards for free, without the traditional risk of sports betting. Users don’t have to pay anything to join the platform or to place predictions. Correctly predict and win virtual Flipout coins; incorrectly predict and lose nothing. Make predictions on both win/loss and margin of victory outcomes (choose Patriots win or Patriots win by 7 points or more). Users can then spend coins earned on our platform to unlock rewards from our partner companies: everything from restaurant discounts to player jerseys.",
+                    logo: flipout,
+                    links: [
+                        {
+                            address: "https://www.flipout.io/",
+                            title: "Website",
+                        }
+                    ],
+                },
+                {
+                    name: "Beyond Vision",
+                    links: [
+                        {
+                            address: "https://beyondvision.ai/home",
+                            title: "Website",
+                        }
+                    ],
+                    logo: beyondvision,
+                    description: "A B2B SaaS platform that enhances object detection capabilities of existing computer vision systems using AI based post processing for InfraRed, thermal and grayscale cameras",
+                },
+            ]
+        },
         {
             batchName: "Spring 2019",
             batchNumber: 12,

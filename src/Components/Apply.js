@@ -130,12 +130,13 @@ let batchFAQContent = [
                 <div className={classes.root}>
                   <div className={classes.tabStyle}>
                     <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-                      <AntTab label="Internal Recruitment" />
+                      
                       <AntTab label="Batch Recruitment" />
+                      <AntTab label="Internal Recruitment" />
                     </AntTabs>
 
-                    <TabPanel value={value} index={1}>
-                        <h2>Batch applications for Fall 2019 are closed.</h2>
+                    <TabPanel value={value} index={0}>
+                        <h2>Spring 2020 Batch Applications are opening tonight.</h2>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
@@ -143,7 +144,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>September 13th</h2>
+                                <h2>February 7th, 11:59pm</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -153,7 +154,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>September 16th-20th</h2>
+                                <h2>February 10-14th</h2>
                                 <p>Interviews</p>
                             </article>
                             <span>
@@ -163,8 +164,8 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>September 23rd</h2>
-                                <p>Batch XIII Starts</p>
+                                <h2>February 19th</h2>
+                                <p>Spring 2020 Batch Starts</p>
                             </article>
                         </div>
                         <h2>What we look for</h2>
@@ -195,7 +196,7 @@ let batchFAQContent = [
                     </TabPanel>
 
 
-                    <TabPanel value={value} index={0}>
+                    <TabPanel value={value} index={1}>
                     <h2>Internal team applications for Fall 2019 are closed.</h2>
                     <p>Deadline to apply was by midnight on Saturday October 12th</p>
                     <h2>Recruitment Timeline</h2>

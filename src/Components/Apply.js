@@ -89,10 +89,6 @@ let batchFAQContent = [
             answer: "10-12 weeks",
     },
     {
-            question: "What resources do we get access to during the batch?",
-            answer: "Check out our program section of the website",
-    },
-    {
             question: "What resources do alumni companies receive?",
             answer: "We provide help with fundraising, hiring, introductions to people in our network, advise, etc. to our alumni companies. Alumni companies still get access to the benefits provided by our sponsors and partners.",
     },
@@ -122,9 +118,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'We recruit companies at the beginning of each semester and internal team members right after. Applications for Batch XIII are closed. Subscribe to our newsletter and fill out our interest form to hear about when applications open!'}
+                description={'Applications for startups to join the Spring 2020 Batch are now open! We recruit companies at the beginning of each semester and internal team members right after. Click the link below to open the application'}
             >
-                <a href="https://docs.google.com/forms/d/10vxWMOJfvCBVb4aGyeEBwC8TPq64NJwzAqF9M7zP7ck/edit" className="genericButton" target="_blank">FreeV Interest Form</a>
+                <a href="https://airtable.com/shrHTTk0zMIp3isHp" className="genericButton" target="_blank">Spring 2020 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -136,7 +132,9 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
-                        <h2>Spring 2020 Batch Applications are opening tonight.</h2>
+                        <h2>Spring 2020 Batch Applications are open!</h2>
+                        <h3>Applications are due February 7th, 2020 at 11:59pm.</h3>
+                        <a href="https://airtable.com/shrHTTk0zMIp3isHp" className="genericButton" target="_blank">Apply to Spring 2020 Batch</a>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
@@ -197,9 +195,12 @@ let batchFAQContent = [
 
 
                     <TabPanel value={value} index={1}>
-                    <h2>Internal team applications for Fall 2019 are closed.</h2>
-                    <p>Deadline to apply was by midnight on Saturday October 12th</p>
-                    <h2>Recruitment Timeline</h2>
+                    
+                    <h2>Internal team recruitment begins after batch recruitment is over.</h2>
+                    <p>Sign up on our interest form to hear about when we open applications!</p>
+                    
+                    <a href="https://docs.google.com/forms/d/10vxWMOJfvCBVb4aGyeEBwC8TPq64NJwzAqF9M7zP7ck/edit" className="genericButton" target="_blank">Internal team interest form</a>
+                    <h2>Fall 2019 Recruitment Timeline</h2>
                     <div className="timeline">
                             <article>
                                 <div>

@@ -156,6 +156,25 @@ a {
         opacity: 0.85;
     }
 
+.genericButtonGray {
+    background-color: #e8e8e8;
+    padding: 15px 28px;
+    border-radius: 3px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s all ease-out;
+    display: inline-block;
+    opacity: 1;
+    margin-right: 5px;
+}
+
+    .genericButtonGray:hover {
+        background-color: #d8d8d8;
+        color: #67379A;
+    }
+
 .homeSection h2 {
     font-size: 34px;
     margin: 0;

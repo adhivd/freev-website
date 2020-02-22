@@ -68,7 +68,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const classes = useStyles();
-const [value, setValue] = React.useState(0);
+const [value, setValue] = React.useState(1);
 
 function handleChange(event, newValue) {
     setValue(newValue);
@@ -118,9 +118,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Applications for startups to join the Spring 2020 Batch are now open! We recruit companies at the beginning of each semester and internal team members right after. Click the link below to open the application'}
+                description={'Applications for internal team are now available! Click on the link below to open the application.'}
             >
-                <a href="https://airtable.com/shrHTTk0zMIp3isHp" className="genericButton" target="_blank">Spring 2020 Batch Application</a>
+                <a href="https://airtable.com/shrUja2dYAmKdZY0H" className="genericButton" target="_blank">Spring 2020 Internal Team application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -132,9 +132,8 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
-                        <h2>Spring 2020 Batch Applications are open!</h2>
-                        <h3>Applications are due February 7th, 2020 at 11:59pm.</h3>
-                        <a href="https://airtable.com/shrHTTk0zMIp3isHp" className="genericButton" target="_blank">Apply to Spring 2020 Batch</a>
+                        <h2>Spring 2020 Batch Applications are now closed.</h2>
+                        <h3>Applications were due February 7th, 2020 at 11:59pm.</h3>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Timeline</h2>
                         <div className="timeline">
@@ -196,17 +195,32 @@ let batchFAQContent = [
 
                     <TabPanel value={value} index={1}>
                     
-                    <h2>Internal team recruitment begins after batch recruitment is over.</h2>
-                    <p>Sign up on our interest form to hear about when we open applications!</p>
+                    <h2>Spring 2020 Internal team apps are now open!</h2>
+                    <h3></h3>
+                    <ul>
+                            <li>
+                                <p>
+                                    <strong>Applications are due Friday, March 6th at 11:59pm</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Infosession: </strong> Come to our infosession on Tuesday, March 3rd from 7-9pm at The House (2311 Bowditch) to learn more about what internal team members do and what we look for in applicants.
+                                </p>
+                            </li>
+                            
+                        </ul>
                     
-                    <a href="https://docs.google.com/forms/d/10vxWMOJfvCBVb4aGyeEBwC8TPq64NJwzAqF9M7zP7ck/edit" className="genericButton" target="_blank">Internal team interest form</a>
-                    <h2>Fall 2019 Recruitment Timeline</h2>
+                    <a href="https://airtable.com/shrUja2dYAmKdZY0H" className="genericButtonGray" target="_blank">Internal team application</a>
+                    <a href="https://www.facebook.com/events/190340348857111/" className="genericButtonGray" target="_blank">Infosession RSVP</a>
+
+                    <h2>Spring 2020 Recruitment Timeline</h2>
                     <div className="timeline">
                             <article>
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>11:59pm, October 12th</h2>
+                                <h2>11:59pm, March 6th</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -216,7 +230,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>October 12th - 18th</h2>
+                                <h2>March 9th - 13th</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>
@@ -226,7 +240,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>October 19th - 24th</h2>
+                                <h2>March 16th - 20th</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>

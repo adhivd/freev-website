@@ -230,7 +230,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>March 9th - 13th</h2>
+                                <h2>March 9th - 10th</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>
@@ -240,7 +240,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>March 16th - 20th</h2>
+                                <h2>March 11th - 15th</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>

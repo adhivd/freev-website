@@ -200,7 +200,7 @@ let batchFAQContent = [
                     <ul>
                             <li>
                                 <p>
-                                    <strong>Applications are due Friday, March 6th at 11:59pm</strong>
+                                    <strong>Applications have been extended to Saturday, March 7th at 11:59pm</strong>
                                 </p>
                             </li>
                             <li>
@@ -220,7 +220,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>11:59pm, March 6th</h2>
+                                <h2>11:59pm, March 7th</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>

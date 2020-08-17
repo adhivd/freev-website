@@ -38,9 +38,6 @@ import turing from './../assets/portfolio/turing.png';
 import flipout from './../assets/portfolio/flipout.png';
 import beyondvision from './../assets/portfolio/beyondvision.png';
 
-
-
-
 // photos
 import demilune1 from './../assets/portfolio/demilune1.jpeg';
 import etch1 from './../assets/portfolio/etch1.jpeg';
@@ -60,12 +57,6 @@ import blitz1 from './../assets/portfolio/blitz1.jpeg';
 import rooster1 from './../assets/portfolio/rooster1.jpeg';
 import wist1 from './../assets/portfolio/wist1.jpeg';
 import zypper1 from './../assets/portfolio/zypper1.jpeg';
-
-
-
-
-
-
 
 // press
 import tc from './../assets/press/tc.png'

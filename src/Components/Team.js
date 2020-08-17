@@ -111,7 +111,7 @@ function Team() {
                 header={header}
                 description={description}
             >
-            <a href="https://airtable.com/shrUja2dYAmKdZY0H" target="_blank" className="genericButton">Internal team application</a>
+            <a href="https://forms.gle/D1CJuxfxytb3h54G9" target="_blank" className="genericButton">Internal team interest form</a>
             </GenericTop>
         <GenericPage>
                 <div className="peopleGrid">

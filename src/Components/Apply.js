@@ -68,7 +68,10 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const classes = useStyles();
-const [value, setValue] = React.useState(1);
+
+// change .useState value for either 0 - batch recruitment, 1 - internal recruitment
+
+const [value, setValue] = React.useState(0);
 
 function handleChange(event, newValue) {
     setValue(newValue);
@@ -118,9 +121,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Applications for internal team are now available! Click on the link below to open the application.'}
+                description={'Applications for our Fall 2020 batch will open on August 25th, 2020. Fill out the form below with your email and we\'ll notify you once the app is live! Internal team recruitment will open in late September/early October.'}
             >
-                <a href="https://airtable.com/shrUja2dYAmKdZY0H" className="genericButton" target="_blank">Spring 2020 Internal Team application</a>
+                <a href="https://forms.gle/D1CJuxfxytb3h54G9" className="genericButton" target="_blank">Fall 2020 Interest Form</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -132,16 +135,16 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
-                        <h2>Spring 2020 Batch Applications are now closed.</h2>
-                        <h3>Applications were due February 7th, 2020 at 11:59pm.</h3>
-                        <p>Here are some details about our recruiting timeline and frequently asked questions</p>
+                        <h2>Fall 2020 Applications will open on August 25th, 2020!</h2>
+                        {/* <h3>To be notified once applications open, drop your email here d</h3> */}
+                        <p>Fill out <a href="https://forms.gle/D1CJuxfxytb3h54G9" target="blank">this form</a> to be notified once applications open. Here are some details about our recruiting timeline and frequently asked questions</p>  
                         <h2>Timeline</h2>
                         <div className="timeline">
                             <article>
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>February 7th, 11:59pm</h2>
+                                <h2>September 11th, 11:59pm</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -151,7 +154,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>February 10-14th</h2>
+                                <h2>September 14th-18th</h2>
                                 <p>Interviews</p>
                             </article>
                             <span>
@@ -161,8 +164,8 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>February 19th</h2>
-                                <p>Spring 2020 Batch Starts</p>
+                                <h2>September 21st</h2>
+                                <p>Fall 2020 Batch Starts</p>
                             </article>
                         </div>
                         <h2>What we look for</h2>
@@ -193,11 +196,12 @@ let batchFAQContent = [
                     </TabPanel>
 
 
-                    <TabPanel value={value} index={1}>
-                    
-                    <h2>Spring 2020 Internal team apps are now open!</h2>
+                <TabPanel value={value} index={1}>
+                
+                    <h2>Fall 2020 Internal Recruitment will open in late September/early October. </h2>
                     <h3></h3>
-                    <ul>
+                    <a href="https://forms.gle/D1CJuxfxytb3h54G9" className="genericButtonGray" target="_blank">Internal team interest form</a>
+                    {/* <ul>
                             <li>
                                 <p>
                                     <strong>Applications have been extended to Saturday, March 7th at 11:59pm</strong>
@@ -209,10 +213,8 @@ let batchFAQContent = [
                                 </p>
                             </li>
                             
-                        </ul>
-                    
-                    <a href="https://airtable.com/shrUja2dYAmKdZY0H" className="genericButtonGray" target="_blank">Internal team application</a>
-                    <a href="https://www.facebook.com/events/190340348857111/" className="genericButtonGray" target="_blank">Infosession RSVP</a>
+                        </ul> */}
+                
 
                     <h2>Spring 2020 Recruitment Timeline</h2>
                     <div className="timeline">

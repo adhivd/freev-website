@@ -13,6 +13,11 @@ import nikita from './../assets/team/nikita.png';
 import shaantam from './../assets/team/shaantam.png';
 import adithya from './../assets/team/adithya.png';
 import christina from './../assets/team/christina.png';
+import alex from './../assets/team/alex.png';
+import joelene from './../assets/team/joelene.png';
+import saneel from './../assets/team/saneel.jpg';
+import avinash from './../assets/team/avinash.jpg';
+import lulu from './../assets/team/lulu.jpg';
 
 import { Link } from "react-router-dom";
 
@@ -44,53 +49,74 @@ function Team() {
         image: adhiv
     },
     {
-        name: "Kathy Kong",
-        position: "Director",
-        linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
-        mailTo: "mailto:kathy@freeventures.org",
-        image: kathy
-    },
-    {
-        name: "Aashi Jhawar",
-        position: "Director",
-        linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
-        mailTo: "mailto:aashi@freeventures.org",
-        image: aashi
-    },
-    {
         name: "Shaantam Chawla",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/shaantam/",
         mailTo: "mailto:shaantam@freeventures.org",
         image: shaantam
     },
     {
         name: "Christina Guo",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/cguo16",
         mailTo: "mailto:christina@freeventures.org",
         image: christina
     },
     {
         name: "Adithiya Paramasivam",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/adithyaparam",
         mailTo: "mailto:adithya@freeventures.org",
         image: adithya
     },
     {
-        name: "Pratik Bhat",
-        position: "Senior Adviser",
-        linkedinUrl: "https://www.linkedin.com/in/pratikbhat/",
-        mailTo: "mailto:pratik@freeventures.org",
-        image: pratik
+        name: "Alexander Manes",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/alexander-manes/",
+        mailTo: "mailto:alexander@freeventures.org",
+        image: alex
     },
     {
-        name: "Pranav Gulati",
-        position: "Senior Adviser",
-        linkedinUrl: "https://www.linkedin.com/in/pgulati18/",
-        mailTo: "mailto:pranav@freeventures.org",
-        image: pranav
+        name: "Lulu Holland",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/luluholland/",
+        mailTo: "mailto:lulu@freeventures.org",
+        image: lulu
+    },
+    {
+        name: "Saneel Sreeni",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/saneel-sreeni/",
+        mailTo: "mailto:saneel@freeventures.org",
+        image: saneel
+    },
+    {
+        name: "Joelene Latief",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/joelenelatief/",
+        mailTo: "mailto:joelene@freeventures.org",
+        image: joelene
+    },
+    {
+        name: "Avinash Jain",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/avinashj1/",
+        mailTo: "mailto:avinash@freeventures.org",
+        image: avinash
+    },
+    {
+        name: "Kathy Kong",
+        position: "Senior Advisor",
+        linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
+        mailTo: "mailto:kathy@freeventures.org",
+        image: kathy
+    },
+    {
+        name: "Aashi Jhawar",
+        position: "Senior Advisor",
+        linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
+        mailTo: "mailto:aashi@freeventures.org",
+        image: aashi
     },
 ]
 

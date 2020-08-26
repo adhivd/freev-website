@@ -121,9 +121,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Applications for our Fall 2020 batch will open on August 25th, 2020. Fill out the form below with your email and we\'ll notify you once the app is live! Internal team recruitment will open in late September/early October.'}
+                description={'Applications for our Fall 2020 batch are now open! Click the link below to be taken to the application. Internal team recruitment will open in late September/early October.'}
             >
-                <a href="https://forms.gle/D1CJuxfxytb3h54G9" className="genericButton" target="_blank">Fall 2020 Interest Form</a>
+                <a href="https://airtable.com/shrjW4W4v8l1gDiA1" className="genericButton" target="_blank">Fall 2020 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -135,9 +135,10 @@ let batchFAQContent = [
                     </AntTabs>
 
                     <TabPanel value={value} index={0}>
-                        <h2>Fall 2020 Applications will open on August 25th, 2020!</h2>
-                        {/* <h3>To be notified once applications open, drop your email here d</h3> */}
-                        <p>Fill out <a href="https://forms.gle/D1CJuxfxytb3h54G9" target="blank">this form</a> to be notified once applications open. Here are some details about our recruiting timeline and frequently asked questions</p>  
+                        <h2>Fall 2020 Applications are now open!</h2>
+                        <h3>Applications close Friday, September 11th</h3>
+                        <a href="https://airtable.com/shrjW4W4v8l1gDiA1" className="genericButtonGray" target="_blank">Fall 2020 Batch Application</a>
+                        <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
                         <h2>Timeline</h2>
                         <div className="timeline">
                             <article>

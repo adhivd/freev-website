@@ -57,6 +57,11 @@ import blitz1 from './../assets/portfolio/blitz1.jpeg';
 import rooster1 from './../assets/portfolio/rooster1.jpeg';
 import wist1 from './../assets/portfolio/wist1.jpeg';
 import zypper1 from './../assets/portfolio/zypper1.jpeg';
+import healthpoint from './../assets/portfolio/healthpoint.png';
+import polyture from './../assets/portfolio/polyture.png';
+import musa from './../assets/portfolio/musa.jpg';
+import myntor from './../assets/portfolio/myntor.png';
+
 
 // press
 import tc from './../assets/press/tc.png'
@@ -79,9 +84,63 @@ import alchemy from './../assets/press/alchemy.jpeg';
 //
 
 
-
 let portfolioContent = {
     batchList: [
+        {
+            batchName: "Spring 2020",
+            batchNumber: 14,
+            companies: [
+                {
+                    name: "Healthpoint",
+                    description: "We make it easy for therapists to manage their billing and online presence. Healthpoint is a web app that helps therapists process and manage payments, automate the insurance claims process, and set up their practice online. Instead of hiring an office assistant, we automate common back office tasks so therapists can focus on working with patients. Features include an online teletherapy-focused directory, credit card management, recurring payments, appointment management, and superbill automation.",
+                    logo: healthpoint,
+                    links: [
+                        {
+                            address: "https://usehealthpoint.com/",
+                            title: "Website",
+                        }
+                    ],
+
+                },
+                {
+                    name: "Musa",
+                    description: "Musa is a digital platform that connects artists with unconventional venues to create community engagements such as art shows, musical performances, exhibitions, and consignment options. We act as a back-office handling the pain points for artists and hosts to enable them to focus on their work while Musa takes care of payments, insurance, advertising, pricing help, and art-hanging solutions. We bring out audience members and art-chasers who want to engage in their local art scene through our social media platforms, newsletter, and eventually our location-based calendar of art and events.",
+                    logo: musa,
+                    links: [
+                        {
+                            address: "https://www.musaexhibition.com/",
+                            title: "Website",
+                        }
+                    ],
+                },
+                {
+                    name: "Myntor",
+                    description: "Myntor produces online courses that help students exceed conventional performance metrics through a unique problem-based learning experience. Lectures today are not contextualized to what students find relevant and heavily pedantic, which makes understanding and retaining content extremely difficult. Currently, to improve academic performance, students must either use a combination of digital tools (Khan Academy, etc.) or simply find a better teacher. While this may work for some students, online classes are often even more pedantic than in-person lectures, and finding a better teacher is subject to geographic constraints. No current solution exists that is as effective as taking a class in-person, but is as accessible as an online course.",
+                    logo: myntor,
+                    links: [
+                        {
+                            address: "http://myntor.io/",
+                            title: "Website",
+                        }
+                    ],
+                },
+                {
+                    name: "Oki",
+                    description: "Oki Office is a soundproof productivity booth designed for open-plan workspaces. These offices are not designed for productivity. They’re noisy. They’re not private. They’re distracting. We are designing an office booth where employees can focus. Walk in, plug in your laptop, and immediately get access to a large monitor and a spacious desk.",
+                },
+                {
+                    name: "Polyture",
+                    description: "Polyture is a data exploration and analytics platform that enables the flexibility of custom code solutions while providing hugely increased speed and clarity throughout analysis.",
+                    logo: polyture,
+                    links: [
+                        {
+                            address: "https://www.polyture.com/",
+                            title: "Website",
+                        }
+                    ],
+                },
+            ]
+        },
         {
             batchName: "Fall 2019",
             batchNumber: 13,
@@ -177,6 +236,12 @@ let portfolioContent = {
                         {
                             address: "https://www.simplata.io",
                             title: "Website",
+                        }
+                    ],
+                    tags: [
+                        {
+                            content: "YC W2020",
+                            backgroundColor: "#EC8641"
                         }
                     ],
                     logo: simplata,

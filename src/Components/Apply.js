@@ -138,6 +138,7 @@ let batchFAQContent = [
                         <h2>Fall 2020 Applications are now open!</h2>
                         <h3>Applications close Friday, September 11th</h3>
                         <a href="https://airtable.com/shrjW4W4v8l1gDiA1" className="genericButtonGray" target="_blank">Fall 2020 Batch Application</a>
+                        <a href="https://calendly.com/freev-coffee/30min?back=1&month=2020-09" className="genericButtonGray" target="_blank">Sign up for a coffee chat</a>
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
                         <h2>Timeline</h2>
                         <div className="timeline">

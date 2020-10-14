@@ -32,7 +32,20 @@ import skydeck from './../assets/partners/skydeck.png';
 function Team() {
 
     var header = "Meet the Team";
-    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team? Click below to fill out our interest form! We'll email you once we begin recruitment.";
+    var internalRecruitment = true;
+    var description = "We're a small group of undergraduates who care about the Berkeley startup ecosystem. Interested in joining our team?";
+
+    let button;
+
+    if(internalRecruitment) {
+        description += " We're currently recruiting for internal team! Click below to learn more.";
+        button = <Link to="/apply" className="genericButton">Apply for internal</Link>
+    }
+    else {
+        description += " Click below to fill out our interest form! We'll email you once we begin recruitment.";
+        button = <a href="https://forms.gle/D1CJuxfxytb3h54G9" target="_blank" className="genericButton">Internal team interest form</a>
+    }
+
     var peopleContent = [
     {
         name: "Nikita Ashok",
@@ -130,6 +143,7 @@ function Team() {
                 />
         );
     });
+    
 
     return (
         <section>
@@ -137,7 +151,7 @@ function Team() {
                 header={header}
                 description={description}
             >
-            <a href="https://forms.gle/D1CJuxfxytb3h54G9" target="_blank" className="genericButton">Internal team interest form</a>
+            {button}
             </GenericTop>
         <GenericPage>
                 <div className="peopleGrid">

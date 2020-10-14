@@ -220,21 +220,17 @@ let batchFAQContent = [
                 <TabPanel value={value} index={1}>
                 
                     <h2>Fall 2020 Internal Applications are now open! </h2>
-                    <h3>You can find our application for Fall 2020 below</h3>
+                    <h3>Click below to access our application and details regarding our infosession</h3>
                     <a href={airtableLink} className="genericButtonGray" target="_blank">Fall 2020 Internal Application</a>
-                    {/* <ul>
+                    <a href="https://www.facebook.com/events/871131273419831/" className="genericButtonGray" target="_blank">Infosession RSVP</a>
+                    <ul>
                             <li>
                                 <p>
-                                    <strong>Applications have been extended to Saturday, March 7th at 11:59pm</strong>
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <strong>Infosession: </strong> Come to our infosession on Tuesday, March 3rd from 7-9pm at The House (2311 Bowditch) to learn more about what internal team members do and what we look for in applicants.
+                                    <strong>Infosession: </strong> Come to our virtual infosession on Tuesday, October 20th from 6-7pm PST to learn more about what internal team members do and what we look for in applicants. We'll post the Zoom link on our Facebook event linked above.
                                 </p>
                             </li>
                             
-                        </ul> */}
+                        </ul>
                 
 
                     <h2>Fall 2020 Recruitment Timeline</h2>

@@ -71,7 +71,7 @@ const classes = useStyles();
 
 // change .useState value for either 0 - batch recruitment, 1 - internal recruitment
 
-const [value, setValue] = React.useState(0);
+const [value, setValue] = React.useState(1);
 
 function handleChange(event, newValue) {
     setValue(newValue);
@@ -80,6 +80,8 @@ function handleChange(event, newValue) {
 useEffect(() => {
     console.log(value);
 }, [value])
+
+let airtableLink = "https://airtable.com/shrVOyiRKqN8d9XCW";
 
 
 let batchFAQContent = [
@@ -121,9 +123,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Applications for our Fall 2020 batch are now open! Click the link below to be taken to the application. Internal team recruitment will open in late September/early October.'}
+                description={'Internal team applications for Fall 2020 are now open! You can view the application by clicking the link below.'}
             >
-                <a href="https://airtable.com/shrjW4W4v8l1gDiA1" className="genericButton" target="_blank">Fall 2020 Batch Application</a>
+                <a href={airtableLink} className="genericButton" target="_blank">Fall 2020 Internal Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -134,14 +136,14 @@ let batchFAQContent = [
                       <AntTab label="Internal Recruitment" />
                     </AntTabs>
 
+                    {/* BATCH TAB */}
+
                     <TabPanel value={value} index={0}>
-                        <h2>Fall 2020 Applications are now open!</h2>
-                        <h3>Applications close Friday, September 11th</h3>
+                        <h2>Fall 2020 Applications for startups are now closed .</h2>
+                        <h3>Applications for Spring 2021 will open late January</h3>
                         
-                        <a href="https://airtable.com/shrjW4W4v8l1gDiA1" className="genericButtonGray" target="_blank">Fall 2020 Batch Application</a>
-                        <a href="https://calendly.com/freev-coffee/30min?back=1&month=2020-09" className="genericButtonGray" target="_blank">Sign up for a coffee chat</a>
-                        <a href="https://www.facebook.com/events/989171948189932/" className="genericButtonGray" target="_blank">Infosession</a>
-                        <ul>
+
+                        {/* <ul>
                             <li>
                                 <p>
                                     <strong>Coffee chats: </strong>sign up for a informational coffee chat to learn more about our program and ask any questions you have. Coffee chats are non-evaluative and not necessary to be admitted to the program.
@@ -153,10 +155,10 @@ let batchFAQContent = [
                                 </p>
                             </li>
                             
-                        </ul>
+                        </ul> */}
                         
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
-                        <h2>Timeline</h2>
+                        <h2>Fall 2020 Timeline</h2>
                         <div className="timeline">
                             <article>
                                 <div>
@@ -213,12 +215,13 @@ let batchFAQContent = [
                     <br />
                     </TabPanel>
 
+                {/* INTERNAL TAB */}
 
                 <TabPanel value={value} index={1}>
                 
-                    <h2>Fall 2020 Internal Recruitment will open in late September/early October. </h2>
-                    <h3></h3>
-                    <a href="https://forms.gle/D1CJuxfxytb3h54G9" className="genericButtonGray" target="_blank">Internal team interest form</a>
+                    <h2>Fall 2020 Internal Applications are now open! </h2>
+                    <h3>You can find our application for Fall 2020 below</h3>
+                    <a href={airtableLink} className="genericButtonGray" target="_blank">Fall 2020 Internal Application</a>
                     {/* <ul>
                             <li>
                                 <p>
@@ -234,13 +237,13 @@ let batchFAQContent = [
                         </ul> */}
                 
 
-                    <h2>Spring 2020 Recruitment Timeline</h2>
+                    <h2>Fall 2020 Recruitment Timeline</h2>
                     <div className="timeline">
                             <article>
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>11:59pm, March 7th</h2>
+                                <h2>11:59pm, October 23rd</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -250,7 +253,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>March 9th - 10th</h2>
+                                <h2>October 26th - 30th</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>
@@ -260,7 +263,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>March 11th - 15th</h2>
+                                <h2>November 2nd - 7th</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>
@@ -279,7 +282,7 @@ let batchFAQContent = [
                             Experienced leading teams and taking initiative
                             </p></li>
                             <li><p>
-                                Ready to commit 8-10 hours per week and free Mondays and Wednesdays 7-9pm.
+                                Ready to commit 8-10 hours per week and free Mondays and Wednesdays 6-8pm.
                             </p></li>
                         </ul>
                        

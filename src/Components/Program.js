@@ -143,7 +143,7 @@ function Program() {
                             </div>
                             <div className="trackTeams">
                                 <h1>TEAMS</h1>
-                                <h3>over $40 million raised from:</h3>
+                                <h3>over $55 million raised from:</h3>
                                 <div className="teamsVCPics">
                                     <img src={yc}/>
                                     <img className= "greylock" src={greylock}/>

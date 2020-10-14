@@ -292,7 +292,7 @@ function Home() {
                 <span>
                     <h1>Empowering the brightest founders in Berkeley</h1>
                     <h2>Free Ventures is Cal’s leading pre-seed startup accelerator</h2>
-                    <Link to="/apply" className="apply">Apply for Fall 2020</Link>
+                    <Link to="/apply" className="apply">Apply to join our team</Link>
                 </span>
                 <span>
                     <img src={freevgroup} alt="" />
@@ -311,7 +311,7 @@ function Home() {
                 </div>
                 <div className="numbers">
                     <h3><span className="bigNumber">62</span> alumni companies</h3>
-                    <h3><span className="bigNumber">$40m</span> of follow-on capital</h3>
+                    <h3><span className="bigNumber">$55m</span> of follow-on capital</h3>
                     <h3><span className="bigNumber">14</span> batches hosted</h3>
                 </div>
             </div>

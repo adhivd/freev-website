@@ -239,7 +239,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>11:59pm, October 23rd</h2>
+                                <h2>11:59pm, October 24th</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>

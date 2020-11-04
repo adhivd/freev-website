@@ -21,6 +21,7 @@ import spark from './../assets/partners/spark.png';
 import svangel from './../assets/partners/svangle.png';
 import svb from './../assets/partners/svb.png';
 import ycombinator from './../assets/partners/ycombinator.png';
+import eightvc from './../assets/partners/8vc.png';
 
 import placeholder from './../assets/partners/placeholder.png';
 import value1 from './../assets/partners/value1.jpeg';
@@ -68,9 +69,9 @@ function Partners() {
             website: "https://www.svb.com/"
         },
         {
-            logo: gc,
-            name: 'General Catalyst',
-            website: "https://www.generalcatalyst.com/"
+            logo: eightvc,
+            name: '8VC',
+            website: "https://8vc.com/"
         },
         {
             logo: scet,

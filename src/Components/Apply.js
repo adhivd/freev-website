@@ -71,7 +71,7 @@ const classes = useStyles();
 
 // change .useState value for either 0 - batch recruitment, 1 - internal recruitment
 
-const [value, setValue] = React.useState(1);
+const [value, setValue] = React.useState(0);
 
 function handleChange(event, newValue) {
     setValue(newValue);
@@ -81,7 +81,7 @@ useEffect(() => {
     console.log(value);
 }, [value])
 
-let airtableLink = "https://airtable.com/shrVOyiRKqN8d9XCW";
+let airtableLink = "https://airtable.com/shrlN1kk7bYnsTgzq?fbclid=IwAR2SasDfSrtVRSC2xa40DUZFy9Hk_eO2PkhQtELWagvvzFkdbBVK591rqPI";
 
 
 let batchFAQContent = [
@@ -123,9 +123,9 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Internal team applications for Fall 2020 are now open! You can view the application by clicking the link below.'}
+                description={'Batch startups applications for Spring 2021 are now open! You can view the application by clicking the link below.'}
             >
-                <a href={airtableLink} className="genericButton" target="_blank">Fall 2020 Internal Application</a>
+                <a href={airtableLink} className="genericButton" target="_blank">Spring 2021 Internal Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -139,9 +139,7 @@ let batchFAQContent = [
                     {/* BATCH TAB */}
 
                     <TabPanel value={value} index={0}>
-                        <h2>Fall 2020 Applications for startups are now closed .</h2>
-                        <h3>Applications for Spring 2021 will open late January</h3>
-                        
+                        <h2>Spring 2021 Applications for startups are now open .</h2>                        
 
                         {/* <ul>
                             <li>
@@ -158,13 +156,13 @@ let batchFAQContent = [
                         </ul> */}
                         
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
-                        <h2>Fall 2020 Timeline</h2>
+                        <h2>Spring 2021 Timeline</h2>
                         <div className="timeline">
                             <article>
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>September 11th, 11:59pm</h2>
+                                <h2>February 5th, 11:59pm</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -174,7 +172,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>September 14th-18th</h2>
+                                <h2>February 10th-12th</h2>
                                 <p>Interviews</p>
                             </article>
                             <span>
@@ -184,8 +182,8 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>September 21st</h2>
-                                <p>Fall 2020 Batch Starts</p>
+                                <h2>February 22nd</h2>
+                                <p>Spring 2021 Batch Starts</p>
                             </article>
                         </div>
                         <h2>What we look for</h2>

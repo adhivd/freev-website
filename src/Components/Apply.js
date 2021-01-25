@@ -81,7 +81,7 @@ useEffect(() => {
     console.log(value);
 }, [value])
 
-let airtableLink = "https://airtable.com/shrlN1kk7bYnsTgzq?fbclid=IwAR2SasDfSrtVRSC2xa40DUZFy9Hk_eO2PkhQtELWagvvzFkdbBVK591rqPI";
+let airtableLink = "https://airtable.com/shrlN1kk7bYnsTgzq";
 
 
 let batchFAQContent = [
@@ -125,7 +125,7 @@ let batchFAQContent = [
                 header={'Join the FreeV Family'}
                 description={'Batch startups applications for Spring 2021 are now open! You can view the application by clicking the link below.'}
             >
-                <a href={airtableLink} className="genericButton" target="_blank">Spring 2021 Internal Application</a>
+                <a href={airtableLink} className="genericButton" target="_blank">Spring 2021 Batch Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
@@ -139,21 +139,23 @@ let batchFAQContent = [
                     {/* BATCH TAB */}
 
                     <TabPanel value={value} index={0}>
-                        <h2>Spring 2021 Applications for startups are now open .</h2>                        
+                        <h2>Spring 2021 Applications for startups are now open .</h2>    
+                        <a href={airtableLink} className="genericButtonGray" target="_blank">Spring 2021 Batch Application</a>
+                        <a href="https://www.facebook.com/events/415880429743413" className="genericButtonGray" target="_blank">Infosession RSVP</a>                    
 
-                        {/* <ul>
-                            <li>
+                        <ul>
+                            {/* <li>
                                 <p>
                                     <strong>Coffee chats: </strong>sign up for a informational coffee chat to learn more about our program and ask any questions you have. Coffee chats are non-evaluative and not necessary to be admitted to the program.
                                 </p>
-                            </li>
+                            </li> */}
                             <li>
                                 <p>
-                                    <strong>Infosession: </strong> Come to our infosession on Tuesday, September 8th from 7-8:30pm. Check the FB event linked above to RSVP!
+                                    <strong>Infosession: </strong> Come to our infosession on Tuesday, February 2nd from 6-7:30pm. Check the FB event linked above to RSVP!
                                 </p>
                             </li>
                             
-                        </ul> */}
+                        </ul>
                         
                         <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
                         <h2>Spring 2021 Timeline</h2>
@@ -217,9 +219,9 @@ let batchFAQContent = [
 
                 <TabPanel value={value} index={1}>
                 
-                    <h2>Fall 2020 Internal Applications are now open! </h2>
-                    <h3>Click below to access our application and details regarding our infosession</h3>
-                    <a href={airtableLink} className="genericButtonGray" target="_blank">Fall 2020 Internal Application</a>
+                    <h2>Fall 2020 Internal Applications are now closed. </h2>
+                    <h3>We'll be recruiting in Spring 2021 for our internal team in mid to late February</h3>
+                    {/* <a href={airtableLink} className="genericButtonGray" target="_blank">Fall 2020 Internal Application</a>
                     <a href="https://www.facebook.com/events/871131273419831/" className="genericButtonGray" target="_blank">Infosession RSVP</a>
                     <ul>
                             <li>
@@ -228,7 +230,7 @@ let batchFAQContent = [
                                 </p>
                             </li>
                             
-                        </ul>
+                        </ul> */}
                 
 
                     <h2>Fall 2020 Recruitment Timeline</h2>

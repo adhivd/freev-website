@@ -48,18 +48,18 @@ function Team() {
 
     var peopleContent = [
     {
-        name: "Shaantam Chawla",
-        position: "Director",
-        linkedinUrl: "https://www.linkedin.com/in/shaantam/",
-        mailTo: "mailto:shaantam@freeventures.org",
-        image: shaantam
-    },
-    {
         name: "Christina Guo",
         position: "Managing Director",
         linkedinUrl: "https://www.linkedin.com/in/cguo16",
         mailTo: "mailto:christina@freeventures.org",
         image: christina
+    },
+    {
+        name: "Shaantam Chawla",
+        position: "Director",
+        linkedinUrl: "https://www.linkedin.com/in/shaantam/",
+        mailTo: "mailto:shaantam@freeventures.org",
+        image: shaantam
     },
     {
         name: "Adithiya Paramasivam",

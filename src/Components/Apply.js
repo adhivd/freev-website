@@ -87,7 +87,7 @@ let airtableLink = "https://airtable.com/shrlN1kk7bYnsTgzq";
 let batchFAQContent = [
     {
             question: "What’s the time commitment during the batch?",
-            answer: "5 hours per week for program sessions. We require founders to be present at all sessions 7-9pm every Monday and Wednesday.",
+            answer: "5 hours per week for program sessions. We require founders to be present at all sessions 6-8pm PST every Monday and Wednesday.",
     },
     {
             question: "How long is the batch?",

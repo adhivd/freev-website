@@ -48,20 +48,6 @@ function Team() {
 
     var peopleContent = [
     {
-        name: "Nikita Ashok",
-        position: "Co-Managing Director",
-        linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
-        mailTo: "mailto:nikita@freeventures.org",
-        image: nikita
-    },
-    {
-        name: "Adhiv Dhar",
-        position: "Co-Managing Director",
-        linkedinUrl: "https://linkedin.com/in/adhivd/",
-        mailTo: "mailto:adhiv@freeventures.org",
-        image: adhiv
-    },
-    {
         name: "Shaantam Chawla",
         position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/shaantam/",
@@ -70,7 +56,7 @@ function Team() {
     },
     {
         name: "Christina Guo",
-        position: "Director",
+        position: "Managing Director",
         linkedinUrl: "https://www.linkedin.com/in/cguo16",
         mailTo: "mailto:christina@freeventures.org",
         image: christina
@@ -84,14 +70,14 @@ function Team() {
     },
     {
         name: "Alexander Manes",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/alexander-manes/",
         mailTo: "mailto:alexander@freeventures.org",
         image: alex
     },
     {
         name: "Lulu Holland",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/luluholland/",
         mailTo: "mailto:lulu@freeventures.org",
         image: lulu
@@ -111,13 +97,6 @@ function Team() {
         image: joelene
     },
     {
-        name: "Avinash Jain",
-        position: "Associate",
-        linkedinUrl: "https://www.linkedin.com/in/avinashj1/",
-        mailTo: "mailto:avinash@freeventures.org",
-        image: avinash
-    },
-    {
         name: "Kathy Kong",
         position: "Senior Advisor",
         linkedinUrl: "https://www.linkedin.com/in/kathyqkong/",
@@ -130,6 +109,27 @@ function Team() {
         linkedinUrl: "https://www.linkedin.com/in/aashikajhawar/",
         mailTo: "mailto:aashi@freeventures.org",
         image: aashi
+    },
+    {
+        name: "Nikita Ashok",
+        position: "Senior Advisor",
+        linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
+        mailTo: "mailto:nikita@freeventures.org",
+        image: nikita
+    },
+    {
+        name: "Adhiv Dhar",
+        position: "Senior Advisor",
+        linkedinUrl: "https://linkedin.com/in/adhivd/",
+        mailTo: "mailto:adhiv@freeventures.org",
+        image: adhiv
+    },
+    {
+        name: "Avinash Jain",
+        position: "Senior Advisor",
+        linkedinUrl: "https://www.linkedin.com/in/avinashj1/",
+        mailTo: "mailto:avinash@freeventures.org",
+        image: avinash
     },
 ]
 

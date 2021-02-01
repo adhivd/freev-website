@@ -84,7 +84,7 @@ function Team() {
     },
     {
         name: "Saneel Sreeni",
-        position: "Associate",
+        position: "Director",
         linkedinUrl: "https://www.linkedin.com/in/saneel-sreeni/",
         mailTo: "mailto:saneel@freeventures.org",
         image: saneel
@@ -112,14 +112,14 @@ function Team() {
     },
     {
         name: "Nikita Ashok",
-        position: "Senior Advisor",
+        position: "Senior Advisor, Former MD",
         linkedinUrl: "https://www.linkedin.com/in/nikita-ashok/",
         mailTo: "mailto:nikita@freeventures.org",
         image: nikita
     },
     {
         name: "Adhiv Dhar",
-        position: "Senior Advisor",
+        position: "Senior Advisor, Former MD",
         linkedinUrl: "https://linkedin.com/in/adhivd/",
         mailTo: "mailto:adhiv@freeventures.org",
         image: adhiv

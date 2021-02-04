@@ -18,6 +18,8 @@ import joelene from './../assets/team/joelene.png';
 import saneel from './../assets/team/saneel.jpg';
 import avinash from './../assets/team/avinash.jpg';
 import lulu from './../assets/team/lulu.png';
+import andy from './../assets/team/andy2.png';
+import tiana from './../assets/team/tiana2.png';
 
 import { Link } from "react-router-dom";
 
@@ -95,6 +97,20 @@ function Team() {
         linkedinUrl: "https://www.linkedin.com/in/joelenelatief/",
         mailTo: "mailto:joelene@freeventures.org",
         image: joelene
+    },
+    {
+        name: "Tiana Wong",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/csow/",
+        mailTo: "mailto:tiana@freeventures.org",
+        image: tiana
+    },
+    {
+        name: "Andy Jiang",
+        position: "Associate",
+        linkedinUrl: "https://www.linkedin.com/in/andybojiang/",
+        mailTo: "mailto:andy@freeventures.org",
+        image: andy
     },
     {
         name: "Kathy Kong",

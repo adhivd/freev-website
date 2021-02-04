@@ -86,6 +86,7 @@ import alchemy from './../assets/press/alchemy.jpeg';
 
 let portfolioContent = {
     batchList: [
+        
         {
             batchName: "Spring 2020",
             batchNumber: 14,

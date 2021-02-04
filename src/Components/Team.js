@@ -17,7 +17,7 @@ import alex from './../assets/team/alex.png';
 import joelene from './../assets/team/joelene.png';
 import saneel from './../assets/team/saneel.jpg';
 import avinash from './../assets/team/avinash.jpg';
-import lulu from './../assets/team/lulu.jpg';
+import lulu from './../assets/team/lulu.png';
 
 import { Link } from "react-router-dom";
 
@@ -124,13 +124,13 @@ function Team() {
         mailTo: "mailto:adhiv@freeventures.org",
         image: adhiv
     },
-    {
-        name: "Avinash Jain",
-        position: "Senior Advisor",
-        linkedinUrl: "https://www.linkedin.com/in/avinashj1/",
-        mailTo: "mailto:avinash@freeventures.org",
-        image: avinash
-    },
+    // {
+    //     name: "Avinash Jain",
+    //     position: "Senior Advisor",
+    //     linkedinUrl: "https://www.linkedin.com/in/avinashj1/",
+    //     mailTo: "mailto:avinash@freeventures.org",
+    //     image: avinash
+    // },
 ]
 
     let peopleComponents = peopleContent.map((person) => {

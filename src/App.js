@@ -32,7 +32,7 @@ function App() {
           <Route exact path="/contact" component={ContactFormPage} />
           <Route exact path="/apply" component={Apply} />
           <Route exact path="/fiatlux" component={FiatLux} />
-          <Route exact path="/portfolio" render={(props) => <Portfolio {...props} sideBarTabName={"Spring 2018"} />} />
+          <Route exact path="/portfolio" render={(props) => <Portfolio {...props} sideBarTabName={"Fall 2020"} />} />
           <Route exact path="/program" component={Program} />
           <Footer />
         </div>

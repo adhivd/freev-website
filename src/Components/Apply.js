@@ -71,7 +71,7 @@ const classes = useStyles();
 
 // change .useState value for either 0 - batch recruitment, 1 - internal recruitment
 
-const [value, setValue] = React.useState(0);
+const [value, setValue] = React.useState(1);
 
 function handleChange(event, newValue) {
     setValue(newValue);
@@ -81,7 +81,7 @@ useEffect(() => {
     console.log(value);
 }, [value])
 
-let airtableLink = "https://airtable.com/shrlN1kk7bYnsTgzq";
+let airtableLink = "https://airtable.com/shr7f5m0KGJ9SwoC7";
 
 
 let batchFAQContent = [
@@ -123,15 +123,15 @@ let batchFAQContent = [
         <section>
             <GenericTop
                 header={'Join the FreeV Family'}
-                description={'Batch startups applications for Spring 2021 are now open! You can view the application by clicking the link below.'}
+                description={'Internal Team applications are now open! Please apply below.'}
             >
-                <a href={airtableLink} className="genericButton" target="_blank">Spring 2021 Batch Application</a>
+                <a href={airtableLink} className="genericButton" target="_blank">Spring 2021 Internal Application</a>
             </GenericTop>
             <GenericPage>
                 <div className={classes.root}>
                   <div className={classes.tabStyle}>
                     <AntTabs value={value} onChange={handleChange} aria-label="ant example">
-                      
+
                       <AntTab label="Batch Recruitment" />
                       <AntTab label="Internal Recruitment" />
                     </AntTabs>
@@ -139,9 +139,9 @@ let batchFAQContent = [
                     {/* BATCH TAB */}
 
                     <TabPanel value={value} index={0}>
-                        <h2>Spring 2021 Applications for startups are now open .</h2>    
+                        <h2>Spring 2021 Applications for startups are now closed. Please apply for our Fall 2021 batch in the future.</h2>
                         <a href={airtableLink} className="genericButtonGray" target="_blank">Spring 2021 Batch Application</a>
-                        <a href="https://www.facebook.com/events/415880429743413" className="genericButtonGray" target="_blank">Infosession RSVP</a>                    
+                        <a href="https://www.facebook.com/events/415880429743413" className="genericButtonGray" target="_blank">Infosession RSVP</a>
 
                         <ul>
                             {/* <li>
@@ -154,10 +154,10 @@ let batchFAQContent = [
                                     <strong>Infosession: </strong> Come to our infosession on Tuesday, February 2nd from 6-7:30pm. Check the FB event linked above to RSVP!
                                 </p>
                             </li>
-                            
+
                         </ul>
-                        
-                        <p>Here are some details about our recruiting timeline and frequently asked questions</p>  
+
+                        <p>Here are some details about our recruiting timeline and frequently asked questions</p>
                         <h2>Spring 2021 Timeline</h2>
                         <div className="timeline">
                             <article>
@@ -218,9 +218,6 @@ let batchFAQContent = [
                 {/* INTERNAL TAB */}
 
                 <TabPanel value={value} index={1}>
-                
-                    <h2>Fall 2020 Internal Applications are now closed. </h2>
-                    <h3>We'll be recruiting in Spring 2021 for our internal team in mid to late February</h3>
                     {/* <a href={airtableLink} className="genericButtonGray" target="_blank">Fall 2020 Internal Application</a>
                     <a href="https://www.facebook.com/events/871131273419831/" className="genericButtonGray" target="_blank">Infosession RSVP</a>
                     <ul>
@@ -229,17 +226,17 @@ let batchFAQContent = [
                                     <strong>Infosession: </strong> Come to our virtual infosession on Tuesday, October 20th from 6-7pm PST to learn more about what internal team members do and what we look for in applicants. We'll post the Zoom link on our Facebook event linked above.
                                 </p>
                             </li>
-                            
-                        </ul> */}
-                
 
-                    <h2>Fall 2020 Recruitment Timeline</h2>
+                        </ul> */}
+
+
+                    <h2>Spring 2021 Recruitment Timeline</h2>
                     <div className="timeline">
                             <article>
                                 <div>
                                     <img src={application} alt="" />
                                 </div>
-                                <h2>11:59pm, October 24th</h2>
+                                <h2>11:59pm, March 12th</h2>
                                 <p>Applications close</p>
                             </article>
                             <span>
@@ -249,7 +246,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>October 26th - 30th</h2>
+                                <h2>March 15th - 17th</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>
@@ -259,7 +256,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>November 2nd - 7th</h2>
+                                <h2>March 29th - April 3rd</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>
@@ -281,7 +278,7 @@ let batchFAQContent = [
                                 Ready to commit 8-10 hours per week and free Mondays and Wednesdays 6-8pm.
                             </p></li>
                         </ul>
-                       
+
                         <h2>Frequently asked questions</h2>
                     <FAQHolder
                         faq={internalFAQContent}

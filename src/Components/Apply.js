@@ -246,7 +246,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>March 15th - 17th</h2>
+                                <h2>April 5th - 7th</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>
@@ -256,7 +256,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={rocket} alt="" />
                                 </div>
-                                <h2>March 29th - April 3rd</h2>
+                                <h2>April 5th - 11th</h2>
                                 <p>Coffee Chats + 2nd Round</p>
                             </article>
                         </div>

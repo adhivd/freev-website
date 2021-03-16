@@ -246,7 +246,7 @@ let batchFAQContent = [
                                 <div>
                                     <img src={interview} alt="" />
                                 </div>
-                                <h2>April 5th - 7th</h2>
+                                <h2>March 30th - April 1st</h2>
                                 <p>1st Round Interviews</p>
                             </article>
                             <span>

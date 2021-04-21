@@ -92,13 +92,6 @@ function Team() {
         image: saneel
     },
     {
-        name: "Joelene Latief",
-        position: "Associate",
-        linkedinUrl: "https://www.linkedin.com/in/joelenelatief/",
-        mailTo: "mailto:joelene@freeventures.org",
-        image: joelene
-    },
-    {
         name: "Tiana Wong",
         position: "Associate",
         linkedinUrl: "https://www.linkedin.com/in/csow/",
